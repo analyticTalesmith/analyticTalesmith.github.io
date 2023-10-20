@@ -42,13 +42,13 @@
 									<h1>Employee Performance <br/>
 										&amp;<br/>
 										Training Efficacy</h1>
-									<p>Exploratory data analysis to assess whether organizational training improves employee performance</p>
+									<p>Exploratory data analysis to assess whether organizational training improves employee performance and explore other trends in the dataset</p>
 								</header>
 									<ul>
 										<li><strong>Context</strong> — Data set contains employee performance, whether key performance indicator (KPI) goals were met, number of trainings completed, and average training performance</li>
 										<li><strong>Problem</strong> — Do trainings appear to improve employee performance?</li>
 										<li><strong>Importance</strong> — Training is an expensive, time-consuming process, and trainings vary in the value they contribute</li>
-										<li><strong>Insights and Next Steps&nbsp;&nbsp;</strong> —
+										<li><strong>Insights and Next Steps</strong> —
 											<ul>
 												<li><em>Value quality over quantity</em> — Based on these data, employees within this organization who complete more trainings do not necessarily perform better. When providing trainings for the sake of improving performance, focus on providing high-quality training that targets employee weaknesses. Additionally, reward the behavior you want to see more of from your employees; reward high performance in those trainings to encourage learning and skill transfer.</li>
 												<li><em>Increase scope of data collection</em> — Having data on employee performance over the years and data about what trainings were completed by those employees each year could provide better insight into whether the trainings utilized by the organization are valuable and improving employee performance over time.</li>
@@ -57,6 +57,12 @@
 												<li><em>Consider selection system objectivity</em> — Considerably more information would be needed to make any meaningful conclusions or recommendations, but there are more than twice as many men employed within this organization as women, which suggests potential value of evaluating recruiting strategies and selection systems used by the organization for fairness, objective qualification assessment, and potential sources of bias.</li>
 											</ul></li>
 									</ul>
+								
+								<h3>Links to project files</h3>
+								<ul>
+									<li><a href="https://github.com/analyticTalesmith/HREmployeePerformance/blob/main/employeePerformanceAnalysis.py">Python Code</a></li>
+									<li><a href="https://github.com/analyticTalesmith/HREmployeePerformance/blob/main/employeePerformanceSQL.sql">SQL Queries</a></li>
+								</ul>
 								<h2>Introduction</h2>
 								<p>This dataset is sourced from <a href="https://www.kaggle.com/datasets/sanjanchaudhari/employees-performance-for-hr-analytics/data">Sanjana Chaudhari at kaggle.com</a>. The data is organized within one table containing employee ID and demographics and details for each employee. The table contains performance metrics and information about the number of trainings each employee has completed and their average performance across trainings.</p>
 								<h2>Assumptions and Limitations</h2>
@@ -66,11 +72,7 @@
 										<li><strong>Sequencing of Data Collection</strong> — The performance rating is named "previous_year_rating", but the column names for other performance metrics do not make it immediately obvious whether the other data reflect the same year as the performance rating or if they reflect the year following the performance rating. For the sake of this case study, the metrics are all assumed to reflect performance over the same 12 month period.</li>
 										<li><strong>Rating Objectivity</strong> — This type of analysis must assume that measured variables are reported using measures that are objective and valid. Should performance metrics reflect subjective ratings, factors regarded as KPIs not actually be relevant to employee and organizational performance, or training performance not reflect learning the material taught within the training, for example, then the insights that could be drawn from the data would be limited.</li>
 									</ul>
-								<h3>Links to project files</h3>
-								<ul>
-									<li><a href="https://github.com/analyticTalesmith/HREmployeePerformance/blob/main/employeePerformanceAnalysis.py">Python Code</a></li>
-									<li><a href="https://github.com/analyticTalesmith/HREmployeePerformance/blob/main/employeePerformanceSQL.sql">SQL Queries</a></li>
-								</ul>
+								
 																
 								<h2>Cleaning</h2>
 								<p style="margin-bottom: 0em;">The dataset is standardized well, so the only cleaning needed was some basic casting for the sake of convenience. The region was coded as a "region_#" string, so I used the following code to pull only the integer associated with each region.</p>	
