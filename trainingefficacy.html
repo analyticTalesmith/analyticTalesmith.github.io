@@ -39,16 +39,58 @@
 						<!-- Post -->
 							<section class="post">
 								<header class="major">
-									<span class="date">April 25, 2017</span>
-									<h1>This is a<br />
-									Generic Page</h1>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
+									<h1>Employee Performance <br/>
+										&amp;<br/>
+										Training Efficacy</h1>
+									<p>Exploratory data analysis to assess whether organizational training improves employee performance</p>
 								</header>
-								<div class="image main"><img src="images/pic01.jpg" alt="" /></div>
-								<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sapien risus, commodo eget turpis at, elementum convallis enim turpis, lorem ipsum dolor sit amet nullam.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In on lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus. Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum.</p>
+									<ul>
+										<li><strong>Context</strong> — Data set contains employee performance, whether key performance indicator (KPI) goals were met, number of trainings completed, and average training performance</li>
+										<li><strong>Problem</strong> — Do trainings appear to improve employee performance?</li>
+										<li><strong>Importance</strong> — Training is an expensive, time-consuming process, and trainings vary in the value they contribute</li>
+									</ul>
+								<h2>Introduction</h2>
+								<p>This dataset is sourced from <a href="https://www.kaggle.com/datasets/sanjanchaudhari/employees-performance-for-hr-analytics/data">Sanjana Chaudhari at kaggle.com</a>. The data is organized within one table containing employee ID and demographics and details for each employee. The table contains performance metrics and information about the number of trainings each employee has completed and their average performance across trainings.</p>
+								<h2>Assumptions</h2>
+								<p>Some details about the data were not provided, and therefore some assumptions have been made.</p>
+									<ul>
+										<li><strong>Performance Scale Anchors</strong> — Scale anchors were not provided, though the coding ranges from 1 to 5. The assumption is that this is an ordinal Likert-type scale, such that employees are evaluted from 1 (<em>Worst performance</em>) to 5 (<em>Best performance</em>) or vice versa. To determine which pole was associated with either extreme of performance, I calculated Pearson correlation coefficients between performance and each of KPI goals met and average training score, both indicating that the scale is likely ordered with 1 being the lowest performance and 5 being the best performance</li>
+										<li><strong>Sequencing of Data Collection</strong> — The performance rating is named "previous_year_rating", but the column names for other performance metrics do not make it immediately obvious whether the other data reflect the same year as the performance rating or if they reflect the year following the performance rating. For the sake of this case study, the metrics are all assumed to reflect performance over the same 12 month period.</li>
+										<li><strong>Rating Objectivity</strong> — This type of analysis must assume that measured variables are reported using measures that are objective and valid. Should performance metrics reflect subjective ratings, factors regarded as KPIs not actually be relevant to employee and organizational performance, or training performance not reflect learning the material taught within the training, for example, then the insights that could be drawn from the data would be limited.</li>
+									</ul>
+																
+								<h2>Cleaning</h2>
+								<p style="margin-bottom: 0em;">The dataset is standardized well, so the only cleaning needed was some basic casting for the sake of convenience. The region was coded as a "region_#" string, so I used the following code to pull only the integer associated with each region.</p>	
+								<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em; margin-bottom: 2em;"><pre style="margin: 0; line-height: 125%"><span style="color: #0000ff">ALTER</span> <span style="color: #0000ff">TABLE</span> HRPerformance.dbo.EmployeeData
+	<span style="color: #0000ff">ADD</span>
+		region_ID int
+
+<span style="color: #0000ff">UPDATE</span> HRPerformance.dbo.EmployeeData
+	<span style="color: #0000ff">SET</span> region_ID =
+		<span style="color: #0000ff">CAST</span>(
+		<span style="color: #0000ff">SUBSTRING</span>(region,CHARINDEX(<span style="color: #a31515">&#39;_&#39;</span>,region)+1,LEN(region)-CHARINDEX(<span style="color: #a31515">&#39;_&#39;</span>,region)+2)
+		<span style="color: #0000ff">AS</span> int)
+</pre></div>
+								<p style="margin-bottom: 0em;">Additionally, the performance rating was imported as a string, so the following query was used to cast either as int or null for missing values.</p>
+								<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em; margin-bottom:2em;"><pre style="margin: 0; line-height: 125%"><span style="color: #0000ff">ALTER</span> <span style="color: #0000ff">TABLE</span> HRPerformance.dbo.EmployeeData
+	<span style="color: #0000ff">ADD</span>
+		past_performance int
+	
+<span style="color: #0000ff">UPDATE</span> HRPerformance.dbo.EmployeeData
+	<span style="color: #0000ff">SET</span> past_performance =
+		(<span style="color: #0000ff">CASE</span>
+			<span style="color: #0000ff">WHEN</span> previous_year_rating &lt;&gt; <span style="color: #a31515">&#39;&#39;</span> <span style="color: #0000ff">THEN</span> <span style="color: #0000ff">CAST</span>(previous_year_rating <span style="color: #0000ff">AS</span> int)
+			<span style="color: #0000ff">ELSE</span> <span style="color: #0000ff">NULL</span>
+		<span style="color: #0000ff">END</span>)
+
+<span style="color: #0000ff">ALTER</span> <span style="color: #0000ff">TABLE</span> HRPerformance.dbo.EmployeeData
+	<span style="color: #0000ff">DROP</span> <span style="color: #0000ff">COLUMN</span> previous_year_rating
+</pre></div>
+
+								<p>Finally, 1,363 employees do not have performance ratings recorded. Their data were not removed from the dataset, however they were excluded in any analyses that involved the performance as a variable.</p> 
+
+								
+								
 							</section>
 
 					</div>
