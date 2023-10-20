@@ -50,11 +50,11 @@
 										<li><strong>Importance</strong> — Training is an expensive, time-consuming process, and trainings vary in the value they contribute</li>
 										<li><strong>Insights and Next Steps&nbsp;&nbsp;</strong> —
 											<ul>
-												<li><em>Value quality over quantity</em> — Based on these data, employees within this organization who complete more trainings do not necessarily perform better. When providing trainings for the sake of improving performance, focus on providing high-quality training that targets employee weaknesses. Additionally, reward the behavior you want to see more of from your employees; reward high performance in those trainings to encourage learning and skill transfer</li>
+												<li><em>Value quality over quantity</em> — Based on these data, employees within this organization who complete more trainings do not necessarily perform better. When providing trainings for the sake of improving performance, focus on providing high-quality training that targets employee weaknesses. Additionally, reward the behavior you want to see more of from your employees; reward high performance in those trainings to encourage learning and skill transfer.</li>
 												<li><em>Increase scope of data collection</em> — Having data on employee performance over the years and data about what trainings were completed by those employees each year could provide better insight into whether the trainings utilized by the organization are valuable and improving employee performance over time.</li>
 												<li><em>Identify reasons for underperformance</em> — Regions 9 and 24 appear to be underperforming compared to the rest of the organization. The organization could benefit from collecting more data, including talking to employees within those regions, to uncover what pain points could be resolved to help support better performance. Additionally, Sales &amp; Marketing is specifically struggling to meet KPI goals across the organization; it could be beneficial to assess whether this is due to measure accuracy (e.g., being evaluated on metrics that are irrelevant to sales and marketing roles), insufficient training or access to resources, or some other cause.</li>
 												<li><em>Encourage high-quality referrals</em> — Employees who were recruited through referrals are considerably high performers. It could benefit the organization to encourage referrals long term.</li>
-												<li><em>Consider selection system objectivity</em> — Considerably more information would be needed to make any meaningful conclusions or recommendations, but there are more than twice as many men employed within this organization as women, which suggests potential value of evaluating recruiting strategies and selection systems used by the organization for fairness, objective qualification assessment, and potential sources of bias</li>
+												<li><em>Consider selection system objectivity</em> — Considerably more information would be needed to make any meaningful conclusions or recommendations, but there are more than twice as many men employed within this organization as women, which suggests potential value of evaluating recruiting strategies and selection systems used by the organization for fairness, objective qualification assessment, and potential sources of bias.</li>
 											</ul></li>
 									</ul>
 								<h2>Introduction</h2>
@@ -106,27 +106,27 @@
 								<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em; margin-bottom:2em"><pre style="margin: 0; line-height: 125%"><span style="color: #008000">--General insights into organizational composition</span>
 <span style="color: #0000ff">SELECT</span>
 	department,
-	<span style="color: #0000ff">count</span>(department) <span style="color: #0000ff">AS</span> DptCount
+	<span style="color: #0000ff">COUNT</span>(department) <span style="color: #0000ff">AS</span> DptCount
 	<span style="color: #0000ff">FROM</span> HRPerformance.dbo.EmployeeData
 	<span style="color: #0000ff">GROUP</span> <span style="color: #0000ff">BY</span> department
 	<span style="color: #0000ff">ORDER</span> <span style="color: #0000ff">BY</span> department
 
 <span style="color: #0000ff">SELECT</span>
 	gender,
-	<span style="color: #0000ff">count</span>(gender) <span style="color: #0000ff">AS</span> GenderCount
+	<span style="color: #0000ff">COUNT</span>(gender) <span style="color: #0000ff">AS</span> GenderCount
 	<span style="color: #0000ff">FROM</span> HRPerformance.dbo.EmployeeData
 	<span style="color: #0000ff">GROUP</span> <span style="color: #0000ff">BY</span> gender
 
 <span style="color: #0000ff">SELECT</span>
 	education,
-	<span style="color: #0000ff">count</span>(education) <span style="color: #0000ff">AS</span> EdCount
+	<span style="color: #0000ff">COUNT</span>(education) <span style="color: #0000ff">AS</span> EdCount
 	<span style="color: #0000ff">FROM</span> HRPerformance.dbo.EmployeeData
 	<span style="color: #0000ff">WHERE</span> education &lt;&gt; <span style="color: #a31515">&#39;&#39;</span>
 	<span style="color: #0000ff">GROUP</span> <span style="color: #0000ff">BY</span> education
 
 <span style="color: #0000ff">SELECT</span>
 	region,
-	<span style="color: #0000ff">count</span>(region) <span style="color: #0000ff">AS</span> RegionCount
+	<span style="color: #0000ff">COUNT</span>(region) <span style="color: #0000ff">AS</span> RegionCount
 	<span style="color: #0000ff">FROM</span> HRPerformance.dbo.EmployeeData
 	<span style="color: #0000ff">GROUP</span> <span style="color: #0000ff">BY</span> region
 
@@ -135,7 +135,7 @@
 	region_id,
 	department,
 	gender,
-	<span style="color: #0000ff">count</span>(gender) <span style="color: #0000ff">AS</span> TotalEmployees
+	<span style="color: #0000ff">COUNT</span>(gender) <span style="color: #0000ff">AS</span> TotalEmployees
 	<span style="color: #0000ff">FROM</span> HRPerformance.dbo.EmployeeData
 	<span style="color: #0000ff">GROUP</span> <span style="color: #0000ff">BY</span> region_id, department, gender
 	<span style="color: #0000ff">ORDER</span> <span style="color: #0000ff">BY</span> region_id, department, gender
@@ -144,7 +144,7 @@
 <p style="margin-bottom:0em">I also wanted to verify that performance was related to whether employees were meeting KPI goals.</p>
 								<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em; margin-bottom:2em"><pre style="margin: 0; line-height: 125%"><span style="color: #0000ff">SELECT</span>
 	past_performance,
-	<span style="color: #0000ff">count</span>(employee_id) <span style="color: #0000ff">as</span> total_employees,
+	<span style="color: #0000ff">COUNT</span>(employee_id) <span style="color: #0000ff">AS&nbsp;</span> total_employees,
 	ROUND(<span style="color: #0000ff">cast</span>(<span style="color: #0000ff">count</span>(<span style="color: #0000ff">CASE</span> <span style="color: #0000ff">WHEN</span> KPIs_met = 1 <span style="color: #0000ff">THEN</span> 1 <span style="color: #0000ff">END</span>) <span style="color: #0000ff">AS</span> float)/<span style="color: #0000ff">count</span>(employee_ID), 2) <span style="color: #0000ff">AS</span> percent_met_goal
 	<span style="color: #0000ff">FROM</span> HRPerformance.dbo.EmployeeData
 	<span style="color: #0000ff">GROUP</span> <span style="color: #0000ff">BY</span> past_performance
@@ -297,7 +297,7 @@ print(out)
 									<p style="margin-bottom:0em">Generated using following, with the second query used to verify accuracy of table indicating that no employes who completed 6 trainings met KPI goals:</p>
 									<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em; margin-bottom:2em;"><pre style="margin: 0; line-height: 125%"><span style="color: #0000ff">SELECT</span>
 	no_of_trainings,
-	<span style="color: #0000ff">count</span>(employee_id) <span style="color: #0000ff">as</span> total_employees,
+	<span style="color: #0000ff">COUNT</span>(employee_id) <span style="color: #0000ff">AS&nbsp;</span> total_employees,
 	round(<span style="color: #0000ff">avg</span>(<span style="color: #0000ff">cast</span>(past_performance <span style="color: #0000ff">AS</span> float)), 2) <span style="color: #0000ff">AS</span> avg_performance,
 	ROUND(<span style="color: #0000ff">cast</span>(<span style="color: #0000ff">count</span>(<span style="color: #0000ff">CASE</span> <span style="color: #0000ff">WHEN</span> KPIs_met = 1 <span style="color: #0000ff">THEN</span> 1 <span style="color: #0000ff">END</span>) <span style="color: #0000ff">AS</span> float)/<span style="color: #0000ff">count</span>(employee_ID), 2) <span style="color: #0000ff">AS</span> percent_met_goal
 	<span style="color: #0000ff">FROM</span> HRPerformance.dbo.EmployeeData
@@ -372,10 +372,10 @@ print(tukey)
 	)
 <span style="color: #0000ff">SELECT</span>
 	training_performance,
-	<span style="color: #0000ff">count</span>(training_performance) <span style="color: #0000ff">AS</span> n,
-	round(<span style="color: #0000ff">avg</span>(<span style="color: #0000ff">cast</span>(no_of_trainings <span style="color: #0000ff">AS</span> float)), 2) <span style="color: #0000ff">AS</span> avg_no_training,
-	round(<span style="color: #0000ff">avg</span>(<span style="color: #0000ff">cast</span>(past_performance <span style="color: #0000ff">AS</span> float)), 2) <span style="color: #0000ff">AS</span> avg_performance,
-	round(<span style="color: #0000ff">cast</span>(<span style="color: #0000ff">sum</span>(KPIs_met) <span style="color: #0000ff">as</span> float)/<span style="color: #0000ff">count</span>(employee_id), 4)*100 <span style="color: #0000ff">AS</span> percent_KPIs_met
+	<span style="color: #0000ff">COUNT</span>(training_performance) <span style="color: #0000ff">AS</span> n,
+	round(<span style="color: #0000ff">AVG</span>(<span style="color: #0000ff">CAST</span>(no_of_trainings <span style="color: #0000ff">AS</span> float)), 2) <span style="color: #0000ff">AS</span> avg_no_training,
+	round(<span style="color: #0000ff">AVG</span>(<span style="color: #0000ff">CAST</span>(past_performance <span style="color: #0000ff">AS</span> float)), 2) <span style="color: #0000ff">AS</span> avg_performance,
+	round(<span style="color: #0000ff">CAST</span>(<span style="color: #0000ff">SUM</span>(KPIs_met) <span style="color: #0000ff">AS&nbsp;</span> float)/<span style="color: #0000ff">COUNT</span>(employee_id), 4)*100 <span style="color: #0000ff">AS</span> percent_KPIs_met
 	<span style="color: #0000ff">FROM</span> training_data
 	<span style="color: #0000ff">GROUP</span> <span style="color: #0000ff">BY</span> training_performance
 	<span style="color: #0000ff">ORDER</span> <span style="color: #0000ff">BY</span> training_performance
