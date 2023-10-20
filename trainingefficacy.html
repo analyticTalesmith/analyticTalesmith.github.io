@@ -48,16 +48,29 @@
 										<li><strong>Context</strong> — Data set contains employee performance, whether key performance indicator (KPI) goals were met, number of trainings completed, and average training performance</li>
 										<li><strong>Problem</strong> — Do trainings appear to improve employee performance?</li>
 										<li><strong>Importance</strong> — Training is an expensive, time-consuming process, and trainings vary in the value they contribute</li>
+										<li><strong>Insights and Next Steps&nbsp;&nbsp;</strong> —
+											<ul>
+												<li><em>Value quality over quantity</em> — Based on these data, employees within this organization who complete more trainings do not necessarily perform better. When providing trainings for the sake of improving performance, focus on providing high-quality training that targets employee weaknesses. Additionally, reward the behavior you want to see more of from your employees; reward high performance in those trainings to encourage learning and skill transfer</li>
+												<li><em>Increase scope of data collection</em> — Having data on employee performance over the years and data about what trainings were completed by those employees each year could provide better insight into whether the trainings utilized by the organization are valuable and improving employee performance over time.</li>
+												<li><em>Identify reasons for underperformance</em> — Regions 9 and 24 appear to be underperforming compared to the rest of the organization. The organization could benefit from collecting more data, including talking to employees within those regions, to uncover what pain points could be resolved to help support better performance. Additionally, Sales &amp; Marketing is specifically struggling to meet KPI goals across the organization; it could be beneficial to assess whether this is due to measure accuracy (e.g., being evaluated on metrics that are irrelevant to sales and marketing roles), insufficient training or access to resources, or some other cause.</li>
+												<li><em>Encourage high-quality referrals</em> — Employees who were recruited through referrals are considerably high performers. It could benefit the organization to encourage referrals long term.</li>
+												<li><em>Consider selection system objectivity</em> — Considerably more information would be needed to make any meaningful conclusions or recommendations, but there are more than twice as many men employed within this organization as women, which suggests potential value of evaluating recruiting strategies and selection systems used by the organization for fairness, objective qualification assessment, and potential sources of bias</li>
+											</ul></li>
 									</ul>
 								<h2>Introduction</h2>
 								<p>This dataset is sourced from <a href="https://www.kaggle.com/datasets/sanjanchaudhari/employees-performance-for-hr-analytics/data">Sanjana Chaudhari at kaggle.com</a>. The data is organized within one table containing employee ID and demographics and details for each employee. The table contains performance metrics and information about the number of trainings each employee has completed and their average performance across trainings.</p>
-								<h2>Assumptions</h2>
+								<h2>Assumptions and Limitations</h2>
 								<p>Some details about the data were not provided, and therefore some assumptions have been made.</p>
 									<ul>
 										<li><strong>Performance Scale Anchors</strong> — Scale anchors were not provided, though the coding ranges from 1 to 5. The assumption is that this is an ordinal Likert-type scale, such that employees are evaluted from 1 (<em>Worst performance</em>) to 5 (<em>Best performance</em>) or vice versa. To determine which pole was associated with either extreme of performance, I calculated Pearson correlation coefficients between performance and each of KPI goals met and average training score, both indicating that the scale is likely ordered with 1 being the lowest performance and 5 being the best performance</li>
 										<li><strong>Sequencing of Data Collection</strong> — The performance rating is named "previous_year_rating", but the column names for other performance metrics do not make it immediately obvious whether the other data reflect the same year as the performance rating or if they reflect the year following the performance rating. For the sake of this case study, the metrics are all assumed to reflect performance over the same 12 month period.</li>
 										<li><strong>Rating Objectivity</strong> — This type of analysis must assume that measured variables are reported using measures that are objective and valid. Should performance metrics reflect subjective ratings, factors regarded as KPIs not actually be relevant to employee and organizational performance, or training performance not reflect learning the material taught within the training, for example, then the insights that could be drawn from the data would be limited.</li>
 									</ul>
+								<h3>Links to project files</h3>
+								<ul>
+									<li><a href="https://github.com/analyticTalesmith/HREmployeePerformance/blob/main/employeePerformanceAnalysis.py">Python Code</a></li>
+									<li><a href="https://github.com/analyticTalesmith/HREmployeePerformance/blob/main/employeePerformanceSQL.sql">SQL Queries</a></li>
+								</ul>
 																
 								<h2>Cleaning</h2>
 								<p style="margin-bottom: 0em;">The dataset is standardized well, so the only cleaning needed was some basic casting for the sake of convenience. The region was coded as a "region_#" string, so I used the following code to pull only the integer associated with each region.</p>	
@@ -89,7 +102,7 @@
 
 								<p>Finally, 1,363 employees do not have performance ratings recorded. Their data were not removed from the dataset, however they were excluded in any analyses that involved the performance as a variable.</p> 
 <h2>Exploring Data</h2>
-								<p style="margin-bottom:0em">Though largely irrelevant to the data, I wanted to familiarize myself with the organizational structure and used the following queries to get a sense of it.</p>
+								<p style="margin-bottom:0em">Though largely irrelevant to the data, I wanted to first familiarize myself with the organizational structure and used the following queries to do so.</p>
 								<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em; margin-bottom:2em"><pre style="margin: 0; line-height: 125%"><span style="color: #008000">--General insights into organizational composition</span>
 <span style="color: #0000ff">SELECT</span>
 	department,
@@ -128,7 +141,7 @@
 	<span style="color: #0000ff">ORDER</span> <span style="color: #0000ff">BY</span> region_id, department, gender
 </pre></div>
 <h3>Performance and KPI Goals</h3>
-<p style="margin-bottom:0em">I wanted to verify that performance was related to whether employees were meeting KPI goals.</p>
+<p style="margin-bottom:0em">I also wanted to verify that performance was related to whether employees were meeting KPI goals.</p>
 								<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em; margin-bottom:2em"><pre style="margin: 0; line-height: 125%"><span style="color: #0000ff">SELECT</span>
 	past_performance,
 	<span style="color: #0000ff">count</span>(employee_id) <span style="color: #0000ff">as</span> total_employees,
@@ -179,8 +192,8 @@
   </tr>
 </tbody>
 </table>
-<p>It appears that performance does correlate strongly with KPI goals, providing support that the performance evaluations are indeed objectively measuring performance. The Pearson correlation coefficient, Python code shown below, indeed confirms that performance and KPI goals are moderately correlated, <em>r</em>(16052) = .34, <em>p</em> &lt; .001.</p>
-								<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #0000ff">import</span> pandas
+<p>It appears that performance does correlate strongly with KPI goals, providing support that the performance evaluations are indeed objectively measuring performance. The Pearson correlation coefficient—Python code shown below—indeed confirms that performance and meeting KPI goals are moderately correlated as expected, <em>r</em>(16052) = .34, <em>p</em> &lt; .001.</p>
+								<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em; margin-bottom:2em;"><pre style="margin: 0; line-height: 125%"><span style="color: #0000ff">import</span> pandas
 <span style="color: #0000ff">from</span> scipy.stats <span style="color: #0000ff">import</span> pearsonr
 <span style="color: #0000ff">from</span> prettytable <span style="color: #0000ff">import</span> PrettyTable
 
@@ -210,7 +223,228 @@ out.add_row([<span style="color: #a31515">&quot;Previous year rating&quot;</span
 print(<span style="color: #a31515">&quot;Correlations&quot;</span>)
 print(out)
 </pre></div>
-<p>&nbsp;</p>							
+								<h3>Training Efficacy</h3>
+								<p>Using similar queries and functions as above, I also explored the relationship between training metrics (number of trainings and average performance across trainings) with performance evaluations and KPI goals.</p>
+								<h4>Number of Trainings</h4>
+								<p>I first aggregated average performance ratings and what percentage of employees met KPI goals over the number of trainings they completed. There appears to be a generally negative trend in both performance evaluations and meeting KPI goals up until 8 and 9 trainings. However, the total number of employees completing a certain number of trainings rapidly decreases as the number of trainings increases, so conclusions must be made with this limitation in mind. Indeed, though analyses indicated some statistically significant effects, as discussed below, the number of trainings employees completed is largely <em>practically</em> unrelated to employee performance. </p>
+								
+								<table class="tg">
+									<thead>
+									  <tr>
+										<th class="tg-0lax">no_of_trainings</th>
+										<th class="tg-0lax">total_employees</th>
+										<th class="tg-0lax">avg_performance</th>
+										<th class="tg-0lax">percent_met_goal</th>
+									  </tr>
+									</thead>
+									<tbody>
+									  <tr>
+										<td class="tg-0lax">1</td>
+										<td class="tg-0lax">14061</td>
+										<td class="tg-0lax">3.37</td>
+										<td class="tg-0lax">0.37</td>
+									  </tr>
+									  <tr>
+										<td class="tg-0lax">2</td>
+										<td class="tg-0lax">2628</td>
+										<td class="tg-0lax">3.27</td>
+										<td class="tg-0lax">0.33</td>
+									  </tr>
+									  <tr>
+										<td class="tg-0lax">3</td>
+										<td class="tg-0lax">539</td>
+										<td class="tg-0lax">3.13</td>
+										<td class="tg-0lax">0.31</td>
+									  </tr>
+									  <tr>
+										<td class="tg-0lax">4</td>
+										<td class="tg-0lax">137</td>
+										<td class="tg-0lax">2.82</td>
+										<td class="tg-0lax">0.2</td>
+									  </tr>
+									  <tr>
+										<td class="tg-0lax">5</td>
+										<td class="tg-0lax">26</td>
+										<td class="tg-0lax">3.29</td>
+										<td class="tg-0lax">0.31</td>
+									  </tr>
+									  <tr>
+										<td class="tg-0lax">6</td>
+										<td class="tg-0lax">16</td>
+										<td class="tg-0lax">2.83</td>
+										<td class="tg-0lax">0</td>
+									  </tr>
+									  <tr>
+										<td class="tg-0lax">7</td>
+										<td class="tg-0lax">6</td>
+										<td class="tg-0lax">2.2</td>
+										<td class="tg-0lax">0.17</td>
+									  </tr>
+									  <tr>
+										<td class="tg-0lax">8</td>
+										<td class="tg-0lax">2</td>
+										<td class="tg-0lax">4.5</td>
+										<td class="tg-0lax">0.5</td>
+									  </tr>
+									  <tr>
+										<td class="tg-0lax">9</td>
+										<td class="tg-0lax">2</td>
+										<td class="tg-0lax">3.5</td>
+										<td class="tg-0lax">0.5</td>
+									  </tr>
+									</tbody>
+									</table>
+									<p style="margin-bottom:0em">Generated using following, with the second query used to verify accuracy of table indicating that no employes who completed 6 trainings met KPI goals:</p>
+									<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em; margin-bottom:2em;"><pre style="margin: 0; line-height: 125%"><span style="color: #0000ff">SELECT</span>
+	no_of_trainings,
+	<span style="color: #0000ff">count</span>(employee_id) <span style="color: #0000ff">as</span> total_employees,
+	round(<span style="color: #0000ff">avg</span>(<span style="color: #0000ff">cast</span>(past_performance <span style="color: #0000ff">AS</span> float)), 2) <span style="color: #0000ff">AS</span> avg_performance,
+	ROUND(<span style="color: #0000ff">cast</span>(<span style="color: #0000ff">count</span>(<span style="color: #0000ff">CASE</span> <span style="color: #0000ff">WHEN</span> KPIs_met = 1 <span style="color: #0000ff">THEN</span> 1 <span style="color: #0000ff">END</span>) <span style="color: #0000ff">AS</span> float)/<span style="color: #0000ff">count</span>(employee_ID), 2) <span style="color: #0000ff">AS</span> percent_met_goal
+	<span style="color: #0000ff">FROM</span> HRPerformance.dbo.EmployeeData
+	<span style="color: #0000ff">GROUP</span> <span style="color: #0000ff">BY</span> no_of_trainings
+	<span style="color: #0000ff">ORDER</span> <span style="color: #0000ff">BY</span> no_of_trainings
+
+<span style="color: #008000">--Verifying that no 6-training employees met KPIs</span>
+<span style="color: #0000ff">SELECT</span>
+	employee_id,
+	past_performance,
+	no_of_trainings,
+	KPIs_met
+	<span style="color: #0000ff">FROM</span> HRPerformance.dbo.EmployeeData
+	<span style="color: #0000ff">WHERE</span> no_of_trainings = 6
+</pre></div>
+				<p style="margin-bottom:0em;">Though Pearson correlation coefficient indicated that number of trainings is statistically significantly negatively correlated with performance evaluations (<em>r</em>(16052) = -.05, <em>p</em> &lt; .001) and meeting KPI goals (<em>r</em>(17415) = -.05, <em>p</em> &lt; .001), the practical significance of these correlations is marginal at best. A one-way analysis of variance indicates that there <em>are</em> significant differences in average performance, <em>F</em>(8, 16045) = 7.03, <em>p</em> &lt; .001, and whether KPI goals are met, <em>F</em>(8, 16045) = 5.45, <em>p</em> &lt; .001, based on how many trainings employees complete. However,  post hoc Tukey's HSD analyses indicate that employees who completed 1 training had significantly better performance evaluations than those who completed 2-4 trainings, and that those who completed 2 trainings had better performance evaluations than those who compelted 4 trainings. Otherwise, there are no statistical differences in average performance between groups based on number of trainings completed. Regarding meeting KPI goals, the only differences were that more people who completed only 1 training met KPI goals than those who completed 2 or 4 trainings. Code similar that shown before was used to calculate correlation coefficients, and the following code is an example of the Python code used to perform analyses of variance and post hoc Tukey's HSDs:</p>
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;margin-bottom:2em;"><pre style="margin: 0; line-height: 125%;">df_tukey = df.dropna(axis=0, subset= [<span style="color: #a31515">&quot;previous_year_rating&quot;</span>, <span style="color: #a31515">&quot;no_of_trainings&quot;</span>])
+model = ols(<span style="color: #a31515">&#39;previous_year_rating ~ C(no_of_trainings)&#39;</span>, data=df_tukey).fit()
+print(<span style="color: #a31515">&quot;\n\n Mean comparison of performance evaluation by no. of trainings&quot;</span>)
+print(sm.stats.anova_lm(model, typ=2))
+
+tukey = pairwise_tukeyhsd(endog = df_tukey[<span style="color: #a31515">&#39;previous_year_rating&#39;</span>],
+                          groups = df_tukey[<span style="color: #a31515">&#39;no_of_trainings&#39;</span>],
+                          alpha = 0.05)
+print(tukey)
+</pre></div>
+								<h5>"Super-Trainees"</h5>
+								<p style="margin-bottom:0em;">An additional query was used to pull information to help determine what types of employees are taking these potentially-excessive trainings to help identify possible problems. Based on the results, I would suggest that regions 2, 7, and 22 evaluate if employees might be over-training, especially within the Sales &amp; Marketing and Procurement departments.</p>
+								<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em; margin-bottom:2em;"><pre style="margin: 0; line-height: 125%"><span style="color: #008000">--Further exploring these &quot;super-trainees&quot;</span>
+<span style="color: #0000ff">SELECT</span>
+	no_of_trainings,
+	past_performance,
+	KPIs_met,
+	length_of_service,
+	department,
+	region_ID
+	<span style="color: #0000ff">FROM</span> HRPerformance.dbo.EmployeeData
+	<span style="color: #0000ff">WHERE</span> no_of_trainings &gt;= 5
+	<span style="color: #0000ff">ORDER</span> <span style="color: #0000ff">BY</span> no_of_trainings <span style="color: #0000ff">DESC</span>, department, region_ID
+
+<span style="color: #008000">--Summarize &quot;super-trainee&quot; query</span>
+<span style="color: #0000ff">SELECT</span>
+	region_ID,
+	department,
+	<span style="color: #0000ff">COUNT</span>(employee_id) <span style="color: #0000ff">AS</span> total_trainees
+	<span style="color: #0000ff">FROM</span> HRPerformance.dbo.EmployeeData
+	<span style="color: #0000ff">WHERE</span> no_of_trainings &gt;= 5
+	<span style="color: #0000ff">GROUP</span> <span style="color: #0000ff">BY</span> department, region_ID
+	<span style="color: #0000ff">ORDER</span> <span style="color: #0000ff">BY</span> region_ID, department, <span style="color: #0000ff">COUNT</span>(employee_id) <span style="color: #0000ff">DESC</span>
+</pre></div>
+
+								
+								<h4>Performance Across Trainings</h4>
+								<p style="margin-bottom:0em;">Additionally, I wanted to assess whether employees' average performance across trainings was related to performance outcomes. Because the average training score appears to be rated on a 0-100 scale, I utilized the following query to conveniently bucket employees based on training performance grouped in 10-point intervals.</p>
+								<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em; margin-bottom:2em"><pre style="margin: 0; line-height: 125%"><span style="color: #0000ff">WITH</span> training_data <span style="color: #0000ff">AS</span> (
+	<span style="color: #0000ff">SELECT</span>
+		employee_id,
+		(<span style="color: #0000ff">CASE</span>	<span style="color: #0000ff">WHEN</span> avg_training_score &lt; 40 <span style="color: #0000ff">THEN</span> <span style="color: #a31515">&#39;[0,40)&#39;</span>
+			<span style="color: #0000ff">WHEN</span> avg_training_score &lt; 50 <span style="color: #0000ff">THEN</span> <span style="color: #a31515">&#39;[40,50)&#39;</span>
+			<span style="color: #0000ff">WHEN</span> avg_training_score &lt;60 <span style="color: #0000ff">THEN</span> <span style="color: #a31515">&#39;[50,60)&#39;</span>
+			<span style="color: #0000ff">WHEN</span> avg_training_score &lt;70 <span style="color: #0000ff">THEN</span> <span style="color: #a31515">&#39;[60,70)&#39;</span>
+			<span style="color: #0000ff">WHEN</span> avg_training_score &lt;80 <span style="color: #0000ff">THEN</span> <span style="color: #a31515">&#39;[70,80)&#39;</span>
+			<span style="color: #0000ff">WHEN</span> avg_training_score &lt;90 <span style="color: #0000ff">THEN</span> <span style="color: #a31515">&#39;[80,90)&#39;</span>
+			<span style="color: #0000ff">WHEN</span> avg_training_score &lt;=100 <span style="color: #0000ff">THEN</span> <span style="color: #a31515">&#39;[90,100]&#39;</span>
+			<span style="color: #0000ff">ELSE</span> <span style="color: #a31515">&#39;EXCEPTION: Invalid score&#39;</span>
+		<span style="color: #0000ff">END</span>) <span style="color: #0000ff">AS</span> training_performance,
+		KPIs_met,
+		past_performance,
+		no_of_trainings
+		<span style="color: #0000ff">FROM</span> HRPerformance.dbo.EmployeeData
+		<span style="color: #0000ff">WHERE</span> past_performance <span style="color: #0000ff">IS</span> <span style="color: #0000ff">NOT</span> <span style="color: #0000ff">NULL</span>
+	)
+<span style="color: #0000ff">SELECT</span>
+	training_performance,
+	<span style="color: #0000ff">count</span>(training_performance) <span style="color: #0000ff">AS</span> n,
+	round(<span style="color: #0000ff">avg</span>(<span style="color: #0000ff">cast</span>(no_of_trainings <span style="color: #0000ff">AS</span> float)), 2) <span style="color: #0000ff">AS</span> avg_no_training,
+	round(<span style="color: #0000ff">avg</span>(<span style="color: #0000ff">cast</span>(past_performance <span style="color: #0000ff">AS</span> float)), 2) <span style="color: #0000ff">AS</span> avg_performance,
+	round(<span style="color: #0000ff">cast</span>(<span style="color: #0000ff">sum</span>(KPIs_met) <span style="color: #0000ff">as</span> float)/<span style="color: #0000ff">count</span>(employee_id), 4)*100 <span style="color: #0000ff">AS</span> percent_KPIs_met
+	<span style="color: #0000ff">FROM</span> training_data
+	<span style="color: #0000ff">GROUP</span> <span style="color: #0000ff">BY</span> training_performance
+	<span style="color: #0000ff">ORDER</span> <span style="color: #0000ff">BY</span> training_performance
+</pre></div>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax">training_performance</th>
+    <th class="tg-0lax">n</th>
+    <th class="tg-0lax">avg_no_training</th>
+    <th class="tg-0lax">avg_performance</th>
+    <th class="tg-0lax">percent_KPIs_met</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">[0,40)</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">0</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">[40,50)</td>
+    <td class="tg-0lax">2817</td>
+    <td class="tg-0lax">1.23</td>
+    <td class="tg-0lax">3.14</td>
+    <td class="tg-0lax">29.96</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">[50,60)</td>
+    <td class="tg-0lax">4860</td>
+    <td class="tg-0lax">1.22</td>
+    <td class="tg-0lax">3.35</td>
+    <td class="tg-0lax">34.4</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">[60,70)</td>
+    <td class="tg-0lax">3187</td>
+    <td class="tg-0lax">1.23</td>
+    <td class="tg-0lax">3.5</td>
+    <td class="tg-0lax">40.16</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">[70,80)</td>
+    <td class="tg-0lax">2188</td>
+    <td class="tg-0lax">1.28</td>
+    <td class="tg-0lax">3.23</td>
+    <td class="tg-0lax">35.24</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">[80,90)</td>
+    <td class="tg-0lax">2784</td>
+    <td class="tg-0lax">1.3</td>
+    <td class="tg-0lax">3.43</td>
+    <td class="tg-0lax">37.9</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">[90,100]</td>
+    <td class="tg-0lax">217</td>
+    <td class="tg-0lax">1.23</td>
+    <td class="tg-0lax">3.77</td>
+    <td class="tg-0lax">60.37</td>
+  </tr>
+</tbody>
+</table>
+								<p>The resulting table indicates that there is minimal relationship between how many trainings employees complete and their average performance across those trianings. However, there seems to be a positive trend between average training performance and average performance evaluations and meeting KPI goals. In other words, not surprisingly, it appears that those who perform better on the tests evaluating how well they learned the content of the training generally tend to go on to perform better in the organization.</p>
+
+
 								
 							</section>
 
