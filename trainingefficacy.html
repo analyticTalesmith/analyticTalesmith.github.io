@@ -88,8 +88,129 @@
 </pre></div>
 
 								<p>Finally, 1,363 employees do not have performance ratings recorded. Their data were not removed from the dataset, however they were excluded in any analyses that involved the performance as a variable.</p> 
+<h2>Exploring Data</h2>
+								<p style="margin-bottom:0em">Though largely irrelevant to the data, I wanted to familiarize myself with the organizational structure and used the following queries to get a sense of it.</p>
+								<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em; margin-bottom:2em"><pre style="margin: 0; line-height: 125%"><span style="color: #008000">--General insights into organizational composition</span>
+<span style="color: #0000ff">SELECT</span>
+	department,
+	<span style="color: #0000ff">count</span>(department) <span style="color: #0000ff">AS</span> DptCount
+	<span style="color: #0000ff">FROM</span> HRPerformance.dbo.EmployeeData
+	<span style="color: #0000ff">GROUP</span> <span style="color: #0000ff">BY</span> department
+	<span style="color: #0000ff">ORDER</span> <span style="color: #0000ff">BY</span> department
 
-								
+<span style="color: #0000ff">SELECT</span>
+	gender,
+	<span style="color: #0000ff">count</span>(gender) <span style="color: #0000ff">AS</span> GenderCount
+	<span style="color: #0000ff">FROM</span> HRPerformance.dbo.EmployeeData
+	<span style="color: #0000ff">GROUP</span> <span style="color: #0000ff">BY</span> gender
+
+<span style="color: #0000ff">SELECT</span>
+	education,
+	<span style="color: #0000ff">count</span>(education) <span style="color: #0000ff">AS</span> EdCount
+	<span style="color: #0000ff">FROM</span> HRPerformance.dbo.EmployeeData
+	<span style="color: #0000ff">WHERE</span> education &lt;&gt; <span style="color: #a31515">&#39;&#39;</span>
+	<span style="color: #0000ff">GROUP</span> <span style="color: #0000ff">BY</span> education
+
+<span style="color: #0000ff">SELECT</span>
+	region,
+	<span style="color: #0000ff">count</span>(region) <span style="color: #0000ff">AS</span> RegionCount
+	<span style="color: #0000ff">FROM</span> HRPerformance.dbo.EmployeeData
+	<span style="color: #0000ff">GROUP</span> <span style="color: #0000ff">BY</span> region
+
+<span style="color: #008000">--High resolution breakdown of org structure</span>
+<span style="color: #0000ff">SELECT</span>
+	region_id,
+	department,
+	gender,
+	<span style="color: #0000ff">count</span>(gender) <span style="color: #0000ff">AS</span> TotalEmployees
+	<span style="color: #0000ff">FROM</span> HRPerformance.dbo.EmployeeData
+	<span style="color: #0000ff">GROUP</span> <span style="color: #0000ff">BY</span> region_id, department, gender
+	<span style="color: #0000ff">ORDER</span> <span style="color: #0000ff">BY</span> region_id, department, gender
+</pre></div>
+<h3>Performance and KPI Goals</h3>
+<p style="margin-bottom:0em">I wanted to verify that performance was related to whether employees were meeting KPI goals.</p>
+								<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em; margin-bottom:2em"><pre style="margin: 0; line-height: 125%"><span style="color: #0000ff">SELECT</span>
+	past_performance,
+	<span style="color: #0000ff">count</span>(employee_id) <span style="color: #0000ff">as</span> total_employees,
+	ROUND(<span style="color: #0000ff">cast</span>(<span style="color: #0000ff">count</span>(<span style="color: #0000ff">CASE</span> <span style="color: #0000ff">WHEN</span> KPIs_met = 1 <span style="color: #0000ff">THEN</span> 1 <span style="color: #0000ff">END</span>) <span style="color: #0000ff">AS</span> float)/<span style="color: #0000ff">count</span>(employee_ID), 2) <span style="color: #0000ff">AS</span> percent_met_goal
+	<span style="color: #0000ff">FROM</span> HRPerformance.dbo.EmployeeData
+	<span style="color: #0000ff">GROUP</span> <span style="color: #0000ff">BY</span> past_performance
+	<span style="color: #0000ff">ORDER</span> <span style="color: #0000ff">BY</span> past_performance
+</pre>
+								</div>								
+<table class="tg">
+<thead>
+  <tr>
+	<th class="tg-0lax">past_performance</th>
+	<th class="tg-0lax">total_employees</th>
+	<th class="tg-0lax">percent_met_goal</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+	<td class="tg-0lax">NULL</td>
+	<td class="tg-0lax">1363</td>
+	<td class="tg-0lax">0.36</td>
+  </tr>
+  <tr>
+	<td class="tg-0lax">1</td>
+	<td class="tg-0lax">1976</td>
+	<td class="tg-0lax">0.13</td>
+  </tr>
+  <tr>
+	<td class="tg-0lax">2</td>
+	<td class="tg-0lax">1292</td>
+	<td class="tg-0lax">0.19</td>
+  </tr>
+  <tr>
+	<td class="tg-0lax">3</td>
+	<td class="tg-0lax">5813</td>
+	<td class="tg-0lax">0.27</td>
+  </tr>
+  <tr>
+	<td class="tg-0lax">4</td>
+	<td class="tg-0lax">3156</td>
+	<td class="tg-0lax">0.41</td>
+  </tr>
+  <tr>
+	<td class="tg-0lax">5</td>
+	<td class="tg-0lax">3817</td>
+	<td class="tg-0lax">0.63</td>
+  </tr>
+</tbody>
+</table>
+<p>It appears that performance does correlate strongly with KPI goals, providing support that the performance evaluations are indeed objectively measuring performance. The Pearson correlation coefficient, Python code shown below, indeed confirms that performance and KPI goals are moderately correlated, <em>r</em>(16052) = .34, <em>p</em> &lt; .001.</p>
+								<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #0000ff">import</span> pandas
+<span style="color: #0000ff">from</span> scipy.stats <span style="color: #0000ff">import</span> pearsonr
+<span style="color: #0000ff">from</span> prettytable <span style="color: #0000ff">import</span> PrettyTable
+
+
+<span style="color: #008000">#Helper function to format Pearson results; round r to 2 decimal places, and report p to 3 places (or &lt;.001)</span>
+<span style="color: #0000ff">def</span> clean_r_for_table(res):
+    output = [<span style="color: #a31515">&#39;&#39;</span>,<span style="color: #a31515">&#39;&#39;</span>]
+    output[0] = round(res[0],2)
+    <span style="color: #0000ff">if</span> res[1] &gt;= .001:
+        output[1] = round(res[1],3)
+    <span style="color: #0000ff">elif</span> res[1] &lt; .001:
+        output[1] = <span style="color: #a31515">&quot;&lt;.001&quot;</span>
+    <span style="color: #0000ff">return</span> output
+
+<span style="color: #008000">#Create dataframe with column names and set up PrettyTable for easy printing</span>
+colNames = [<span style="color: #a31515">&quot;employee_id&quot;</span>, <span style="color: #a31515">&quot;department&quot;</span>, <span style="color: #a31515">&quot;region&quot;</span>, <span style="color: #a31515">&quot;education&quot;</span>, <span style="color: #a31515">&quot;gender&quot;</span>, <span style="color: #a31515">&quot;recruitment_channel&quot;</span>, <span style="color: #a31515">&quot;no_of_trainings&quot;</span>,<span style="color: #a31515">&quot;age&quot;</span>,<span style="color: #a31515">&quot;previous_year_rating&quot;</span>,<span style="color: #a31515">&quot;length_of_service&quot;</span>,<span style="color: #a31515">&quot;KPIs_met_more_than_80&quot;</span>,<span style="color: #a31515">&quot;awards_won&quot;</span>,<span style="color: #a31515">&quot;avg_training_score&quot;</span>]
+df = pandas.read_csv(<span style="color: #a31515">&quot;employees_final_dataset.csv&quot;</span>, sep=<span style="color: #a31515">&#39;,&#39;</span>, header=0, names=colNames)
+out = PrettyTable([<span style="color: #a31515">&#39;X&#39;</span>, <span style="color: #a31515">&#39;Y&#39;</span>, <span style="color: #a31515">&#39;n&#39;</span>, <span style="color: #a31515">&#39;r&#39;</span>, <span style="color: #a31515">&#39;df&#39;</span>, <span style="color: #a31515">&#39;p&#39;</span>])
+
+<span style="color: #008000">#Calculate r with pairwise deletion of any rows missing data, and report correlation in table</span>
+
+<span style="color: #008000">##Performance and KPI goals</span>
+df_cor = df.dropna(axis=0, subset = [<span style="color: #a31515">&quot;previous_year_rating&quot;</span>, <span style="color: #a31515">&quot;KPIs_met_more_than_80&quot;</span>]);
+r = clean_r_for_table(pearsonr(df_cor[<span style="color: #a31515">&quot;previous_year_rating&quot;</span>], df_cor[<span style="color: #a31515">&quot;KPIs_met_more_than_80&quot;</span>]))
+out.add_row([<span style="color: #a31515">&quot;Previous year rating&quot;</span>, <span style="color: #a31515">&quot;KPI Goals Met&quot;</span>, df_cor.shape[0], r[0], df_cor.shape[0]-2, r[1]])
+
+print(<span style="color: #a31515">&quot;Correlations&quot;</span>)
+print(out)
+</pre></div>
+<p>&nbsp;</p>							
 								
 							</section>
 
