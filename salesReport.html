@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Analytic Talesmith - #PAGE TITLE</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="resources/assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="resources/index.html" class="logo">Analytic Talesmith</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="resources/index.html">Home</a></li>
+							<li class="active"><a href="resources/about.html">About Me</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://github.com/analyticTalesmith" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/analytictalesmith/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>	
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h1>Yearly Sales Report</h1>
+									<p>Data-driven sales report designed in Excel to inform business and marketing strategy for the year ahead</p>
+								</header>
+								<div class="image main"><img src="images/sales_report.png" alt="Screenshot of Excel dashboard" /></div>								
+								<ul>
+										<li><strong>Context</strong> — Data set contains a record of each sale during a year, including what was bought, how much was spent, and where the customer lives</li>
+										<li><strong>Problem</strong> — To make sure the organization is meeting performance goals and to help inform future strategy, analyze how well the organization is performing (sales and average rating), and what types of customers are buying the most and what products are selling the best</li>
+										<li><strong>Importance</strong> — It is crucial to assess potential areas of improvement, including determining what types of customers find the products most appealing to potentially course-correct toward the desired market <em>or</em> further niche down and prioritize targeting the current customers even more</li>
+										<li><strong>Insights and Next Steps</strong> —
+											<ul>
+												<li><em>Continue collecting sales data</em> — Tracking future sales would enable the creation of a real-time dashboard that can be referenced to assess performance indicators at regular intervals.</li>
+												<li><em>Establish customer ID system</em> — Finding a viable system to associate each customer with a unique, consistent ID would enable higher-resolution insights into customer behavior.</li>		
+												<li><em>Collect data to qualify ratings</em> — While an average rating of 3.75 out of 5 is not bad, it likely could be improved, and collecting more data—quantitative or qualitative—about why customers are leaving certain ratings would provide information about what customers feel the organization can improve</li>
+												<li><em>Consider current vs. desired customers and course correct if needed</em> — The specific strategy would depend on the products and market, but the organization is currently selling the most to men and to people who wear the size medium and large clothing options the organization sells. Given the limited data and information about the business context, this indicates a possible issue with size availabilty (e.g., offering plus sizes could attract more customers) or with marketing (e.g., products appealing more to men than desired for optimal sales).</li>												
+												<li><em>Evaluate current products</em> — The majority of sales come from clothing and accessories, with footwear and outerwear lagging significantly. Organization should assess if this lag is expected/acceptable and consider viable options.</li>
+											</ul></li>
+									</ul>
+								
+								<h3>Links to project files</h3>
+								<ul>
+									<li><a href="https://github.com/analyticTalesmith/SalesReport/blob/main/salesReport2022.xlsx">Excel Workbook</a></li>
+								</ul>
+								
+								<h2>Project Overview</h2>
+								This dataset is sourced from <a href="https://www.kaggle.com/datasets/iamsouravbanerjee/customer-shopping-trends-dataset?select=shopping_trends.csv">Sourav Banerjee at kaggle.com</a>, and is simulated data created using ChatGPT. The data is organized within one table containing a record for each sale including the customer's demographics, the category of and specific type of product they bought, the review rating they left, and some characteristics of the purchase (e.g., whether a promo code was used). For the sake of this project, I decided to use the data to create a report that visualizes performance-relevant data to help inform future strategy.
+								
+								<h2>Assumptions and Limitations</h2>
+								<p>Given that each row has a unique customer ID and includes a "previous purposes" column of integers, the assumption was made that each sale represented a unique customer. Additionally, no information was given about the anchors/ranged ChatGPT used to simulate reviews, but given the range of values in the column, the review rating appears to be a 5-point scale (with the assumption being made that higher ratings indicate a more positive evaluation of the customer experience).</p>
+								
+								<h2>General Strategy</h2>
+								<p>I used PivotTables to summarize customer demographics (sales by customer gender, clothing size, and state of residence) and sales by category and product type. I then used a Slicer with the product type PivotTable to enable stakeholders to quickly change the product sales barchart on the report to explore how each product sells during specific seasons. Finally, because location density plots often primarily reflect state density at the expense of meaningful visualizations, I established an external data connection to populate a table with the population of each state within the United States, which I then used to normalize the number of individual sales within a state to each state's population using a simple XLOOKUP function. Though this visualization provides some insight into "hotspots" where residents are <em>especially</em> interested in the organization's products, I felt that the volume of sales was low enough that the visualization of the raw data would provide more general value on the report than the normalized visualization.</p>
+								
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://github.com/analyticTalesmith" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.linkedin.com/in/analytictalesmith/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>	
+								</ul>
+							</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; 2023 Jonathan Bailey</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="resources/assets/js/jquery.min.js"></script>
+			<script src="resources/assets/js/jquery.scrollex.min.js"></script>
+			<script src="resources/assets/js/jquery.scrolly.min.js"></script>
+			<script src="resources/assets/js/browser.min.js"></script>
+			<script src="resources/assets/js/breakpoints.min.js"></script>
+			<script src="resources/assets/js/util.js"></script>
+			<script src="resources/assets/js/main.js"></script>
+
+	</body>
+</html>
