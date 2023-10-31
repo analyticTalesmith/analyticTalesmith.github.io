@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Analytic Talesmith - Python Dataset Simulation</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Analytic Talesmith</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Projects</a></li>
+							<li><a href="about.html">About Me</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://github.com/analyticTalesmith" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/analytictalesmith/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>	
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h1>Organizational Selection Data Simulation</h1>
+									<p>Rapid simulation of role opening, talent recruiting and selection, and selection-related expenses</p>
+								</header>
+								<ul>
+										<li><strong>Context</strong> — Because I could not find data relevant to the niche, I wanted to simulate data relevant to the information stakeholders might want regarding an organization's selection system efficiency</li>
+										<li><strong>Problem</strong> — Generally, how to quickly produce data that emulate some factors that would be present in real-world data related to an organization's personnel selection processes</li>
+										<li><strong>Importance</strong> — Working with larger data sets, especially those that have statistical characteristics you would expect to find in the real world enables better practice and identification of potential skill development opportunities</li>
+										<li><strong>Result</strong> —  Within 3 seconds, produces a dataset including record of about 2,030 job openings within the organization in the past year, about 17,000 records of expenses associated with filling those openings, and records of about 42,500 individuals who have applied to the roles</li>
+									</ul>
+								
+								<h3>Links to project files</h3>
+								<ul>
+									<li><a href="https://github.com/analyticTalesmith/SelectionDataSimulation/blob/main/SelectionDataSimulation.py">Python Code</a></li>
+									<li><a href="https://github.com/analyticTalesmith/SelectionDataSimulation/tree/main/generatedData">Generate CSVs</a></li>
+								</ul>
+								
+								<h2>Project Overview</h2>
+								<p>I wanted to practice working with large data sets that had multiple tables of related data. However, many of the data sets I could find with those characteristics were generally unrelated to my areas of interest. I specifically wanted to practice using large, relational data sets in Tableau, so given that context, I decided to save time by using Python to simulate the data I wanted instead of hunting for the perfect data set that might not exist.</p>
+								
+								<h3>Algorithm Summary</h3>
+								<p>The logic behind the simulated data is quite simple. First, some constants are defined to specific some characteristics of the data and "the organization", including how many roles there are within each department, how many branches comprise the organization, and the baseline mean and standard deviation of how long it takes to fill roles. Each branch and department also has an "efficiency" modifier either hard-coded or randomly chosen.</p>
+								<p>Given this information, the code randomly determines how many positions are currently open at each branch, if any, and then chooses which department that opening is in. The code then generates historical data of roles that have been filled within the specified time range. For each opening, the code picks how long the role is/was unfilled from a normal distribution with a standard deviation of 1 week and a mean 4 weeks scaled by the modifier of both the branch and the department the opening is in.</p>
+								<p>For each opening, the code generates data for a bounded random number of people who applied to the job, including information about what stage they made it to within the selection system (e.g., fees for assessments or travel assistance for on-site visits/interviews) and what recruitment channel they were sourced from (e.g., job boards or internal referrals). Each opening has expenses associated with posting recruitment material on job boards, and also has expenses related to which stages of the selection system talent made it to and related to employees receiving referral bonuses if a referred candidate was hired.</p>
+								<p>Once these data are generated, the lists are converted into dataframes, sorted and cleaned if needed, and then saved as three distinct CSVs ready to be used in practice projects.</p>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://github.com/analyticTalesmith" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.linkedin.com/in/analytictalesmith/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>	
+								</ul>
+							</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; 2023 Jonathan Bailey</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
