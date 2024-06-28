@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 
-
-const inter = Inter({ subsets: ["latin"] });
+const space_grotesk = Space_Grotesk({
+    subsets: ['latin'],
+    display: 'swap',
+    variable: '--font-space-grotesk',
+    weight: '400',
+});
 
 export const metadata: Metadata = {
   title: "Analytic Talesmith",
@@ -17,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+          <body className={space_grotesk.className}>{children}</body>
     </html>
   );
 }

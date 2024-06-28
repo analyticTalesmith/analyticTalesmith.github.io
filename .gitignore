@@ -397,3 +397,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/src/app/graphics/main-logo.svg
+/src/app/graphics/Favicon-32x32.svg
+/src/app/graphics/main-logo-black.svg
+/src/app/graphics/main-logo-transparent.svg
+/src/app/graphics/main-logo-white.svg
+/src/app/graphics/main-logo-white-transparent.svg
