@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
-import MainNavigation from "@/app/components/MainNavigation/NavBar";
+import MainNavigation from "@/app/components/MainNavigation";
 import ContentWrapper from "@/app/components/ContentWrapper";
 
 const space_grotesk = Space_Grotesk({
