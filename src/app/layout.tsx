@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
+import MainNavigation from "@/app/components/MainNavigation/NavBar";
+import ContentWrapper from "@/app/components/ContentWrapper";
 
 const space_grotesk = Space_Grotesk({
     subsets: ['latin'],
@@ -20,8 +22,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-          <body className={space_grotesk.className}>{children}</body>
+      <html lang="en">
+
+
+          <body className={space_grotesk.className}>
+            < MainNavigation />
+            <ContentWrapper>
+                  <div className="bg-primary">{children}</div>
+            </ContentWrapper>
+              
+          </body>
     </html>
   );
 }
