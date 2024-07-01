@@ -8,6 +8,10 @@ const config: Config = {
     ],
     theme: {
         extend: {
+            fontFamily: {
+                jost: ['var(--font-jost)'],
+                spaceGrotesk: ['var(--font-space-grotesk)'],
+            },
             colors: {
                 transparent: 'transparent',
                 current: 'currentColor',

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Space_Grotesk } from "next/font/google";
+import { Jost, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import MainNavigation from "@/app/components/MainNavigation";
 import ContentWrapper from "@/app/components/ContentWrapper";
@@ -9,7 +9,13 @@ const space_grotesk = Space_Grotesk({
     subsets: ['latin'],
     display: 'swap',
     variable: '--font-space-grotesk',
-    weight: '400',
+});
+
+
+const jost = Jost({
+    subsets: ['latin'],
+    display: 'swap',
+    variable: '--font-jost',
 });
 
 export const metadata: Metadata = {
@@ -23,12 +29,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
     return (
-        <html lang="en" suppressHydrationWarning>
-            <body className={[space_grotesk.className, 'bg-background dark:bg-background-d'].join(' ')}>
+        <html lang="en" className={`${space_grotesk.variable} ${jost.variable}`}  suppressHydrationWarning>
+            <body className='bg-background dark:bg-background-d'>
             <Providers>
                 < MainNavigation />
                 <ContentWrapper>
-                      <div className="bg-primary dark:bg-primary-d text-on-primary dark:text-on-primary-d">{children}</div>
+                      <div className="font-jost bg-primary dark:bg-primary-d text-on-primary dark:text-on-primary-d">{children}</div>
                 </ContentWrapper>
             </Providers>  
           </body>

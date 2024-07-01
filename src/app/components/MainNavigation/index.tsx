@@ -38,7 +38,7 @@ const NavBar = () => {
                     {links.map(({ route, text}) => (
                         <li
                             key={route}
-                            className="nav-links px-4 cursor-pointer capitalize font-medium text-on-background dark:text-on-background-d hover:text-primary dark:hover:text-primary-d hover:scale-105 duration-200 hover:underline"
+                            className="font-spaceGrotesk nav-links px-4 cursor-pointer capitalize font-medium text-on-background dark:text-on-background-d hover:text-primary dark:hover:text-primary-d hover:scale-105 duration-200 hover:underline"
                         >
                             <Link href={route}>{text}</Link>
                         </li>
@@ -52,7 +52,7 @@ const NavBar = () => {
                 </div>
 
                 {nav && (
-                    <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-primary-d to-tertiary-d dark:from-primary dark:to-tertiary text-on-primary-d dark:text-on-primary md:hidden">
+                    <ul className="font-spaceGrotesk flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-primary-d to-tertiary-d dark:from-primary dark:to-tertiary text-on-primary-d dark:text-on-primary md:hidden">
                         {links.map(({ route, text }) => (
                             <li
                                 key={route}
