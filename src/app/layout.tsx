@@ -3,6 +3,7 @@ import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import MainNavigation from "@/app/components/MainNavigation";
 import ContentWrapper from "@/app/components/ContentWrapper";
+import { Providers } from './providers';
 
 const space_grotesk = Space_Grotesk({
     subsets: ['latin'],
@@ -18,19 +19,18 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
-  return (
-      <html lang="en">
-
-
-          <body className={space_grotesk.className}>
-            < MainNavigation />
-            <ContentWrapper>
-                  <div className="bg-primary">{children}</div>
-            </ContentWrapper>
-              
+}) {
+    return (
+        <html lang="en" suppressHydrationWarning>
+            <body className={[space_grotesk.className, 'bg-background dark:bg-background-d'].join(' ')}>
+            <Providers>
+                < MainNavigation />
+                <ContentWrapper>
+                      <div className="bg-primary dark:bg-primary-d text-on-primary dark:text-on-primary-d">{children}</div>
+                </ContentWrapper>
+            </Providers>  
           </body>
     </html>
   );

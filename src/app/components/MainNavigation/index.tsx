@@ -1,16 +1,13 @@
 "use client";
 
 import ContentWrapper from "@/app/components/ContentWrapper";
-import Image from "next/image";
-import Logo from "@/app/graphics/main-logo-black-transparent.svg";
+import Logo from "@/app/components/Logo";
 import Link from "next/link";
 import Icon_Menu from "@/app/components/Icons/Icon_Menu";
 import Icon_X from "@/app/components/Icons/Icon_X";
 import React, { useState } from "react";
 
-type NavBarProps = {
-    toggle: boolean,
-}
+
 
 const NavBar = () => {
     const [nav, setNav] = useState(false);
@@ -35,18 +32,13 @@ const NavBar = () => {
         <div className="flex w-full h-20 py-16 items-center top-0 px-4 ">
             <ContentWrapper>
                 <Link href="/ " className="ml-0 max-md:mx-auto" >
-                    <Image
-                        alt="Logo"
-                        height={68}
-                        width={220}
-                        src={Logo}
-                        className="ml-0 max-md:mx-auto" />
+                    <Logo className="fill-on-background dark:fill-on-background-d hover:fill-primary dark:hover:fill-primary-d duration-200" />
                 </Link>
                 <ul className="hidden md:flex gap-x-6 ml-12 my-auto">
                     {links.map(({ route, text}) => (
                         <li
                             key={route}
-                            className="nav-links px-4 cursor-pointer capitalize font-medium text-gray-600 hover:scale-105 hover:text-primary duration-200 link-underline"
+                            className="nav-links px-4 cursor-pointer capitalize font-medium text-on-background dark:text-on-background-d hover:text-primary dark:hover:text-primary-d hover:scale-105 duration-200 hover:underline"
                         >
                             <Link href={route}>{text}</Link>
                         </li>
@@ -60,7 +52,7 @@ const NavBar = () => {
                 </div>
 
                 {nav && (
-                    <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-primary to-secondary text-black md:hidden">
+                    <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-primary-d to-tertiary-d dark:from-primary dark:to-tertiary text-on-primary-d dark:text-on-primary md:hidden">
                         {links.map(({ route, text }) => (
                             <li
                                 key={route}
