@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import styles from './FlexColumn.module.css';
 
-const FlexColumn = ({ children, className = '' }) => {
+
+interface Props {
+    children?: ReactNode,
+    className?: String,
+}
+
+const FlexColumn = ({ children, className = '' }: Props) => {
     return <div className={`${styles.flexColumn} ${className}`}>{children}</div>;
 };
 
