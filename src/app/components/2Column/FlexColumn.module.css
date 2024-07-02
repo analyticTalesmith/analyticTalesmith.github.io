@@ -1,0 +1,21 @@
+.flexColumn {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexColumn > * {
+    flex: 1; /* Make each child element flexible */
+    min-width: 200px; /* Minimum width for each column */
+    margin: 1em;
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+    .flexColumn {
+        flex-direction: column;
+    }
+
+    .flexColumn > *:not(:last-child) {
+        margin-bottom: 0em;
+    }
+}
