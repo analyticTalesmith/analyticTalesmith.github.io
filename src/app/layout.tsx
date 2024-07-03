@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Jost, Space_Grotesk } from "next/font/google";
-import "./globals.css";
+import "@/app/styles/globals.css";
 import MainNavigation from "@/app/components/MainNavigation";
 import ContentWrapper from "@/app/components/ContentWrapper";
-import { Providers } from './providers';
+import { ThemeProvider }  from "@/app/components/ThemeProvider";
 
 const space_grotesk = Space_Grotesk({
     subsets: ['latin'],
@@ -30,13 +30,13 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en" className={`${space_grotesk.variable} ${jost.variable}`}  suppressHydrationWarning>
-            <body className='bg-background dark:bg-background-d'>
-            <Providers>
+            <body className='bg-background'>
+            <ThemeProvider>
                 < MainNavigation />
                 <ContentWrapper>
-                      <div className="font-jost bg-primary dark:bg-primary-d text-on-primary dark:text-on-primary-d">{children}</div>
+                      <div className="font-jost bg-primary text-on-primary ">{children}</div>
                 </ContentWrapper>
-            </Providers>  
+            </ThemeProvider>  
           </body>
     </html>
   );
