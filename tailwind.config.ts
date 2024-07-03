@@ -72,7 +72,7 @@ const config: Config = {
             },
 
             dropShadow: {
-                'harsh': '0 5px 0 rgb(0, 0, 0, 1)',
+                'harsh': '0 3px 0 rgb(0, 0, 0, 1)',
             }
         }
     },
