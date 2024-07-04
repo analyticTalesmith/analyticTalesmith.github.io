@@ -37,17 +37,11 @@ export async function getPostsForStaticNav() {
 }
 
 type Post = {
-    posts: {
-        edges: {
-            node: {
-                id: string,
-                title: string,
-                content: string,
-                uri: string,
-                date: string
-            }[]
-        }
-    }
+    id: string,
+    title: string,
+    content: string,
+    uri: string,
+    date: string;
 }
 
 export async function getSortedPostsData(): Promise<Post[]> {
@@ -81,8 +75,9 @@ export async function getSortedPostsData(): Promise<Post[]> {
         }
     );
     
-    const json: { data: any } = await res.json();
+    const json = await res.json();
     const posts = json.data.posts.edges.map((edge: { node: any; }) => edge.node);
+    console.log(posts);
 
     return posts.sort((a: any, b: any) => {
         if (a.date < b.date) {
