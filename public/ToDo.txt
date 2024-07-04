@@ -1,1 +1,1 @@
-- Update all styling to use dark: selector
+- Consider alternatives to using wordpress as headless CMS
