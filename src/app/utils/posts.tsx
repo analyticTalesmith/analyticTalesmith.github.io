@@ -13,6 +13,11 @@ export async function getPostBySlug(slug: string) {
 
 }
 
+
+type PostsSlugData = {
+    slug: string;
+};
+
 export async function getPostsForStaticNav() {
     const query = `{
                     posts {
@@ -26,11 +31,24 @@ export async function getPostsForStaticNav() {
         .then((res) => res.json())
         .then((resJson) => resJson.data.posts.nodes);
 
-    return postJson.map((post) => ({
+    return postJson.map((post: PostsSlugData) => ({
         slug: post.slug,
     }))
 }
 
+type Post = {
+    posts: {
+        edges: {
+            node: {
+                id: string,
+                title: string,
+                content: string,
+                uri: string,
+                date: string
+            }[]
+        }
+    }
+}
 
 export async function getSortedPostsData(): Promise<Post[]> {
     const query = `
@@ -63,10 +81,10 @@ export async function getSortedPostsData(): Promise<Post[]> {
         }
     );
     
-    const json: { data: PostsData } = await res.json();
-    const posts = json.data.posts.edges.map(edge => edge.node);
+    const json: { data: any } = await res.json();
+    const posts = json.data.posts.edges.map((edge: { node: any; }) => edge.node);
 
-    return posts.sort((a, b) => {
+    return posts.sort((a: any, b: any) => {
         if (a.date < b.date) {
             return 1;
         } else {
