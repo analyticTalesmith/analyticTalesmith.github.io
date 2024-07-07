@@ -1,0 +1,1 @@
+- Consider alternatives to using wordpress as headless CMS
