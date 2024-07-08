@@ -61,22 +61,10 @@ export async function getSortedPostsData(): Promise<Post[]> {
         }
       `;
 
-    const res = await fetch(
-        `${process.env.NEXT_PUBLIC_GRAPHQL_ENDPOINT}?query=${encodeURIComponent(
-            query
-        )}`,
-        {
-            method: "GET",
-            headers: {
-                "Content-Type": "application/json",
-                // ... any other headers you need to include (like authentication tokens)
-            },
-            cache: "no-store",
-        }
-    );
+    const postRes = await fetch(`${process.env.NEXT_PUBLIC_GRAPHQL_ENDPOINT}?query=${encodeURIComponent(query)}`)
+        .then((res) => res.json())
     
-    const json = await res.json();
-    const posts = json.data.posts.edges.map((edge: { node: any; }) => edge.node);
+    const posts = postRes.data.posts.edges.map((edge: { node: any; }) => edge.node);
     console.log(posts);
 
     return posts.sort((a: any, b: any) => {

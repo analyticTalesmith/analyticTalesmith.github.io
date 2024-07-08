@@ -69,7 +69,7 @@ export default async function PostList() {
     return (
         <div>
             {posts.map((post) => (
-                <div key={post.uri} className="card">
+                <div key={post.uri}>
                     <Link href={`postTest${post.uri}`}>
                         <h3>{post.title}</h3>
                         <div
