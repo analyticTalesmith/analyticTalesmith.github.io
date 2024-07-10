@@ -1,1 +1,1 @@
-- Consider alternatives to using wordpress as headless CMS
+- Think about how to handle links in blog posts

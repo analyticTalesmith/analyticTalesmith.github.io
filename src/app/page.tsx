@@ -1,5 +1,5 @@
 
-import FlexColumn from '@/app/components/2Column';
+import FlexColumn from '@/app/components/FlexColumn';
 import Link from "next/link";
 
 export default function Home() {
