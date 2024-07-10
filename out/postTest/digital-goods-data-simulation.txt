@@ -1,0 +1,87 @@
+3:I[9275,[],""]
+5:I[1343,[],""]
+6:I[7698,["231","static/chunks/231-ce3126d126af6c1b.js","691","static/chunks/691-7bccdf230d07ddc3.js","185","static/chunks/app/layout-8ad6967cc1fab87f.js"],"ThemeProvider"]
+7:I[8011,["231","static/chunks/231-ce3126d126af6c1b.js","691","static/chunks/691-7bccdf230d07ddc3.js","185","static/chunks/app/layout-8ad6967cc1fab87f.js"],"default"]
+c:I[5007,["231","static/chunks/231-ce3126d126af6c1b.js","691","static/chunks/691-7bccdf230d07ddc3.js","185","static/chunks/app/layout-8ad6967cc1fab87f.js"],"default"]
+4:["slug","digital-goods-data-simulation","d"]
+8:{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"}
+9:{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"}
+a:{"display":"inline-block"}
+b:{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0}
+0:["kEYRJM8CXK-DAXNFk3AGl",[[["",{"children":["(pages)",{"children":["postTest",{"children":[["slug","digital-goods-data-simulation","d"],{"children":["__PAGE__?{\"slug\":\"digital-goods-data-simulation\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["(pages)",{"children":["postTest",{"children":[["slug","digital-goods-data-simulation","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(pages)","children","postTest","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(pages)","children","postTest","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(pages)","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}],null]},[["$","html",null,{"lang":"en","className":"__variable_587f35 __variable_54b096","suppressHydrationWarning":true,"children":["$","body",null,{"className":"bg-background","children":["$","$L6",null,{"children":[["$","$L7",null,{}],["$","div",null,{"className":"container flex max-w-7xl","children":["$","div",null,{"className":"font-jost bg-primary text-on-primary ","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$8","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$9","children":"404"}],["$","div",null,{"style":"$a","children":["$","h2",null,{"style":"$b","children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}]}],["$","$Lc",null,{}]]}]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ca5640efe204cf07.css","precedence":"next","crossOrigin":"$undefined"}]],"$Ld"]]]]
+d:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Analytic Talesmith"}],["$","meta","3",{"name":"description","content":"Generated by create next app"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+1:null
+f:I[8820,["286","static/chunks/286-d3f7cbf6dfbd573a.js","634","static/chunks/app/(pages)/postTest/%5Bslug%5D/page-214ce9b8085352c7.js"],"default"]
+e:Te75,
+<div class="wp-block-stackable-subtitle stk-block-subtitle stk-block stk-e52acb0" data-block-id="e52acb0"><p class="stk-block-subtitle__text stk-subtitle"><em>Simulation of digital goods online merchant customers and sales using Python</em></p></div>
+
+
+
+<div class="wp-block-stackable-image stk-block-image stk-block stk-2945c15" data-block-id="2945c15"><style>.stk-2945c15{border-top-left-radius:8px !important;border-top-right-radius:8px !important;border-bottom-right-radius:8px !important;border-bottom-left-radius:8px !important;overflow:hidden !important;box-shadow:none !important}.stk-2945c15 .stk-img-wrapper{height:300px !important}.stk-2945c15 .stk-img-wrapper img{border-radius:8px !important;object-fit:scale-down !important}</style><figure><div class="stk-img-wrapper stk-image--shape-stretch stk--has-lightbox"><img loading="lazy" decoding="async" class="stk-img wp-image-1277" src="https://analytictalesmith.com/wp-content/uploads/2023/11/DGTableSchema.png" width="1127" height="750"/></div></figure></div>
+
+
+
+<p class="">I wanted to simulate a data set for a <a href="https://analytictalesmith.com/digital-goods-online-store-dashboard/" title="store selling digital goods">store selling digital goods</a>, with tables including records of the products sold, the customers, customers&#8217; orders, and the items in each order. I used a combination of Python and data sources to simulate the data.</p>
+
+
+
+<div class="wp-block-stackable-heading stk-block-heading stk-block-heading--v2 stk-block stk-f1b8ce4" id="summary" data-block-id="f1b8ce4"><h2 class="stk-block-heading__text">Summary</h2></div>
+
+
+
+<div class="wp-block-stackable-text stk-block-text stk-block stk-5b154b6" data-block-id="5b154b6"><p class="stk-block-text__text">The lists of products and product categories were generated using ChatGPT. I wrote the prompt to generate products that a digital goods shop would sell. I then generated weights to bias individual item popularity and product category popularity in the store. These weights were used in combination to bias the random selection of the first item that customers would purchase. If customers bought more than one item, then the additional items were randomly chosen based on these popularity weights in addition to semantic similarity weights. The semantic similarity between items was calculated using the <a href="https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2" target="_blank" rel="noopener" title="all-MiniLM-L6-v2">all-MiniLM-L6-v2</a> sentence transformer.</p></div>
+
+
+
+<div class="wp-block-stackable-text stk-block-text stk-block stk-096bb3c" data-block-id="096bb3c"><p class="stk-block-text__text">A data set of US cities and their populations was used to bias the random selection of the city for each customer, and the random selection of other demographics were similarly biased based on US population characteristics. The number of sales each day was based on equations with added noise, scaled by a crawling multiplier that shifted how well the store did each day. This multiplier shifted randomly and gradually each day to reflect sales trends.</p></div>
+
+
+
+<div class="wp-block-stackable-heading stk-block-heading stk-block-heading--v2 stk-block stk-948f76f" id="project-files" data-block-id="948f76f"><h2 class="stk-block-heading__text">Project Files</h2></div>
+
+
+
+<ul class="">
+<li class=""><a href="https://github.com/analyticTalesmith/DigitalGoodsDataSim" target="_blank" rel="noopener" title="GitHub Repo">GitHub Repo</a></li>
+
+
+
+<li class=""><a href="https://github.com/analyticTalesmith/DigitalGoodsDataSim/tree/master/generatedCSVs" target="_blank" rel="noopener" title="Generated CSVs">Generated CSVs</a></li>
+</ul>
+10:Te75,
+<div class="wp-block-stackable-subtitle stk-block-subtitle stk-block stk-e52acb0" data-block-id="e52acb0"><p class="stk-block-subtitle__text stk-subtitle"><em>Simulation of digital goods online merchant customers and sales using Python</em></p></div>
+
+
+
+<div class="wp-block-stackable-image stk-block-image stk-block stk-2945c15" data-block-id="2945c15"><style>.stk-2945c15{border-top-left-radius:8px !important;border-top-right-radius:8px !important;border-bottom-right-radius:8px !important;border-bottom-left-radius:8px !important;overflow:hidden !important;box-shadow:none !important}.stk-2945c15 .stk-img-wrapper{height:300px !important}.stk-2945c15 .stk-img-wrapper img{border-radius:8px !important;object-fit:scale-down !important}</style><figure><div class="stk-img-wrapper stk-image--shape-stretch stk--has-lightbox"><img loading="lazy" decoding="async" class="stk-img wp-image-1277" src="https://analytictalesmith.com/wp-content/uploads/2023/11/DGTableSchema.png" width="1127" height="750"/></div></figure></div>
+
+
+
+<p class="">I wanted to simulate a data set for a <a href="https://analytictalesmith.com/digital-goods-online-store-dashboard/" title="store selling digital goods">store selling digital goods</a>, with tables including records of the products sold, the customers, customers&#8217; orders, and the items in each order. I used a combination of Python and data sources to simulate the data.</p>
+
+
+
+<div class="wp-block-stackable-heading stk-block-heading stk-block-heading--v2 stk-block stk-f1b8ce4" id="summary" data-block-id="f1b8ce4"><h2 class="stk-block-heading__text">Summary</h2></div>
+
+
+
+<div class="wp-block-stackable-text stk-block-text stk-block stk-5b154b6" data-block-id="5b154b6"><p class="stk-block-text__text">The lists of products and product categories were generated using ChatGPT. I wrote the prompt to generate products that a digital goods shop would sell. I then generated weights to bias individual item popularity and product category popularity in the store. These weights were used in combination to bias the random selection of the first item that customers would purchase. If customers bought more than one item, then the additional items were randomly chosen based on these popularity weights in addition to semantic similarity weights. The semantic similarity between items was calculated using the <a href="https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2" target="_blank" rel="noopener" title="all-MiniLM-L6-v2">all-MiniLM-L6-v2</a> sentence transformer.</p></div>
+
+
+
+<div class="wp-block-stackable-text stk-block-text stk-block stk-096bb3c" data-block-id="096bb3c"><p class="stk-block-text__text">A data set of US cities and their populations was used to bias the random selection of the city for each customer, and the random selection of other demographics were similarly biased based on US population characteristics. The number of sales each day was based on equations with added noise, scaled by a crawling multiplier that shifted how well the store did each day. This multiplier shifted randomly and gradually each day to reflect sales trends.</p></div>
+
+
+
+<div class="wp-block-stackable-heading stk-block-heading stk-block-heading--v2 stk-block stk-948f76f" id="project-files" data-block-id="948f76f"><h2 class="stk-block-heading__text">Project Files</h2></div>
+
+
+
+<ul class="">
+<li class=""><a href="https://github.com/analyticTalesmith/DigitalGoodsDataSim" target="_blank" rel="noopener" title="GitHub Repo">GitHub Repo</a></li>
+
+
+
+<li class=""><a href="https://github.com/analyticTalesmith/DigitalGoodsDataSim/tree/master/generatedCSVs" target="_blank" rel="noopener" title="Generated CSVs">Generated CSVs</a></li>
+</ul>
+2:["$","div",null,{"children":["Success. Loaded ","Digital Goods Data Simulation",["$","br",null,{}],["$","br",null,{}],"$e",["$","br",null,{}],["$","br",null,{}],["$","$Lf",null,{"htmlContent":"$10"}]]}]

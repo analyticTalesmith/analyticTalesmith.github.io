@@ -56,7 +56,7 @@ const NavBar = () => {
                 </ul>
                 <div
                     onClick={() => setNav(!nav)}
-                    className="cursor-pointer pr-4 z-20 /*text-gray-500*/ md:hidden"
+                    className="cursor-pointer pr-4 z-20 md:hidden"
                 >
                     {nav ? <Icon_X /> : <Icon_Menu />}
                 </div>

@@ -1,1 +1,10 @@
 - Think about how to handle links in blog posts
+
+
+Wordpress plugins:
+- Askimet Anti-Spam
+- All in One SEO
+- CookieYes
+- Creative Mail by Newfold Digital
+- Google Analytics for Wordpress by monsterinsights
+- 

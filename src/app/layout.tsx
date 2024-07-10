@@ -3,7 +3,9 @@ import { Jost, Space_Grotesk } from "next/font/google";
 import "@/app/styles/globals.css";
 import MainNavigation from "@/app/components/MainNavigation";
 import ContentWrapper from "@/app/components/ContentWrapper";
-import { ThemeProvider }  from "@/app/components/ThemeProvider";
+import { ThemeProvider } from "@/app/components/ThemeProvider";
+
+import ScrollToTopButton from '@/app/components/ScrollToTopButton';
 
 const space_grotesk = Space_Grotesk({
     subsets: ['latin'],
@@ -36,6 +38,7 @@ export default function RootLayout({
                 <ContentWrapper>
                       <div className="font-jost bg-primary text-on-primary ">{children}</div>
                 </ContentWrapper>
+                <ScrollToTopButton />
             </ThemeProvider>  
           </body>
     </html>

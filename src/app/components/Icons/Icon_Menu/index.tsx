@@ -1,7 +1,3 @@
-import { IconMenu2 } from '@tabler/icons-react';
-
-
-
 const App = () => {
 
     return (
