@@ -5,7 +5,7 @@ export async function getPostBySlug(slug: string) {
                       content
                     }}`
 
-    const postJson = fetch(`${process.env.NEXT_PUBLIC_GRAPHQL_ENDPOINT}?query=${encodeURIComponent(query)}`)
+    const postJson = fetch(`${process.env.NEXT_PUBLIC_GRAPHQL_ENDPOINT}?query=${encodeURIComponent(query)}`, { next: { revalidate: 60 } })
         .then((res) => res.json())
         .then((resJson) => resJson.data.post);
 
@@ -16,6 +16,7 @@ export async function getPostBySlug(slug: string) {
 
 type PostsSlugData = {
     slug: string;
+    content: string;
 };
 
 export async function getPostsForStaticNav() {
@@ -23,16 +24,18 @@ export async function getPostsForStaticNav() {
                     posts {
                         nodes {
                           slug
+                          content
                           }
                         }
                     }`
 
-    const postJson = await fetch(`${process.env.NEXT_PUBLIC_GRAPHQL_ENDPOINT}?query=${encodeURIComponent(query)}`)
+    const postJson = await fetch(`${process.env.NEXT_PUBLIC_GRAPHQL_ENDPOINT}?query=${encodeURIComponent(query)}`, { next: { revalidate: 60 } })
         .then((res) => res.json())
         .then((resJson) => resJson.data.posts.nodes);
 
     return postJson.map((post: PostsSlugData) => ({
         slug: post.slug,
+        content: post.content
     }))
 }
 
@@ -61,7 +64,7 @@ export async function getSortedPostsData(): Promise<Post[]> {
         }
       `;
 
-    const postRes = await fetch(`${process.env.NEXT_PUBLIC_GRAPHQL_ENDPOINT}?query=${encodeURIComponent(query)}`)
+    const postRes = await fetch(`${process.env.NEXT_PUBLIC_GRAPHQL_ENDPOINT}?query=${encodeURIComponent(query)}`, { next: { revalidate: 60 } })
         .then((res) => res.json())
     
     const posts = postRes.data.posts.edges.map((edge: { node: any; }) => edge.node);

@@ -1,4 +1,5 @@
 import { getPostBySlug, getPostsForStaticNav } from "@/app/utils/posts";
+import BlogPost from "@/app/components/BlogPost";
 
 type BlogPageProps = {
     params: BlogPageParams;
@@ -17,6 +18,11 @@ export default async function Page({ params }:BlogPageProps) {
     const res = await getPostBySlug(slug);
     
     return (
-        <div>Success. Loaded {res.title}</div>
+        <div>Success. Loaded {res.title}
+            <br /><br/>
+            {res.content}<br /><br />
+            < BlogPost htmlContent={res.content} />
+        </div>
+        
     )
 }
