@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { Jost, Space_Grotesk } from "next/font/google";
 import "@/app/styles/globals.css";
-import MainNavigation from "@/app/components/MainNavigation";
-import ContentWrapper from "@/app/components/ContentWrapper";
+import MainNavigation from "@/app/components/(main elements)/MainNavigation";
+import MainFooter from "@/app/components/(main elements)/MainFooter";
+import ContentWrapper from "@/app/components/(main elements)/ContentWrapper";
 import { ThemeProvider } from "@/app/components/ThemeProvider";
+import TestNavigation from "@/app/components/(main elements)/TestNav";
 
 import ScrollToTopButton from '@/app/components/ScrollToTopButton';
 
@@ -34,12 +36,16 @@ export default function RootLayout({
         <html lang="en" className={`${space_grotesk.variable} ${jost.variable}`}  suppressHydrationWarning>
             <body className='bg-background'>
             <ThemeProvider>
-                < MainNavigation />
-                <ContentWrapper>
-                      <div className="font-jost bg-primary text-on-primary ">{children}</div>
+                    < MainNavigation />
+                {/*<TestNavigation />*/}
+                    <ContentWrapper>
+                        <div className="flex flex-col h-full">
+                            <div className="font-jost bg-surface text-on-surface">{children}</div>
+                      </div>
                 </ContentWrapper>
                 <ScrollToTopButton />
-            </ThemeProvider>  
+                    < MainFooter />
+                </ThemeProvider>  
           </body>
     </html>
   );

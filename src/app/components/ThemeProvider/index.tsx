@@ -38,7 +38,9 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
 
     return (
         <ThemeContext.Provider value={{ theme, setTheme }}>
-            {children}
+            <div className="flex flex-col h-screen">
+                {children}
+            </div>
         </ThemeContext.Provider>
     );
 };
