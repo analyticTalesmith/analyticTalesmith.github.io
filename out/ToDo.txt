@@ -1,5 +1,8 @@
 - Think about how to handle links in blog posts
+- Update TestNav to be in NavHamburgerToggle
 
+
+- Get column working properly - implement hero
 
 Wordpress plugins:
 - Askimet Anti-Spam

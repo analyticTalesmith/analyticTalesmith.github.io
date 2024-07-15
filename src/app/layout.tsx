@@ -4,9 +4,7 @@ import "@/app/styles/globals.css";
 import MainNavigation from "@/app/components/(main elements)/MainNavigation";
 import MainFooter from "@/app/components/(main elements)/MainFooter";
 import ContentWrapper from "@/app/components/(main elements)/ContentWrapper";
-import { ThemeProvider } from "@/app/components/ThemeProvider";
-import TestNavigation from "@/app/components/(main elements)/TestNav";
-
+import { ThemeProvider } from '@/app/components/ThemeProvider';
 import ScrollToTopButton from '@/app/components/ScrollToTopButton';
 
 const space_grotesk = Space_Grotesk({
@@ -36,11 +34,10 @@ export default function RootLayout({
         <html lang="en" className={`${space_grotesk.variable} ${jost.variable}`}  suppressHydrationWarning>
             <body className='bg-background'>
             <ThemeProvider>
-                    < MainNavigation />
-                {/*<TestNavigation />*/}
+                    <MainNavigation />
                     <ContentWrapper>
-                        <div className="flex flex-col h-full">
-                            <div className="font-jost bg-surface text-on-surface">{children}</div>
+                        <div className="flex flex-col h-full w-full">
+                            <div className="font-jost">{children}</div>
                       </div>
                 </ContentWrapper>
                 <ScrollToTopButton />
