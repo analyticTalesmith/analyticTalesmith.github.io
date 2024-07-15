@@ -22,7 +22,7 @@ const Hero: React.FC<HeroProps> = ({headingText, bodyText, heroButton, heroImage
                     {heroButton }
                 </div>
                 <div className="content-center text-center items-center">
-                 <div className="w-full p:6 md:p-auto my-8 h-[200px] md:h-fit md:my-auto">
+                 <div className="w-full p:6 md:p-auto my-8 h-[300px] md:h-fit md:my-auto">
                     {heroImage}</div></div>
             </FlexColumn>
         </section>

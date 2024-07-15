@@ -3,11 +3,8 @@
 import ContentWrapper from "@/app/components/(main elements)/ContentWrapper";
 import Logo from "@/app/components/Logo";
 import Link from "next/link";
-import NavHamburgerMenu from "@/app/components/(buttons)/NavHamburgerToggle";
-import Icon_Menu from "@/app/components/Icons/Icon_Menu";
-import Icon_X from "@/app/components/Icons/Icon_X";
 import React, { useState, useEffect } from "react";
-import TestNavigation from "@/app/components/(main elements)/TestNav";
+import SmallNavigation from "@/app/components/(main elements)/SmallNav";
 
 const NavBar = () => {
     const [nav, setNav] = useState(false);
@@ -40,7 +37,7 @@ const NavBar = () => {
     return (
         <div className="flex w-full h-20 py-16 items-center top-0 px-4 ">
             <ContentWrapper>
-                <TestNavigation links={navLinks}></TestNavigation>
+                <SmallNavigation links={navLinks}></SmallNavigation>
                 <Link href="/ " className="ml-0 max-md:mx-auto" >
                     <Logo className="fill-on-background hover:fill-primary duration-200" />
                 </Link>

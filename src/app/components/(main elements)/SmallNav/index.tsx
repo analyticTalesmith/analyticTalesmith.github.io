@@ -31,14 +31,6 @@ function TestNav({ links }: { links: linkData[]}) {
 
     return (
         <div>
-
-            {/*<div*/}
-            {/*    onClick={() => setNav(!nav)}*/}
-            {/*    className="cursor-pointer pr-4 z-20 md:hidden"*/}
-            {/*>*/}
-            {/*    {nav ? <Icon_X /> : <Icon_Menu />}*/}
-            {/*</div>*/}
-
             <button className={`float-left p-4 z-20 relative group md:hidden`}
                     onClick={toggleNav}>
                     <div className={`relative flex overflow-hidden items-center justify-center rounded-full w-[50px] h-[50px] transform transition-all ${nav ? 'bg-tertiary-container' : 'bg-primary-container'} border border-black duration-200 ring-surface-container-highest drop-shadow-harsh `}>
