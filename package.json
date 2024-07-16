@@ -6,7 +6,7 @@
   "scripts": {
     "fetch-images": "node ./src/app/utils/imageFetch.mjs",
     "dev": "npm run fetch-images && next dev",
-    "build": "npm run fetch-images && next build",
+    "build": "npm run fetch-images && next build ",
     "start": "next start",
     "lint": "next lint"
   },
