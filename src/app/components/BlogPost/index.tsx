@@ -12,6 +12,7 @@ import rehypeParse from "rehype-parse";
 import rehypeReact, { Options } from "rehype-react";
 import Image from 'next/image';
 import * as prod from 'react/jsx-runtime'
+import Link from 'next/link';
 
 const imageLoader = require('/image-loader.ts');
 
@@ -34,22 +35,15 @@ const processImages = (node: any): JSX.Element | null => {
     return null;
 };
 
-const processImagesFromFigure = (nodes: any): JSX.Element | null => {
-    //if (node.props.tag === "img") {
-    //    return processImages(node.props);
-    //}
-    //else {
-    //    return null;
-    //}
-    if(Array.isArray(nodes)){
-        nodes.forEach((node: any) => {        })
-    } else {
-        return processImages(nodes.props);
+const ParsedLink = (props: any) => {
+    const { href, children, title, ...rest} = props;
+
+    if (href.startsWith("/")) {
+        return <Link href={href} title={title}>{children}</Link>
     }
-    //nodes.forEach((node: any) => console.log(node));
-    
-    return null;
-};
+    return <a href={href} title={title}>{children}</a>
+
+}
 
 
 const production: Options = {
@@ -112,6 +106,9 @@ const production: Options = {
         },
 
         img: (props: any) => { return processImages(props) },
+
+        a: ParsedLink,
+        
 
         
     }
