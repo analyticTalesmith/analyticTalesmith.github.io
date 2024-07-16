@@ -32,7 +32,7 @@ export async function getPostBySlug(slug: string): Promise<PostTitleContent | nu
 
     if (post && post.content) {
         post.content = replaceImageUrls(post.content);
-        //post.content = replaceNonimageUrls(post.content);
+        post.content = replaceNonimageUrls(post.content);
     }
 
     return post || null;
