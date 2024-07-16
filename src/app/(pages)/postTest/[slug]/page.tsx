@@ -16,13 +16,16 @@ export default async function Page({ params }:BlogPageProps) {
     const { slug } = params;
 
     const res = await getPostBySlug(slug);
-    
-    return (
-        <div>Success. Loaded {res.title}
-            <br /><br/>
-            {res.content}<br /><br />
-            < BlogPost htmlContent={res.content} />
-        </div>
-        
-    )
+    if (res) {
+        return (
+            <div>Success. Loaded {res.title}
+                <br /><br />
+                {res.content}<br /><br />
+                < BlogPost htmlContent={res.content} />
+            </div>
+
+        )
+    } else {
+        return <div> Failed to load.</div>
+    }
 }

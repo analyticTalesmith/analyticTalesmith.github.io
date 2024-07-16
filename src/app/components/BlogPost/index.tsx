@@ -10,8 +10,46 @@ import React, {
 import { unified } from "unified";
 import rehypeParse from "rehype-parse";
 import rehypeReact, { Options } from "rehype-react";
-import * as prod from 'react/jsx-runtime';
-import Logo from "@/app/components/Logo";
+import Image from 'next/image';
+import * as prod from 'react/jsx-runtime'
+
+const imageLoader = require('/image-loader.ts');
+
+interface WordpressImageNode {
+    tagName: string;
+    properties: {
+        [key: string]: any;        
+    };
+}
+
+const processImages = (node: any): JSX.Element | null => {
+    if (node.src && node.src.startsWith('/')) {
+        console.log("true")
+        return <Image loader={imageLoader} src={node.src} alt={node.alt || ''} width={node.width} height={node.height} />;
+    } else {
+        // Render other elements as is
+        console.log("false")
+        return <div>Failed swap</div>;
+    }
+    return null;
+};
+
+const processImagesFromFigure = (nodes: any): JSX.Element | null => {
+    //if (node.props.tag === "img") {
+    //    return processImages(node.props);
+    //}
+    //else {
+    //    return null;
+    //}
+    if(Array.isArray(nodes)){
+        nodes.forEach((node: any) => {        })
+    } else {
+        return processImages(nodes.props);
+    }
+    //nodes.forEach((node: any) => console.log(node));
+    
+    return null;
+};
 
 
 const production: Options = {
@@ -48,7 +86,7 @@ const production: Options = {
         },
 
         p: ({ children }: React.PropsWithChildren<{}>) => {
-            return <p className ="mb-4">{children}</p>;
+            return <p className="mb-4">{children}</p>;
         },
 
         ul: ({ children }: React.PropsWithChildren<{}>) => {
@@ -64,7 +102,16 @@ const production: Options = {
         
         blockquote: ({ children }: React.PropsWithChildren<{}>) => {
             return <blockquote>{children}</blockquote>;
-        }
+        },
+
+        figure: ({ children }: React.PropsWithChildren<{}>) => {
+            return <figure className="mb-4">{children}</figure>;
+        },
+        figcaption: ({ children }: React.PropsWithChildren<{}>) => {
+            return <figcaption>{children}</figcaption>;
+        },
+
+        img: (props: any) => { return processImages(props) },
 
         
     }

@@ -1,15 +1,41 @@
-export async function getPostBySlug(slug: string) {
+import { replaceImageUrls, replaceNonimageUrls } from '@/app/utils/urls';
+
+interface GraphQLResponse<T> {
+    data: T;
+}
+
+interface PostTitleContent {
+    title: string;
+    content: string;
+}
+
+interface PostResponse {
+    post: PostTitleContent;
+}
+
+
+
+export async function getPostBySlug(slug: string): Promise<PostTitleContent | null> {
     const query = ` {
                     post(id: "${slug}", idType:SLUG){
                       title
                       content
                     }}`
 
-    const postJson = fetch(`${process.env.NEXT_PUBLIC_GRAPHQL_ENDPOINT}?query=${encodeURIComponent(query)}`, { next: { revalidate: 60 } })
-        .then((res) => res.json())
-        .then((resJson) => resJson.data.post);
+    const response = await fetch(
+        `${process.env.NEXT_PUBLIC_GRAPHQL_ENDPOINT}?query=${encodeURIComponent(query)}`,
+        { next: { revalidate: 60 } }
+    );
 
-    return postJson;
+    const postJson: GraphQLResponse<PostResponse> = await response.json();
+    const post = postJson.data?.post;
+
+    if (post && post.content) {
+        post.content = replaceImageUrls(post.content);
+        //post.content = replaceNonimageUrls(post.content);
+    }
+
+    return post || null;
 
 }
 

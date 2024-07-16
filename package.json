@@ -2,9 +2,11 @@
   "name": "analytic-talesmith",
   "version": "0.0.1",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "fetch-images": "node ./src/app/utils/imageFetch.mjs",
+    "dev": "npm run fetch-images && next dev",
+    "build": "npm run fetch-images && next build",
     "start": "next start",
     "lint": "next lint"
   },

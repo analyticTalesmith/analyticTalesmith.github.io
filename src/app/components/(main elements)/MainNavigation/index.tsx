@@ -41,7 +41,7 @@ const NavBar = () => {
                 <Link href="/ " className="ml-0 max-md:mx-auto" >
                     <Logo className="fill-on-background hover:fill-primary duration-200" />
                 </Link>
-                <ul className="hidden md:flex gap-x-6 ml-12 my-auto">
+                <ul className="hidden md:flex gap-x-6 my-auto ml-auto mr-12">
                     {navLinks.map(({ route, text}) => (
                         <li
                             key={route}
