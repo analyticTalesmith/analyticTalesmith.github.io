@@ -46,6 +46,28 @@
 }
 
 @tailwind components;
+
+@layer components{
+    .neobrutal {
+        position: relative;
+        border-style: solid;
+        border-width: 4px;
+        margin-right:4px;
+        margin-bottom:4px;
+        border-color: #000;
+        border-radius: 16px;
+        box-shadow: 4px 4px 0px 4px rgb(0,0,0,1);
+    }
+
+    .rounded-top {
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+    }
+
+
+
+}
+
 @tailwind utilities;
 
 :root {
