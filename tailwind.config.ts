@@ -17,15 +17,15 @@ const config: Config = {
             button: '0.078rem',
         },
         fontSize: {
-            sm: 'rem',
+            sm: '0.9rem',
             base: '1rem',
-            lg: '1.125rem',
-            xl: '1.375rem',
-            '2xl': '1.375rem',
-            '3xl': '2.313rem',
-            '4xl': '3.25rem',
-            '5xl': '4.063rem',
-            '6xl': '6.5rem',
+            lg: '1.0625rem',
+            xl: '1.1875em',
+            '2xl': '1.3125rem',
+            '3xl': '1.6565em',
+            '4xl': '2.125rem',
+            '5xl': '2.5315rem',
+            '6xl': '3.75rem',
 
         },
         extend: {

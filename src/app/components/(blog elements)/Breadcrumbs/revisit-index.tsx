@@ -1,17 +1,9 @@
-// components/Breadcrumb.js
-"use client";
+// components/Breadcrumbs.tsx
+'use client'
 
-import React, { ReactNode } from 'react';
-import { usePathname } from 'next/navigation';
 import Link from 'next/link';
-
-type TBreadCrumbProps = {
-    homeElement?: ReactNode;
-    containerClasses?: string;
-    listClasses?: string;
-    activeClasses?: string;
-    capitalizeLinks?: boolean;
-};
+import React from 'react';
+import { usePathname } from 'next/navigation';
 
 interface CrumbProps {
     text: string,
@@ -20,13 +12,11 @@ interface CrumbProps {
     root?: boolean
 }
 
-
 const SVG_SEPARATOR = (
     <svg className="w-3 h-3 text-outline mx-1 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4" />
     </svg>
 );
-
 
 const HOME_ICON = (
     <svg className="w-3 h-3 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -62,7 +52,7 @@ function Crumb({ text, href, last = false, root = false }: CrumbProps) {
     );
 }
 
-const Breadcrumb = ({ activeTitle }: { activeTitle?: string } ) => {
+const Breadcrumbs = ({ slug, postTitle }: { slug: string, postTitle: string }) => {
     const pathname = usePathname();
     const asPathWithoutQuery = pathname.split("?")[0];
     const asPathNestedRoutes = asPathWithoutQuery.split("/").filter(v => v.length > 0);
@@ -71,15 +61,14 @@ const Breadcrumb = ({ activeTitle }: { activeTitle?: string } ) => {
         const href = "/" + asPathNestedRoutes.slice(0, idx + 1).join("/");
         let text = CUSTOM_NAMES[subpath] || subpath;
 
-        if (idx === asPathNestedRoutes.length -1 && activeTitle) {
-            text = activeTitle
+        if (idx === asPathNestedRoutes.length - 1 && asPathNestedRoutes[0] === 'blog') {
+            text = postTitle;
         }
-        
+
         return { href, text };
     });
 
     const breadcrumbs = [{ href: "/", text: "Home" }, ...crumblist];
-
 
     return (
         <nav className='flex mb-4' aria-label='Breadcrumb'>
@@ -93,6 +82,6 @@ const Breadcrumb = ({ activeTitle }: { activeTitle?: string } ) => {
             </ol>
         </nav>
     );
-};
+}
 
-export default Breadcrumb;
+export default Breadcrumbs;

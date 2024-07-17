@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 
 const baseUrl: string = process.env.NEXT_PUBLIC_BASE_URL || '';
-const postDirectory: string = "/postTest"
+const postDirectory: string = "/blog"
 
 //export function replaceImageUrls(content: string | null | undefined): string {
 //    if (!content) return '';

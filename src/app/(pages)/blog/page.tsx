@@ -1,13 +1,16 @@
 import React from "react";
 import { getSortedPostsData } from "@/app/utils/posts";
 import Link from "next/link";
+import Container from '@/app/components/(main elements)/Container';
+import Breadcrumb from '@/app/components/(blog elements)/Breadcrumbs';
 
 
 async function Blog() {
     const posts = await getSortedPostsData()
 
     return (
-        <div>
+        <div><Breadcrumb />
+            <Container>
             <h1>Blog</h1>
             {/*Temporary blog post visualization*/ }
             <div className="mt-16">
@@ -23,7 +26,7 @@ async function Blog() {
                         </Link>
                     </div>
                 ))}
-            </div>
+            </div></Container>
         </div>
     )};
 

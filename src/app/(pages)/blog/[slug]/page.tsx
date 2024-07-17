@@ -1,6 +1,8 @@
 import { getPostBySlug, getPostSlugsForStaticNav } from '@/app/utils/posts';
 import BlogPost from '@/app/components/(blog elements)/BlogPost';
 import type { Metadata, ResolvingMetadata } from 'next'
+import Container from '@/app/components/(main elements)/Container';
+import Breadcrumb from '@/app/components/(blog elements)/Breadcrumbs';
 
 //type BlogPageProps = {
 //    params: BlogPageParams;
@@ -68,9 +70,10 @@ export default async function Page({ params }: BlogPageProps) {
     if (res) {
         return (
             <div>
-                {/*<br /><br />*/}
-                {/*{res.content}<br /><br />*/}
-                < BlogPost htmlContent={res.content} />
+                <Breadcrumb activeTitle={res.title}/>
+                <Container className="mb-4">
+                    < BlogPost htmlContent={res.content} />
+                </Container>
             </div>
 
         )
