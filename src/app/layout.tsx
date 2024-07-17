@@ -34,14 +34,14 @@ export default function RootLayout({
         <html lang="en" className={`${space_grotesk.variable} ${jost.variable}`}  suppressHydrationWarning>
             <body className='bg-background'>
             <ThemeProvider>
-                    <MainNavigation />
-                    <ContentWrapper>
+                <MainNavigation />
+                <ContentWrapper>
                         <div className="flex flex-col h-full w-full">
                             <div className="font-jost">{children}</div>
                       </div>
                 </ContentWrapper>
                 <ScrollToTopButton />
-                    < MainFooter />
+                < MainFooter />
                 </ThemeProvider>  
           </body>
     </html>

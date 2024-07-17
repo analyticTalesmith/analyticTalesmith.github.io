@@ -7,7 +7,35 @@ const config: Config = {
         "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     ],
     theme: {
+        letterSpacing: {
+            tighter: '-0.094rem',
+            tight: '-0.031rem',
+            normal: '0rem',
+            wide: '0.009rem',
+            wider: '0.016rem',
+            widest: '0.025rem',
+            button: '0.078rem',
+        },
+        fontSize: {
+            sm: 'rem',
+            base: '1rem',
+            lg: '1.125rem',
+            xl: '1.375rem',
+            '2xl': '1.375rem',
+            '3xl': '2.313rem',
+            '4xl': '3.25rem',
+            '5xl': '4.063rem',
+            '6xl': '6.5rem',
+
+        },
         extend: {
+            fontSize: {
+                subtitle: '0.938rem',
+                'subtitle-lg': '1.063rem',
+                button: 'rem',
+                caption: '0.875rem',
+                overline: 'rem'
+            },
             fontFamily: {
                 jost: ['var(--font-jost)'],
                 spaceGrotesk: ['var(--font-space-grotesk)'],

@@ -35,7 +35,7 @@ const NavBar = () => {
     }, [nav]);
 
     return (
-        <div className="flex w-full h-20 py-16 items-center top-0 px-4 ">
+        <div className="flex w-full h-20 py-16 items-center top-0 ">
             <ContentWrapper>
                 <SmallNavigation links={navLinks}></SmallNavigation>
                 <Link href="/ " className="ml-0 max-md:mx-auto" >

@@ -17,9 +17,9 @@ interface PostResponse {
 
 export async function getPostBySlug(slug: string): Promise<PostTitleContent | null> {
     const query = ` {
-                    post(id: "${slug}", idType:SLUG){
-                      title
-                      content
+                        post(id: "${slug}", idType:SLUG){
+                          title
+                          content
                     }}`
 
     const response = await fetch(
@@ -45,24 +45,22 @@ type PostsSlugData = {
     content: string;
 };
 
-export async function getPostsForStaticNav() {
+export async function getPostSlugsForStaticNav() {
     const query = `{
                     posts {
                         nodes {
                           slug
-                          content
                           }
                         }
-                    }`
+                    }`;
 
-    const postJson = await fetch(`${process.env.NEXT_PUBLIC_GRAPHQL_ENDPOINT}?query=${encodeURIComponent(query)}`, { next: { revalidate: 60 } })
-        .then((res) => res.json())
-        .then((resJson) => resJson.data.posts.nodes);
+    const response = await fetch(`${process.env.NEXT_PUBLIC_GRAPHQL_ENDPOINT}?query=${encodeURIComponent(query)}`, { next: { revalidate: 60 } })
+    const postList = await response.json();
+    const posts = postList.data.posts.nodes;
 
-    return postJson.map((post: PostsSlugData) => ({
-        slug: post.slug,
-        content: post.content
-    }))
+    return posts.map((post: any) => ({
+        slug: post.slug
+    }));
 }
 
 type Post = {

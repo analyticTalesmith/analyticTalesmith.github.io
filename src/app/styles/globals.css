@@ -3,28 +3,46 @@
 @layer base{
 
     h1 {
-        @apply text-5xl;
+        @apply text-6xl tracking-tighter font-light font-spaceGrotesk;
     }
 
     h2 {
-        @apply text-4xl;
+        @apply text-5xl tracking-tight font-light font-spaceGrotesk;
     }
 
     h3 {
-        @apply text-3xl;
+        @apply text-4xl tracking-normal font-normal font-spaceGrotesk;
     }
 
     h4 {
-        @apply text-2xl;
+        @apply text-3xl tracking-wider font-normal font-spaceGrotesk;
     }
 
     h5 {
-        @apply text-xl;
+        @apply text-2xl tracking-normal font-normal font-spaceGrotesk;
     }
 
     h6 {
-        @apply text-lg;
+        @apply text-xl tracking-wide font-medium font-spaceGrotesk;
     }
+
+    p {
+        @apply text-base tracking-wider font-normal font-jost;
+    }
+
+    caption {
+        @apply text-caption tracking-widest font-normal font-jost;
+    }
+
+    figcaption {
+        @apply text-caption tracking-widest font-normal font-jost;
+    }
+
+    button {
+        @apply uppercase text-base tracking-button font-medium font-jost;
+    }
+
+    
 }
 
 @tailwind components;

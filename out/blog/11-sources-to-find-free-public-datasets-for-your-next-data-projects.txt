@@ -1,0 +1,115 @@
+3:I[9275,[],""]
+5:I[1343,[],""]
+6:I[6238,["231","static/chunks/231-ce3126d126af6c1b.js","657","static/chunks/app/(pages)/blog/layout-c9b5068642d6df6f.js"],"default"]
+7:I[7698,["231","static/chunks/231-ce3126d126af6c1b.js","691","static/chunks/691-7bccdf230d07ddc3.js","185","static/chunks/app/layout-e9c55b181d4845cc.js"],"ThemeProvider"]
+8:I[8954,["231","static/chunks/231-ce3126d126af6c1b.js","691","static/chunks/691-7bccdf230d07ddc3.js","185","static/chunks/app/layout-e9c55b181d4845cc.js"],"default"]
+d:I[5007,["231","static/chunks/231-ce3126d126af6c1b.js","691","static/chunks/691-7bccdf230d07ddc3.js","185","static/chunks/app/layout-e9c55b181d4845cc.js"],"default"]
+e:I[231,["231","static/chunks/231-ce3126d126af6c1b.js","377","static/chunks/app/(pages)/blog/page-90fcb4625253c814.js"],""]
+4:["slug","11-sources-to-find-free-public-datasets-for-your-next-data-projects","d"]
+9:{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"}
+a:{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"}
+b:{"display":"inline-block"}
+c:{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0}
+0:["f4M3vgnkypX2F36G3SCxZ",[[["",{"children":["(pages)",{"children":["blog",{"children":[["slug","11-sources-to-find-free-public-datasets-for-your-next-data-projects","d"],{"children":["__PAGE__?{\"slug\":\"11-sources-to-find-free-public-datasets-for-your-next-data-projects\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["(pages)",{"children":["blog",{"children":[["slug","11-sources-to-find-free-public-datasets-for-your-next-data-projects","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(pages)","children","blog","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","div",null,{"children":[["$","$L6",null,{}],["$","div",null,{"className":"mb-4 bg-surface-container text-on-surface py-4 border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)]","children":["$","div",null,{"className":"p-4","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(pages)","children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}]}]}]]}],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(pages)","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}],null]},[["$","html",null,{"lang":"en","className":"__variable_587f35 __variable_54b096","suppressHydrationWarning":true,"children":["$","body",null,{"className":"bg-background","children":["$","$L7",null,{"children":[["$","$L8",null,{}],["$","div",null,{"className":"container flex max-w-7xl px-4","children":["$","div",null,{"className":"flex flex-col h-full w-full","children":["$","div",null,{"className":"font-jost","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$9","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$a","children":"404"}],["$","div",null,{"style":"$b","children":["$","h2",null,{"style":"$c","children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}]}]}],["$","$Ld",null,{}],["$","footer",null,{"className":"mt-auto bg-surface font-spaceGrotesk","children":["$","div",null,{"className":"max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8","children":[["$","nav",null,{"className":"flex flex-wrap justify-center -mx-5 -my-2","children":[["$","div",null,{"className":"px-5 py-2","children":["$","$Le",null,{"href":"/about","className":"text-base leading-6 text-on-surface hover:text-primary-container","children":"About"}]}],["$","div",null,{"className":"px-5 py-2","children":["$","$Le",null,{"href":"/blog","className":"text-base leading-6 text-on-surface hover:text-primary-container","children":"Blog"}]}]]}],["$","div",null,{"className":"flex justify-center mt-8 space-x-6","children":[["$","$Le",null,{"href":"https://github.com/analyticTalesmith","className":"text-primary-container hover:text-primary","children":[["$","span",null,{"className":"sr-only","children":"GitHub"}],["$","svg",null,{"className":"w-6 h-6","aria-hidden":"true","fill":"currentColor","viewBox":"0 0 24 24","children":["$","path",null,{"fillRule":"evenodd","d":"M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z","clipRule":"evenodd"}]}]]}],["$","$Le",null,{"href":"https://www.linkedin.com/in/analytictalesmith/","className":"text-primary-container hover:text-primary","children":[["$","span",null,{"className":"sr-only","children":"LinkedIn"}],["$","svg",null,{"className":"w-6 h-6","aria-hidden":"true","xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","children":[["$","path",null,{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}],["$","path",null,{"d":"M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"}],["$","path",null,{"d":"M8 11l0 5"}],["$","path",null,{"d":"M8 8l0 .01"}],["$","path",null,{"d":"M12 16l0 -5"}],["$","path",null,{"d":"M16 16v-3a2 2 0 0 0 -4 0"}]]}]]}]]}],["$","p",null,{"className":"mt-8 text-base leading-6 text-center text-gray-400","children":"© 2024 Jonathan Bailey. All rights reserved."}]]}]}]]}]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/21345c234e4b9e4b.css","precedence":"next","crossOrigin":"$undefined"}]],"$Lf"]]]]
+10:I[1117,["231","static/chunks/231-ce3126d126af6c1b.js","735","static/chunks/735-fdea1cd0fbdef8c9.js","610","static/chunks/app/(pages)/blog/%5Bslug%5D/page-0c496126ebba7fc0.js"],"default"]
+11:T22b7,
+<p>Finding free, reliable datasets for data analytics projects can be a challenge. You might be able to compile datasets through scraping depending on the topic of your project, and simulating data is always an option if you want the data to practice your data skills rather than to generate actionable insights and recommendations or to contribute novel knowledge through research. Whether you are brainstorming possible projects or in the discovery and information-gathering stage of a current project, the following sources can help you find valuable, reputable, and free datasets to use in your data projects.</p>
+
+
+
+<div class="wp-block-stackable-heading stk-block-heading stk-block-heading--v2 stk-block stk-9f77a4a" id="1-a-href-https-github-com-awesomedata-awesome-public-datasets-title-awesome-public-datasets-repo-a" data-block-id="9f77a4a"><h3 class="stk-block-heading__text">1) <a href="https://github.com/awesomedata/awesome-public-datasets" title="">Awesome Public Datasets Repo</a></h3></div>
+
+
+
+<div class="wp-block-stackable-text stk-block-text stk-block stk-01d986d" data-block-id="01d986d"><p class="stk-block-text__text">This GitHub repo has a community of data enthusiasts who regularly contribute. The repo is a list of high quality public datasets sorted by topic, including data from agriculture, entertainment, sports, and more.</p></div>
+
+
+
+<div class="wp-block-stackable-heading stk-block-heading stk-block-heading--v2 stk-block stk-33e1391" id="2-a-href-https-github-com-buzz-feed-news-title-buzzfeed-a" data-block-id="33e1391"><h3 class="stk-block-heading__text">2) <a href="https://github.com/BuzzFeedNews" title="">Buzzfeed</a></h3></div>
+
+
+
+<div class="wp-block-stackable-text stk-block-text stk-block stk-f275c3e" data-block-id="f275c3e"><p class="stk-block-text__text">For the sake of transparency, BuzzFeed provides the datasets that underlie some of their articles.</p></div>
+
+
+
+<div class="wp-block-stackable-heading stk-block-heading stk-block-heading--v2 stk-block stk-57740d8" id="3-a-href-https-data-gov-title-data-gov-a" data-block-id="57740d8"><h3 class="stk-block-heading__text">3) <a href="https://data.gov" title="">Data.gov</a></h3></div>
+
+
+
+<div class="wp-block-stackable-text stk-block-text stk-block stk-46a5c74" data-block-id="46a5c74"><p class="stk-block-text__text"> Data.gov provides over 280,000 datasets from various US government agencies at the federal, state, and city level. Keep an eye out for any licensing agreements on datasets, but you can find data relevant to a wide range of research interests.</p></div>
+
+
+
+<div class="wp-block-stackable-heading stk-block-heading stk-block-heading--v2 stk-block stk-1f27902" id="4-a-href-https-data-world-datasets-open-data-title-data-world-a" data-block-id="1f27902"><h3 class="stk-block-heading__text">4) <a href="https://data.world/datasets/open-data" title="">Data.world</a></h3></div>
+
+
+
+<div class="wp-block-stackable-text stk-block-text stk-block stk-cc1fa42" data-block-id="cc1fa42"><p class="stk-block-text__text">Data.world has nearly 130,000 open datasets. Many are years old, limiting their value in research, but if you need data to practice your data analysis skills, this is a great source to find possible data!</p></div>
+
+
+
+<div class="wp-block-stackable-heading stk-block-heading stk-block-heading--v2 stk-block stk-f64a8b5" id="5-a-href-https-www-data-is-plural-com-title-data-is-plural-a" data-block-id="f64a8b5"><h3 class="stk-block-heading__text">5) <a href="https://www.data-is-plural.com" title="">Data is Plural</a></h3></div>
+
+
+
+<div class="wp-block-stackable-text stk-block-text stk-block stk-f02c81d" data-block-id="f02c81d"><p class="stk-block-text__text">While this source might be harder to find a data set that fits an existing project, Data is Plural is a weekly newsletter that shares interesting datasets. Even more useful, the newsletter is archived, so you can look through all 350+ newsletters that have been compiled so far.</p></div>
+
+
+
+<div class="wp-block-stackable-heading stk-block-heading stk-block-heading--v2 stk-block stk-b3c736e" id="6-a-href-https-data-europa-eu-data-datasets-title-european-data-a" data-block-id="b3c736e"><h3 class="stk-block-heading__text">6) <a href="https://data.europa.eu/data/datasets" title="">European Data</a></h3></div>
+
+
+
+<div class="wp-block-stackable-text stk-block-text stk-block stk-374dd4e" data-block-id="374dd4e"><p class="stk-block-text__text">This source shares open data provided by the EU spanning a wide range of topics.</p></div>
+
+
+
+<div class="wp-block-stackable-heading stk-block-heading stk-block-heading--v2 stk-block stk-6a51ef5" id="7-a-href-https-datasetsearch-research-google-com-title-google-dataset-search-a" data-block-id="6a51ef5"><h3 class="stk-block-heading__text">7) <a href="https://datasetsearch.research.google.com" title="">Google Dataset Search</a></h3></div>
+
+
+
+<div class="wp-block-stackable-text stk-block-text stk-block stk-5e254f8" data-block-id="5e254f8"><p class="stk-block-text__text">This search engine provided by Google is—in my opinion—your best bet for quickly finding open data relevant to a specific topic. You can use the search engine to search for data across thousands of repos. When I have a topic that I want to work with in my next data project, this is often the first tab I will open.</p></div>
+
+
+
+<div class="wp-block-stackable-heading stk-block-heading stk-block-heading--v2 stk-block stk-d79b4c2" id="8-a-href-https-research-google-resources-datasets-title-google-public-datasets-a" data-block-id="d79b4c2"><h3 class="stk-block-heading__text">8) <a href="https://research.google/resources/datasets/" title="">Google Public Datasets</a></h3></div>
+
+
+
+<div class="wp-block-stackable-text stk-block-text stk-block stk-89d8a60" data-block-id="89d8a60"><p class="stk-block-text__text">Google hosts a collection of datasets that you can query using BigQuery. With 1 TB of free querying each month, there are very few cases where these data wouldn&#8217;t effectively be freely available.</p></div>
+
+
+
+<div class="wp-block-stackable-heading stk-block-heading stk-block-heading--v2 stk-block stk-cc5627b" id="9-a-href-https-www-kaggle-com-datasets-title-kaggle-a" data-block-id="cc5627b"><h3 class="stk-block-heading__text">9) <a href="https://www.kaggle.com/datasets" title="">Kaggle</a></h3></div>
+
+
+
+<p>Kaggle is on virtually every list like this one because it is an online community made for data scientists. Kaggle allows users to upload and share their own data. Note that <em>many </em>recent datasets uploaded to the site are generated with AI tools like ChatGPT and therefore not valid for many use cases.</p>
+
+
+
+<div class="wp-block-stackable-heading stk-block-heading stk-block-heading--v2 stk-block stk-a8537ad" id="10-a-href-https-www-mavenanalytics-io-data-playground-title-maven-analytics-a" data-block-id="a8537ad"><h3 class="stk-block-heading__text">10) <a href="https://www.mavenanalytics.io/data-playground" title="">Maven Analytics</a></h3></div>
+
+
+
+<div class="wp-block-stackable-text stk-block-text stk-block stk-8b1115d" data-block-id="8b1115d"><p class="stk-block-text__text">With the goal of helping data enthusiasts apply and improve their data analysis and visualization skills, Maven Analytics provides real-world data for data enthusiasts to practice, learn, and develop with. Their data playground shares data hand-picked by instructors, and they host a monthly data challenge to help data enthusiasts practice and share their work!</p></div>
+
+
+
+<div class="wp-block-stackable-heading stk-block-heading stk-block-heading--v2 stk-block stk-5031162" id="11-a-href-https-registry-opendata-aws-title-open-data-on-amazon-web-service-a" data-block-id="5031162"><h3 class="stk-block-heading__text">11) <a href="https://registry.opendata.aws" title="">Open Data on Amazon Web Service</a></h3></div>
+
+
+
+<div class="wp-block-stackable-text stk-block-text stk-block stk-8e49a3c" data-block-id="8e49a3c"><p class="stk-block-text__text">This site contains nearly 500 datasets available via AWS resources. And if you complete a project using one of the datasets, there&#8217;s a chance that your work will be featured in an AWS blog post!</p></div>
+
+
+
+<div class="wp-block-stackable-heading stk-block-heading stk-block-heading--v2 stk-block stk-9888cbe" id="11-a-href-https-www-reddit-com-r-datasets-title-r-datasets-a" data-block-id="9888cbe"><h3 class="stk-block-heading__text">11) <a href="https://www.reddit.com/r/datasets/" title="">r/Datasets</a></h3></div>
+
+
+
+<div class="wp-block-stackable-text stk-block-text stk-block stk-720ee1d" data-block-id="720ee1d"><p class="stk-block-text__text">r/Datasets is one of my favorite data-related subreddits, because users can share datasets or post requests so other members can help share relevant datasets. Users can also share tools, resources, and code related to data.</p></div>
+2:["$","div",null,{"children":["$","$L10",null,{"htmlContent":"$11"}]}]
+f:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"11 Sources to Find Free Public Datasets for Your Next Data Projects | Analytic Talesmith"}],["$","meta","3",{"name":"description","content":"Generated by create next app"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+1:null
