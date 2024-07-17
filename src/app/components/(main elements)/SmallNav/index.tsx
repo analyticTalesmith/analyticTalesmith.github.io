@@ -31,7 +31,7 @@ function TestNav({ links }: { links: linkData[]}) {
 
     return (
         <div>
-            <button className={`float-left p-4 z-20 relative group md:hidden`}
+            <button className={`float-left p-4 z-30 relative group md:hidden`}
                     onClick={toggleNav}>
                     <div className={`relative flex overflow-hidden items-center justify-center rounded-full w-[50px] h-[50px] transform transition-all ${nav ? 'bg-tertiary-container' : 'bg-primary-container'} border border-black duration-200 ring-surface-container-highest drop-shadow-harsh `}>
                         <div className="flex flex-col justify-between w-[20px] h-[20px] transform transition-all duration-300 origin-center overflow-hidden">
