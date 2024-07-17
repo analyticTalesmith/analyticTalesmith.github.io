@@ -48,6 +48,9 @@
 @tailwind components;
 
 @layer components{
+    * {
+        -webkit-font-smoothing: antialiased;
+    }
     .neobrutal {
         position: relative;
         border-style: solid;
@@ -63,7 +66,6 @@
         border-top-left-radius: 16px;
         border-top-right-radius: 16px;
     }
-
 
 
 }

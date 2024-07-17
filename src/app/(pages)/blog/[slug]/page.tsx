@@ -71,7 +71,7 @@ export default async function Page({ params }: BlogPageProps) {
         return (
             <div>
                 <Breadcrumb activeTitle={res.title}/>
-                <Container className="mb-4">
+                <Container className="mb-4 p-4">
                     < BlogPost htmlContent={res.content} />
                 </Container>
             </div>

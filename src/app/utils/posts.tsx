@@ -118,25 +118,43 @@ export async function getPostSlugsForStaticNav() {
     }));
 }
 
-type Post = {
-    id: string,
-    title: string,
-    content: string,
-    uri: string,
-    date: string;
+
+export interface Post {
+    id: string;
+    title: string;
+    uri: string;
+    date: Date;
+    featuredImage: FeaturedImage | null;
+    excerpt: string;
 }
+
+export interface FeaturedImage {
+    node: FeaturedImageNode;
+}
+
+export interface FeaturedImageNode {
+    sourceUrl: string;
+    altText: string;
+}
+
 
 export async function getSortedPostsData(): Promise<Post[]> {
     const query = `
-      {
+              {
           posts {
             edges {
               node {
                 id
                 title
-                content
                 uri
                 date
+                featuredImage {
+                  node {
+                    sourceUrl
+                    altText
+                  }
+                }
+                excerpt
               }
             }
           }
@@ -146,9 +164,9 @@ export async function getSortedPostsData(): Promise<Post[]> {
     const postRes = await fetch(`${process.env.NEXT_PUBLIC_GRAPHQL_ENDPOINT}?query=${encodeURIComponent(query)}`, { next: { revalidate: 60 } })
         .then((res) => res.json())
     
-    const posts = postRes.data.posts.edges.map((edge: { node: any; }) => edge.node);
+    const posts = postRes.data.posts.edges.map((edge: { node: Post; }) => edge.node);
 
-    return posts.sort((a: any, b: any) => {
+    return posts.sort((a: Post, b: Post) => {
         if (a.date < b.date) {
             return 1;
         } else {

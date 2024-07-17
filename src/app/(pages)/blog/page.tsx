@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Container from '@/app/components/(main elements)/Container';
 import Breadcrumb from '@/app/components/(blog elements)/Breadcrumbs';
 import BrutHeading from '@/app/components/(headers)/NeoBrutHeading';
+import BlogPostGrid from '@/app/components/(blog elements)/BlogPostCard';
 
 
 async function Blog() {
@@ -14,21 +15,15 @@ async function Blog() {
             <Breadcrumb />
             <Container>
             <BrutHeading className="rounded-top"/>
-            {/*Temporary blog post visualization*/ }
-            <div className="mt-16 px-4">
-                {posts.map((post) => (
-                    <div key={post.uri} className="mb-12">
-                        <Link href={`blog${post.uri}`}>
-                            <h3>{post.title}</h3>
-                            <div
-                                dangerouslySetInnerHTML={{
-                                    __html: post.content.slice(0, 200) + "...",
-                                }}
-                            />
-                        </Link>
-                    </div>
-                ))}
-            </div></Container>
+                {/*Temporary blog post visualization*/}
+
+                <BlogPostGrid posts={posts} />
+            {/*<div className="flex grid grid-cols-1 md:grid-cols-2 gap-4 my-8 px-4">*/}
+            {/*        {posts.map((post) => (*/}
+            {/*            <BlogPostGrid directory="/blog" key={post.uri} title={post.title} slug={post.uri} />*/}
+            {/*    ))}*/}
+            {/*    </div>*/}
+            </Container>
         </div>
     )};
 
