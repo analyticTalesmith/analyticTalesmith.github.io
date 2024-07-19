@@ -1,5 +1,5 @@
-import fs from 'fs';
-import path from 'path';
+//import fs from 'fs';
+//import path from 'path';
 
 const baseUrl: string = process.env.NEXT_PUBLIC_BASE_URL || '';
 const postDirectory: string = "/blog"
@@ -24,10 +24,7 @@ const postDirectory: string = "/blog"
 
 export function replaceImageUrls(content: string | null | undefined): string {
     if (!content) return '';
-
-    const publicImagesPath = path.join(process.cwd(), 'public', 'images');
-    const imageFilenames = fs.readdirSync(publicImagesPath);
-
+    
 
     const imageUrlRegex = /(?:http:\/\/localhost:10004\/wp-content\/uploads\/\d{4}\/\d{2}\/)([^",]+)/g;
     const imageFilenameRegex = /^(.+?)(?:-\d+x\d+)?(\.\w+)$/;

@@ -1,6 +1,5 @@
 import React from 'react';
 import { getSortedPostsData } from '@/app/utils/posts';
-import Link from 'next/link';
 import Container from '@/app/components/(main elements)/Container';
 import Breadcrumb from '@/app/components/(blog elements)/Breadcrumbs';
 import BrutHeading from '@/app/components/(headers)/NeoBrutHeading';
