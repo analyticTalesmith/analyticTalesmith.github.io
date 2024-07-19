@@ -1,14 +1,20 @@
 'use client'
 
 import { useSearchParams } from 'next/navigation';
+import { Suspense } from 'react';
 
-export default function SearchBar() {
+
+function PageQuery() {
     const searchParams = useSearchParams()
 
-    const search = searchParams.get('page')
+    return <input placeholder="Search..." />
+}
+
+export default function SearchBar() {
+    <Suspense>
+        < PageQuery />
+    </Suspense>
 
     // URL -> `/dashboard?search=my-project`
     // `search` -> 'my-project'
-    console.log({ search })
-    return <>Search: {search}</>
 }
