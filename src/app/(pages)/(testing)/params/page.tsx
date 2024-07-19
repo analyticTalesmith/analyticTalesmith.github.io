@@ -5,15 +5,13 @@ import { Suspense } from 'react';
 
 
 function PageQuery() {
-    const searchParams = useSearchParams();
-
     return (<input placeholder="Search..." />)
 }
 
 function Page() {
     const searchParams = useSearchParams();
 
-    return (`Page: ${searchParams.get('page')}`);
+    return (<div>Page: ${searchParams.get('page')}</div>);
 }
 
 export default function SearchBar() {
