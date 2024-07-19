@@ -5,18 +5,24 @@ import { Suspense } from 'react';
 
 
 function PageQuery() {
-    const searchParams = useSearchParams()
+    const searchParams = useSearchParams();
 
     return (<input placeholder="Search..." />)
 }
 
-export default function SearchBar() {
+function Page() {
     const searchParams = useSearchParams();
 
-    <Suspense>
-        < PageQuery />
-    </Suspense>
-    return (<div>Page: {searchParams.get('page')}</div>)
+    return (`Page: ${searchParams.get('page')}`);
+}
+
+export default function SearchBar() {
+    //const searchParams = useSearchParams();
+
+    return(<Suspense fallback={ <PageQuery /> }>
+        {/*<div>Page: {searchParams.get('page')}</div>*/}
+        < Page />
+    </Suspense>)
 
     // URL -> `/dashboard?search=my-project`
     // `search` -> 'my-project'
