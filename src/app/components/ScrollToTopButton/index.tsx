@@ -51,7 +51,7 @@ function ScrollToTopButton() {
 
     return (
         <motion.button
-            className="fixed bottom-0 right-0 p-10 z-20"
+            className="fixed bottom-0 right-0 p-10 z-50"
             variants={ScrollToTopContainerVariants}
             initial="hide"
             animate={controls}
