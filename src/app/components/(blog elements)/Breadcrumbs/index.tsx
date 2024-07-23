@@ -35,7 +35,8 @@ const HOME_ICON = (
 );
 
 const CUSTOM_NAMES: Record<string, string> = {
-    'blog': 'Blog'
+    'blog': 'Blog',
+    'blogHybrid': 'Blog'
 };
 
 function Crumb({ text, href, last = false, root = false }: CrumbProps) {

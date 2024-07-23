@@ -4,14 +4,18 @@ import { useEffect, useState } from 'react';
 import HorizontalCard from '@/app/components/(blog elements)/BlogPostHorizontalCard';
 import * as staticPosts from '@/app/utils/staticPosts';
 import BlogPagination from '@/app/components/(blog elements)/BlogPagination';
+import CategoryFilter from '@/app/components/(blog elements)/CategoryFilter';
 import SearchParam from '@/app/components/(blog elements)/SearchParam';
+import Container from '@/app/components/(main elements)/Container';
+import Breadcrumb from '@/app/components/(blog elements)/Breadcrumbs';
+import BrutHeading from '@/app/components/(headers)/NeoBrutHeading';
 
 async function loadPostData() {
     const postData = await staticPosts.LoadPostDBJSON();
     return postData;
 }
 
-export default function HybridBlogPost() {
+export default function HybridBlogPost({ }) {
     const [posts, setPosts] = useState<Post[]>([]);
     const [page, setPage] = useState(1);
     const [category, setCategory] = useState('');
@@ -25,7 +29,8 @@ export default function HybridBlogPost() {
         fetchData();
     }, []);
 
-    const filteredPosts = category
+
+    const filteredPosts = category !== ''
         ? posts.filter(post => staticPosts.ifPostHasCategory(post, category))
         : posts;
 
@@ -37,21 +42,29 @@ export default function HybridBlogPost() {
     const displayedPosts = filteredPosts.slice(startPostIndex, endPostIndex);
 
     return (
-        <div className="container px-6 py-10 mx-auto">
-            <div> Page: {page}; Category: {category}</div>
-            <SearchParam setPage={setPage} setCategory={setCategory} />
-            {postCount > postsPerPage && (
+        <div>
+            <Breadcrumb />{postCount > postsPerPage && (
                 <BlogPagination
                     currentPage={currentPage}
                     currentCategory={category}
                     totalPages={totalPages}
                     maxPageNumbersToShow={5}
                     rootUrl={'/blogHybrid'}
+                    className="mb-12"
                 />
             )}
-            {displayedPosts.map((post) => (
-                <HorizontalCard key={post.id} {...post} />
-            ))}
+            <Container>
+                <BrutHeading className="rounded-top" />
+                <SearchParam setPage={setPage} setCategory={setCategory} />
+                <div className="container px-6 py-10 mx-auto">
+                    
+                    {category !== "" && (
+                        <CategoryFilter category={category} rootURL="/blogHybrid" />)}
+                    {displayedPosts.map((post) => (
+                        <HorizontalCard key={post.id} {...post} />
+                    ))}
+                </div>
+            </Container>
             {postCount > postsPerPage && (
                 <BlogPagination
                     currentPage={currentPage}
@@ -59,6 +72,7 @@ export default function HybridBlogPost() {
                     totalPages={totalPages}
                     maxPageNumbersToShow={5}
                     rootUrl={'/blogHybrid'}
+                    className="mt-12"
                 />
             )}
         </div>

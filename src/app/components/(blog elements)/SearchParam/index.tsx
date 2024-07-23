@@ -1,34 +1,28 @@
 // @/app/components/(blog elements)/SearchParam/index.tsx
 
-'use client'
+'use client';
 
 import { useSearchParams } from 'next/navigation';
 import { Suspense, useEffect } from 'react';
 
 function PageQuery() {
-    return (<div>Page: Loading...<br />Category: Loading...</div>)
+    return (<div></div>);
 }
 
-function Page({ setPage, setCategory }: { setPage: Function, setCategory: Function}) {
+function Page({ setPage, setCategory }: { setPage: Function, setCategory: Function }) {
     const searchParams = useSearchParams();
 
     useEffect(() => {
-        var pageParam = Number(searchParams.get('page'));
-        if (!pageParam) {
-            pageParam = 1;
-        }
-        const categoryParam = searchParams.get('category');
+        const pageSearch = searchParams.get('page');
+        const pageParam = pageSearch ? parseInt(pageSearch) : 1;
 
-        if (pageParam) {
-            setPage(pageParam);
-        }
+        const categoryParam = searchParams.get('category') || '';
 
-        if (categoryParam) {
-            setCategory(categoryParam);
-        }
+        setPage(pageParam);
+        setCategory(categoryParam);
     }, [searchParams, setPage, setCategory]);
 
-    return (null);
+    return null;
 }
 
 export default function SearchParam({ setPage, setCategory }: { setPage: Function, setCategory: Function }) {
