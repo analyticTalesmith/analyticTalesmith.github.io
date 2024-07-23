@@ -1,25 +1,100 @@
+'use client';
+
+import { useEffect, useState } from 'react';
 import HorizontalCard from '@/app/components/(blog elements)/BlogPostHorizontalCard';
-import * as staticPosts from '@/app/utils/staticPosts'
+import * as staticPosts from '@/app/utils/staticPosts';
+import BlogPagination from '@/app/components/(blog elements)/BlogPagination';
+import SearchParam from '@/app/components/(blog elements)/SearchParam';
 
-
-
-async function HybridBlogPost() {
+async function loadPostData() {
     const postData = await staticPosts.LoadPostDBJSON();
+    return postData;
+}
 
+export default function HybridBlogPost() {
+    const [posts, setPosts] = useState<Post[]>([]);
+    const [page, setPage] = useState(1);
+    const [category, setCategory] = useState('');
+    const postsPerPage = 3;
 
-    
+    useEffect(() => {
+        async function fetchData() {
+            const postData = await loadPostData();
+            setPosts(postData);
+        }
+        fetchData();
+    }, []);
 
-    //console.log(postData);
+    const filteredPosts = category
+        ? posts.filter(post => post.categories.nodes[0].name === category)
+        : posts;
+
+    const postCount = filteredPosts.length;
+    const totalPages = Math.ceil(postCount / postsPerPage);
+    const currentPage = Math.max(1, Math.min(totalPages, page));
+    const startPostIndex = (currentPage - 1) * postsPerPage;
+    const endPostIndex = startPostIndex + postsPerPage;
+    const displayedPosts = filteredPosts.slice(startPostIndex, endPostIndex);
 
     return (
         <div className="container px-6 py-10 mx-auto">
-            {
-                postData.map((post) => (
-                    <HorizontalCard key={post.id} {...post} />
-                ))
-            }
-            </div>
-    )
+            <SearchParam setPage={setPage} setCategory={setCategory} />
+            {postCount > postsPerPage && (
+                <BlogPagination
+                    currentPage={currentPage}
+                    totalPages={totalPages}
+                    maxPageNumbersToShow={5}
+                    rootUrl={'/blogHybrid'}
+                />
+            )}
+            {displayedPosts.map((post) => (
+                <HorizontalCard key={post.id} {...post} />
+            ))}
+            {postCount > postsPerPage && (
+                <BlogPagination
+                    currentPage={currentPage}
+                    totalPages={totalPages}
+                    maxPageNumbersToShow={5}
+                    rootUrl={'/blogHybrid'}
+                />
+            )}
+        </div>
+    );
 }
 
-export default HybridBlogPost;
+
+export interface Post {
+    id: string;
+    title: string;
+    uri: string;
+    date: Date;
+    featuredImage: FeaturedImage | null;
+    excerpt: string;
+    categories: Categories;
+    tags: Tags;
+}
+
+interface Categories {
+    nodes: CategoryElement[];
+}
+
+interface CategoryElement {
+    name: string;
+}
+
+interface FeaturedImage {
+    node: FeaturedImageNode;
+}
+
+interface FeaturedImageNode {
+    sourceUrl: string;
+    altText: string;
+}
+
+interface Tags {
+    nodes: TagElement[];
+}
+
+interface TagElement {
+    name: string;
+}

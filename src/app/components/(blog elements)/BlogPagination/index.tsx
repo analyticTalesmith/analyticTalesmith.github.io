@@ -1,9 +1,12 @@
+// @/app/components/(blog elements)/BlogPagination/index.tsx
+
 import Link from 'next/link';
 
 interface PaginationProps {
     currentPage: number;
     totalPages: number;
     maxPageNumbersToShow: number;
+    rootUrl: string;
 }
 function getPaginationRange(maxPageNumbersToShow: number, currentPage: number, totalPages: number): number[] {
     
@@ -33,13 +36,13 @@ function getPaginationRange(maxPageNumbersToShow: number, currentPage: number, t
     return pageNumbers
 }
 
-const BlogPagination = ({ currentPage, totalPages, maxPageNumbersToShow }: PaginationProps) => {
+const BlogPagination = ({ currentPage, totalPages, maxPageNumbersToShow, rootUrl }: PaginationProps) => {
     /* TODO
     update with /blog' rootUrl
     */
 
     if (totalPages > 1) {
-        const postRootURL = '/params';
+        const postRootURL = rootUrl;
         const pageParam = 'page=';
         const pageNumbers = getPaginationRange(maxPageNumbersToShow, currentPage, totalPages);
 
