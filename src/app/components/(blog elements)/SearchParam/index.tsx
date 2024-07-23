@@ -28,7 +28,7 @@ function Page({ setPage, setCategory }: { setPage: Function, setCategory: Functi
         }
     }, [searchParams, setPage, setCategory]);
 
-    return null;
+    return (null);
 }
 
 export default function SearchParam({ setPage, setCategory }: { setPage: Function, setCategory: Function }) {

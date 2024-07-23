@@ -1,16 +1,12 @@
-//<a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-//    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="/docs/images/blog/image-4.jpg" alt="">
-//        <div class="flex flex-col justify-between p-4 leading-normal">
-//            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-//            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-//        </div>
-//</a>
-
+// @/app/components/(blog elements)/BlogPostHorizontalCard/index.tsx
 
 
 import Link from 'next/link';
 import Image from 'next/image';
 import BlogPost from '@/app/components/(blog elements)/BlogPost';
+import CategoryBadge from '@/app/components/(blog elements)/CategoryBadge';
+import InlineCloud from '@/app/components/(blog elements)/InlineCloud';
+import * as staticPost from '@/app/utils/staticPosts';
 
 export interface Post {
     id: string;
@@ -52,16 +48,26 @@ const BlogPostHorizontalCard: React.FC<Post> = (post) => {
     const { id, title, uri, date, featuredImage, excerpt, categories, tags } = post;
 
     return (
-        <div className="mt-8 lg:-mx-6 lg:flex lg:items-center bg-surface-container border border-black  border-r-4 border-b-4 rounded-b-lg rounded-r-lg p-4">
+        <div className=" p-4 mt-8 lg:-mx-6 lg:flex lg:items-center bg-surface-container border border-black  border-r-4 border-b-4 rounded-b-lg rounded-r-lg">
             {featuredImage && featuredImage.node.sourceUrl && (
-                <Image className=" border-r border-b border-black object-cover w-full lg:mx-6 lg:w-1/2 rounded-xl h-72 lg:h-96" width={0} height={0} src={featuredImage.node.sourceUrl} alt={featuredImage.node.altText} />
+                <Image className="mb-6 lg:mb-0 border-r border-b border-black object-cover w-full lg:mx-6 lg:w-1/2 rounded h-72 lg:h-96" width={0} height={0} src={featuredImage.node.sourceUrl} alt={featuredImage.node.altText} />
             )}
-                <div className="mt-6 mb-auto lg:w-fit lg:mt-0 lg:mx-6 ">
-                {categories.nodes[0].name !== "Uncategorized" && (<div className="w-fit bg-surface-container-high border border-surface-container-low px-2 py-1 rounded-lg"><p className="text-sm text-outline uppercase">{categories.nodes[0].name}</p></div>)}
+                <div className="mb-auto lg:w-fit lg:mx-6">
+                {staticPost.ifPostIsCategorized(post) && (
+                    <InlineCloud className="mb-4">
+                        {staticPost.getCategoryList(post).map((category, index) => (
+                        < CategoryBadge key = { index } label = { category } />
+                        ))}
+                    </InlineCloud>
+                )}
 
-                <div className="block mt-4 text-2xl font-semibold text-on-surface md:text-3xl font-spaceGrotesk">
-                    <Link href={`/blog${uri}`} className="hover:underline hover:bg-primary-fixed bg-primary-container rounded-sm py-1 px-2 text-on-primary-container">{post.title}</Link>
-                    </div>
+                <Link href={`/blog${uri}`} className="group py-1 px-2 my-2 block text-4xl font-semibold text-on-surface md:text-3xl font-spaceGrotesk
+                        cursor-pointer relative before:absolute before:bg-surface-container-low before:bottom-0 before:left-0
+                        before:h-full before:w-full before:origin-bottom before:scale-y-[0.3] hover:before:scale-y-100
+                        before:transition-transform before:ease-in-out before:duration-500
+                        border-l-4 border-secondary focus:ring-4 focus:ring-secondary focus:rounded">
+                    <span className="relative text-on-surface group-hover:text-tertiary group-hover:underline">{post.title}</span>
+                    </Link>
 
                     <p className="mt-3 text-sm text-on-surface">
                         <BlogPost htmlContent={post.excerpt} />

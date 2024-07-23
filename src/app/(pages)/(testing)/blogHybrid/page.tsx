@@ -26,7 +26,7 @@ export default function HybridBlogPost() {
     }, []);
 
     const filteredPosts = category
-        ? posts.filter(post => post.categories.nodes[0].name === category)
+        ? posts.filter(post => staticPosts.ifPostHasCategory(post, category))
         : posts;
 
     const postCount = filteredPosts.length;
@@ -38,10 +38,12 @@ export default function HybridBlogPost() {
 
     return (
         <div className="container px-6 py-10 mx-auto">
+            <div> Page: {page}; Category: {category}</div>
             <SearchParam setPage={setPage} setCategory={setCategory} />
             {postCount > postsPerPage && (
                 <BlogPagination
                     currentPage={currentPage}
+                    currentCategory={category}
                     totalPages={totalPages}
                     maxPageNumbersToShow={5}
                     rootUrl={'/blogHybrid'}
@@ -53,6 +55,7 @@ export default function HybridBlogPost() {
             {postCount > postsPerPage && (
                 <BlogPagination
                     currentPage={currentPage}
+                    currentCategory={category}
                     totalPages={totalPages}
                     maxPageNumbersToShow={5}
                     rootUrl={'/blogHybrid'}

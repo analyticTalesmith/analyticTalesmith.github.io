@@ -22,6 +22,38 @@ export function LoadPostsFromDBByIndex(start: number, end: number) {
     return postList.slice(start, end+1);
 }
 
+
+export function ifPostHasCategory(post: Post, category: string): boolean {
+    for (var node in post.categories.nodes) {
+        if (post.categories.nodes[node].name.toLowerCase() === category) {
+            return true;
+        }
+    }
+    return false;
+}
+
+/* True if any named category nodes are present; false if not */
+export function ifPostIsCategorized(post: Post): boolean {
+    for (var node in post.categories.nodes) {
+        if (post.categories.nodes[node].name && post.categories.nodes[node].name.toLowerCase() !== "uncategorized") {
+            return true;
+        }
+    }
+    return false;
+}
+
+export function getCategoryList(post: Post): string[] {
+
+    var categories: string[] = []
+
+    for (var node in post.categories.nodes) {
+        if (post.categories.nodes[node].name && post.categories.nodes[node].name.toLowerCase() !== "uncategorized") {
+            categories.push(post.categories.nodes[node].name)
+        }
+    }
+    return categories;
+}
+
 export interface Post {
     id: string;
     title: string;
@@ -83,3 +115,4 @@ function transformPost(rawPost: any): Post {
         }
     };
 }
+

@@ -192,7 +192,6 @@ async function PaginationWrapper({ postCount, postsPerPage = 10, maxPageNumbersT
 
         Current page: {currentPage}<br />
         Post indeces to fetch: [{startPostIndex}, {endPostIndex}]
-        <BlogPagination currentPage={page ? Number(currentPage) : 1} totalPages={totalPages} maxPageNumbersToShow={maxPageNumbersToShow} rootUrl={'/params'} />
         <PaginatedBlogPosts startIndex={startPostIndex} endIndex={endPostIndex}/></>);
 
 

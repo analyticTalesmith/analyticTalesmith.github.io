@@ -4,6 +4,7 @@ import Link from 'next/link';
 
 interface PaginationProps {
     currentPage: number;
+    currentCategory: string;
     totalPages: number;
     maxPageNumbersToShow: number;
     rootUrl: string;
@@ -36,7 +37,80 @@ function getPaginationRange(maxPageNumbersToShow: number, currentPage: number, t
     return pageNumbers
 }
 
-const BlogPagination = ({ currentPage, totalPages, maxPageNumbersToShow, rootUrl }: PaginationProps) => {
+function constructPaginationURLPrevious(postRootURL: string, currentPage: number, pageParam: string, currentCategory: string, catParam: string): string {
+    var url: string = '';
+    var appendPage: boolean = false;
+    var appendCat: boolean = false;
+
+    if (currentPage - 1 > 1) {
+        appendPage = true;
+    }
+
+    if (currentCategory) {
+        appendCat = true;
+    }
+
+    if (appendPage && appendCat) {
+        url = `${postRootURL}?${pageParam}${currentPage - 1}&${catParam}${currentCategory}`
+    } else if (appendPage && !appendCat) {
+        url = `${postRootURL}?${pageParam}${currentPage - 1}`
+        
+    } else if (!appendPage && appendCat) {
+        url = `${postRootURL}?${catParam}${currentCategory}`
+    } else {
+        url = `${postRootURL}`
+    }
+
+    return (url)
+}
+
+function constructPaginationURLNumber(postRootURL: string, pageNumber: number, pageParam: string, currentCategory: string, catParam: string): string {
+    var url: string = '';
+    var appendPage: boolean = false;
+    var appendCat: boolean = false;
+
+    if (pageNumber > 1) {
+        appendPage = true;
+    }
+
+    if (currentCategory) {
+        appendCat = true;
+    }
+
+    if (appendPage && appendCat) {
+        url = `${postRootURL}?${pageParam}${pageNumber}&${catParam}${currentCategory}`
+    } else if (appendPage && !appendCat) {
+        url = `${postRootURL}?${pageParam}${pageNumber}`
+    } else if (!appendPage && appendCat) {
+        url = `${postRootURL}?${catParam}${currentCategory}`
+    } else {
+        url = `${postRootURL}`
+    }
+
+    return (url)
+}
+
+function constructPaginationURLNext(postRootURL: string, currentPage: number, pageParam: string, currentCategory: string, catParam: string): string {
+    var url: string = '';
+    var appendCat: boolean = false;
+
+
+    /*currentPage < totalPages && (<Link href={`${postRootURL}?${pageParam}${currentPage + 1}*/
+
+    if (currentCategory) {
+        appendCat = true;
+    }
+
+    if (appendCat) {
+        url = `${postRootURL}?${pageParam}${currentPage + 1}&${catParam}${currentCategory}`
+    } else {
+        url = `${postRootURL}?${pageParam}${currentPage + 1}`
+    }
+
+    return (url)
+}
+
+const BlogPagination = ({ currentPage, currentCategory, totalPages, maxPageNumbersToShow, rootUrl }: PaginationProps) => {
     /* TODO
     update with /blog' rootUrl
     */
@@ -44,6 +118,7 @@ const BlogPagination = ({ currentPage, totalPages, maxPageNumbersToShow, rootUrl
     if (totalPages > 1) {
         const postRootURL = rootUrl;
         const pageParam = 'page=';
+        const catParam = 'category=';
         const pageNumbers = getPaginationRange(maxPageNumbersToShow, currentPage, totalPages);
 
         return (
@@ -66,7 +141,7 @@ const BlogPagination = ({ currentPage, totalPages, maxPageNumbersToShow, rootUrl
                     {/* The "Prev" button, if needed. */}
                     {currentPage > 1 && (
 
-                        <Link href={currentPage - 1 <= 1 ? postRootURL : `${postRootURL}?${pageParam}${currentPage - 1}`}>
+                        <Link href={constructPaginationURLPrevious(postRootURL, currentPage, pageParam, currentCategory, catParam)}>
                             <li className="relative h-10 max-h-[40px] w-10 max-w-[40px] select-none  border border-r-0 border-black text-center align-middle font-spaceGrotesk text-xs font-medium uppercase text-on-primary-container bg-primary-container transition-all hover:opacity-75 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
                                 <span className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
@@ -86,7 +161,7 @@ const BlogPagination = ({ currentPage, totalPages, maxPageNumbersToShow, rootUrl
                     {pageNumbers.map((number) => (
 
                         <Link key={number}
-                            href={currentPage === number ? postRootURL : `${postRootURL}?${pageParam}${number}`}
+                            href={constructPaginationURLNumber(postRootURL, number, pageParam, currentCategory, catParam)}
                             className={`${currentPage === number ? 'pointer-events-none' : ''} relative h-10 max-h-[40px] w-10 max-w-[40px] select-none border border-r-0 border-black text-center align-middle font-spaceGrotesk text-xs font-medium uppercase text-on-surface bg-surface transition-all hover:opacity-75 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none`}
                             aria-disabled={currentPage === number}
                             tabIndex={currentPage === number ? -1 : undefined}>
@@ -100,7 +175,7 @@ const BlogPagination = ({ currentPage, totalPages, maxPageNumbersToShow, rootUrl
 
                     {/* The "Next" button, if needed. */}
 
-                    {currentPage < totalPages && (<Link href={`${postRootURL}?${pageParam}${currentPage + 1}`}>
+                    {currentPage < totalPages && (<Link href={constructPaginationURLNext(postRootURL, currentPage, pageParam, currentCategory, catParam)}>
                         <li className="relative h-10 max-h-[40px] w-10 max-w-[40px] select-none border border-r-0 border-black text-center align-middle font-spaceGrotesk text-xs font-medium uppercase text-on-primary-container bg-primary-container transition-all hover:opacity-75 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
                             <span className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
