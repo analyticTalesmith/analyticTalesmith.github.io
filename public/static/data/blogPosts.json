@@ -1,0 +1,289 @@
+[
+    {
+        "node": {
+            "id": "cG9zdDoxNDE0",
+            "title": "URL and Image Post",
+            "uri": "/test-image-post/",
+            "date": "2024-07-16T14:19:11",
+            "featuredImage": {
+                "node": {
+                    "sourceUrl": "scaledBattleMap-scaled.jpg",
+                    "altText": "Test alt text"
+                }
+            },
+            "excerpt": "<p>Image will go here And the image should be appearing above IF the local host is running. And perhaps only if? Now, I want to link. So here&#8217;s a link to another blog post:link oh my okay so. Great test. Good job everyone. And then another image below:</p>\n",
+            "categories": {
+                "nodes": [
+                    {
+                        "name": "Uncategorized"
+                    }
+                ]
+            },
+            "tags": {
+                "nodes": []
+            }
+        }
+    },
+    {
+        "node": {
+            "id": "cG9zdDoxMQ==",
+            "title": "Gutenberg Test",
+            "uri": "/gutenberg-test/",
+            "date": "2024-07-08T15:35:55",
+            "featuredImage": null,
+            "excerpt": "<p>Heading 2 &#8211; Wow what a heading This is paragraph content. Another paragraph. This is a quote Me (2024) Look at all this new stuff.</p>\n",
+            "categories": {
+                "nodes": [
+                    {
+                        "name": "Uncategorized"
+                    }
+                ]
+            },
+            "tags": {
+                "nodes": []
+            }
+        }
+    },
+    {
+        "node": {
+            "id": "cG9zdDo5",
+            "title": "Second post",
+            "uri": "/second-post/",
+            "date": "2024-07-04T12:48:00",
+            "featuredImage": null,
+            "excerpt": "<p>Oh my goodness, and this is a second post. How exciting.</p>\n",
+            "categories": {
+                "nodes": [
+                    {
+                        "name": "Uncategorized"
+                    }
+                ]
+            },
+            "tags": {
+                "nodes": [
+                    {
+                        "name": "template"
+                    },
+                    {
+                        "name": "test"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "node": {
+            "id": "cG9zdDo2",
+            "title": "Post One",
+            "uri": "/post-one/",
+            "date": "2024-07-04T12:47:36",
+            "featuredImage": null,
+            "excerpt": "<p>Wow first post</p>\n",
+            "categories": {
+                "nodes": [
+                    {
+                        "name": "Uncategorized"
+                    }
+                ]
+            },
+            "tags": {
+                "nodes": [
+                    {
+                        "name": "test"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "node": {
+            "id": "cG9zdDox",
+            "title": "Hello world!",
+            "uri": "/hello-world/",
+            "date": "2024-07-04T11:50:22",
+            "featuredImage": null,
+            "excerpt": "<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>\n",
+            "categories": {
+                "nodes": [
+                    {
+                        "name": "Uncategorized"
+                    }
+                ]
+            },
+            "tags": {
+                "nodes": []
+            }
+        }
+    },
+    {
+        "node": {
+            "id": "cG9zdDoxMzk4",
+            "title": "Driving Success with Data Analytics: An Overview",
+            "uri": "/driving-success-with-data-analytics-an-overview/",
+            "date": "2024-03-11T11:49:16",
+            "featuredImage": null,
+            "excerpt": "<p>Discover how data analytics revolutionizes organizational operations, enabling evidence-based decision-making. From uncovering hidden opportunities to optimizing performance, analytics drive innovation across various areas like website optimization, personalized marketing, and talent management. This overview explores the value of analytics and data-driven decision making. </p>\n",
+            "categories": {
+                "nodes": [
+                    {
+                        "name": "Blog"
+                    },
+                    {
+                        "name": "Old"
+                    }
+                ]
+            },
+            "tags": {
+                "nodes": [
+                    {
+                        "name": "actionable insights"
+                    },
+                    {
+                        "name": "analytics"
+                    },
+                    {
+                        "name": "data analytics"
+                    },
+                    {
+                        "name": "data storytelling"
+                    },
+                    {
+                        "name": "data-driven decision making"
+                    },
+                    {
+                        "name": "EDA"
+                    },
+                    {
+                        "name": "statistical analyses"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "node": {
+            "id": "cG9zdDoxMzY4",
+            "title": "11 Sources to Find Free Public Datasets for Your Next Data Projects",
+            "uri": "/11-sources-to-find-free-public-datasets-for-your-next-data-projects/",
+            "date": "2023-12-20T11:47:56",
+            "featuredImage": null,
+            "excerpt": "<p>Discover a comprehensive list of the top 10 online sources for free public data sets that can be used in data analytics portfolio projects. Empower your data analysis skills and enhance your portfolio with valuable data sets.</p>\n",
+            "categories": {
+                "nodes": [
+                    {
+                        "name": "Blog"
+                    },
+                    {
+                        "name": "Old"
+                    }
+                ]
+            },
+            "tags": {
+                "nodes": [
+                    {
+                        "name": "data"
+                    },
+                    {
+                        "name": "dataset"
+                    },
+                    {
+                        "name": "open data"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "node": {
+            "id": "cG9zdDoxMzQ1",
+            "title": "Useful Excel Functions for Data Analysis",
+            "uri": "/useful-excel-functions-for-data-analysis/",
+            "date": "2023-11-27T21:21:11",
+            "featuredImage": null,
+            "excerpt": "<p>Microsoft Excel has hundreds of functions, but in this post, I explore about 20 functions that I use the most when I&#8217;m working with data in Excel.</p>\n",
+            "categories": {
+                "nodes": [
+                    {
+                        "name": "Blog"
+                    },
+                    {
+                        "name": "Old"
+                    }
+                ]
+            },
+            "tags": {
+                "nodes": [
+                    {
+                        "name": "excel"
+                    },
+                    {
+                        "name": "microsoft excel"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "node": {
+            "id": "cG9zdDoxMjk0",
+            "title": "SQL Joins: What They Are and How To Use Them",
+            "uri": "/sql-joins-what-they-are-and-how-to-use-them/",
+            "date": "2023-11-27T17:33:50",
+            "featuredImage": null,
+            "excerpt": "<p>SQL joins are functions that consolidate data from multiple tables based on a specified condition, typically involving a primary key in one table and a foreign key in another. Joins return subsets of the original tables that meet the provided conditions, creating new combinations of rows. Types of joins include inner joins, left and right outer joins, full outer joins, and cross joins, each offering different results based on their unique logic and join conditions.</p>\n",
+            "categories": {
+                "nodes": [
+                    {
+                        "name": "Blog"
+                    },
+                    {
+                        "name": "Old"
+                    }
+                ]
+            },
+            "tags": {
+                "nodes": [
+                    {
+                        "name": "joins"
+                    },
+                    {
+                        "name": "sql"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "node": {
+            "id": "cG9zdDoxMjc5",
+            "title": "Digital Goods Online Store Dashboard",
+            "uri": "/digital-goods-online-store-dashboard/",
+            "date": "2023-11-12T20:36:30",
+            "featuredImage": null,
+            "excerpt": "<p>Tableau dashboard visualizing key performance indicators related to an online store&#8217;s sales and visualizing market basket analysis</p>\n",
+            "categories": {
+                "nodes": [
+                    {
+                        "name": "Old"
+                    },
+                    {
+                        "name": "Portfolio"
+                    }
+                ]
+            },
+            "tags": {
+                "nodes": [
+                    {
+                        "name": "dashboard"
+                    },
+                    {
+                        "name": "data visualization"
+                    },
+                    {
+                        "name": "report"
+                    }
+                ]
+            }
+        }
+    }
+]

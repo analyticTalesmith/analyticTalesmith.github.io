@@ -13,8 +13,6 @@ interface PostResponse {
     post: PostTitleContent;
 }
 
-
-
 export async function getPostBySlug(slug: string): Promise<PostTitleContent | null> {
     const query = ` {
                         post(id: "${slug}", idType:SLUG){

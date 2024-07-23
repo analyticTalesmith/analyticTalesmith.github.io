@@ -390,3 +390,4 @@ FodyWeavers.xsd
 /public/ToDo.txt
 /.env.development
 /.env.production
+/.env.local

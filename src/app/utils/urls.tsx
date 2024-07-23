@@ -1,6 +1,3 @@
-//import fs from 'fs';
-//import path from 'path';
-
 const baseUrl: string = process.env.NEXT_PUBLIC_BASE_URL || '';
 const postDirectory: string = "/blog"
 

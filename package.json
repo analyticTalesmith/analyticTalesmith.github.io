@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "fetch-images": "node ./src/app/utils/imageFetch.mjs",
-    "dev": "npm run fetch-images && next dev",
-    "build": "npm run fetch-images && next build ",
+    "build-post-db": "node ./src/app/utils/compileBlogJson.mjs",
+    "dev": "npm run fetch-images && npm run build-post-db && next dev",
+    "build": "npm run fetch-images && npm run build-post-db && next build",
     "start": "next start",
     "lint": "next lint"
   },

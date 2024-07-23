@@ -1,5 +1,5 @@
 function imageLoader({ src }: {src : string}) {
-    return `/images/${src}`;
+    return `/static/images/${src}`;
 }
 
 module.exports = imageLoader;
