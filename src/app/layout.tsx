@@ -10,14 +10,14 @@ import ScrollToTopButton from '@/app/components/ScrollToTopButton';
 const space_grotesk = Space_Grotesk({
     subsets: ['latin'],
     display: 'swap',
-    variable: '--font-space-grotesk',
+    variable: '--font-space-grotesk'
 });
 
 
 const jost = Jost({
     subsets: ['latin'],
     display: 'swap',
-    variable: '--font-jost',
+    variable: '--font-jost'
 });
 
 export const metadata: Metadata = {

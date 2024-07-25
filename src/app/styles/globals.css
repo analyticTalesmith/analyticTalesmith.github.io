@@ -3,43 +3,43 @@
 @layer base{
 
     h1 {
-        @apply text-6xl tracking-tighter font-light font-spaceGrotesk;
+        @apply font-spaceGrotesk font-light text-5xl sm:text-6xl md:text-7xl tracking-tighter;
     }
 
     h2 {
-        @apply text-5xl tracking-tight font-light font-spaceGrotesk;
+        @apply font-spaceGrotesk font-light text-4xl sm:text-5xl md:text-6xl tracking-tighter;
     }
 
     h3 {
-        @apply text-4xl tracking-normal font-normal font-spaceGrotesk;
+        @apply font-spaceGrotesk font-normal text-2xl sm:text-4xl md:text-5xl tracking-normal;
     }
 
     h4 {
-        @apply text-3xl tracking-wider font-normal font-spaceGrotesk;
+        @apply font-spaceGrotesk font-normal text-2xl sm:text-3xl md:text-4xl tracking-wide;
     }
 
     h5 {
-        @apply text-2xl tracking-normal font-normal font-spaceGrotesk;
+        @apply font-spaceGrotesk font-normal text-xl sm:text-2xl md:text-3xl tracking-normal;
     }
 
     h6 {
-        @apply text-xl tracking-wide font-medium font-spaceGrotesk;
+        @apply font-spaceGrotesk font-medium text-lg sm:text-xl md:text-2xl tracking-wider;
     }
 
     p {
-        @apply text-base tracking-wider font-normal font-jost;
+        @apply font-jost font-normal text-base tracking-wide;
     }
 
     caption {
-        @apply text-caption tracking-widest font-normal font-jost;
+        @apply font-jost font-normal text-xs tracking-3x-wide;
     }
 
     figcaption {
-        @apply text-caption tracking-widest font-normal font-jost;
+        @apply font-jost font-normal text-xs tracking-3x-wide;
     }
 
     button {
-        @apply uppercase text-base tracking-button font-medium font-jost;
+        @apply font-jost font-medium text-base tracking-x-wide uppercase;
     }
 
     
@@ -51,6 +51,28 @@
     * {
         -webkit-font-smoothing: antialiased;
     }
+
+    .text-body-1 {
+        @apply font-jost font-normal text-lg md:text-xl tracking-widest;
+    }
+
+    .text-body-2 {
+        @apply font-jost font-normal text-base tracking-wide;
+    }
+
+
+    .subtitle-1 {
+        @apply font-spaceGrotesk font-normal text-lg tracking-wider;
+    }
+
+    .subtitle-2 {
+        @apply font-spaceGrotesk font-medium text-sm tracking-2x-wide;
+    }
+
+    .overline {
+        @apply font-jost font-normal text-2xs tracking-4x-wide;
+    }
+
     .neobrutal {
         position: relative;
         border-style: solid;
@@ -72,8 +94,6 @@
         height: 100%;
         width: auto;
     }
-
-
 }
 
 @tailwind utilities;

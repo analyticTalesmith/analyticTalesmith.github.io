@@ -15,8 +15,6 @@ export default function Home() {
                 heroButton={<NeoBrutButton text="Read Blog" />}
                 heroImage={<Illustration /> }
             />
-            <p><Link href="/params">Param test</Link></p>
-            <p><Link href="/blogHybrid">Blog Hybrid test</Link></p>
         </main>
     );
 }

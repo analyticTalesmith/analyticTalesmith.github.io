@@ -8,34 +8,33 @@ const config: Config = {
     ],
     theme: {
         letterSpacing: {
-            tighter: '-0.094rem',
-            tight: '-0.031rem',
+            tighter: '-0.0937500rem',
+            tight: '-0.0312500rem',
             normal: '0rem',
-            wide: '0.009rem',
-            wider: '0.016rem',
-            widest: '0.025rem',
-            button: '0.078rem',
+            wide: '0.0062500rem',
+            wider: '0.0093750rem',
+            widest: '0.0156250rem',
+            'x-wide': '0.0250000rem',
+            '2x-wide': '0.0312500rem',
+            '3x-wide': '0.0781250rem',
+            '4x-wide': '0.0937500rem'
         },
         fontSize: {
-            sm: '0.9rem',
+            '2xs': '0.75rem',
+            xs: '0.875rem',
+            sm: '0.9375rem',
             base: '1rem',
             lg: '1.0625rem',
-            xl: '1.1875em',
-            '2xl': '1.3125rem',
-            '3xl': '1.6565em',
-            '4xl': '2.125rem',
-            '5xl': '2.5315rem',
-            '6xl': '3.75rem',
-
+            xl: '1.125rem',
+            '2xl': '1.375rem',
+            '3xl': '1.625rem',
+            '4xl': '2.3125rem',
+            '5xl': '3.25rem',
+            '6xl': '4.0625rem',
+            '7xl': '6.5rem',
         },
+
         extend: {
-            fontSize: {
-                subtitle: '0.938rem',
-                'subtitle-lg': '1.063rem',
-                button: 'rem',
-                caption: '0.875rem',
-                overline: 'rem'
-            },
             fontFamily: {
                 jost: ['var(--font-jost)'],
                 spaceGrotesk: ['var(--font-space-grotesk)'],

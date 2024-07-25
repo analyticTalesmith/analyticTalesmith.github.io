@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import BlogPost from '@/app/components/(blog elements)/BlogPost';
 import CategoryBadge from '@/app/components/(blog elements)/CategoryBadge';
-import InlineCloud from '@/app/components/(blog elements)/InlineCloud';
+import InlineRow from '@/app/components/(containers)/InlineRow';
 import * as staticPost from '@/app/utils/staticPosts';
 
 export interface Post {
@@ -54,11 +54,11 @@ const BlogPostHorizontalCard: React.FC<Post> = (post) => {
             )}
                 <div className="mb-auto lg:w-fit lg:mx-6">
                 {staticPost.ifPostIsCategorized(post) && (
-                    <InlineCloud className="mb-4">
+                    <InlineRow className="mb-4">
                         {staticPost.getCategoryList(post).map((category, index) => (
                         < CategoryBadge key = { index } label = { category } />
                         ))}
-                    </InlineCloud>
+                    </InlineRow>
                 )}
 
                 <Link href={`/blog${uri}`} className="group py-1 px-2 my-2 block text-4xl font-semibold text-on-surface md:text-3xl font-spaceGrotesk
@@ -66,7 +66,7 @@ const BlogPostHorizontalCard: React.FC<Post> = (post) => {
                         before:h-full before:w-full before:origin-bottom before:scale-y-[0.3] hover:before:scale-y-100
                         before:transition-transform before:ease-out before:duration-500
                         border-l-4 border-secondary focus:ring-4 focus:ring-secondary focus:rounded">
-                    <span className="relative text-on-surface group-hover:text-tertiary ease-in-out duration-500 group-hover:underline">{post.title}</span>
+                    <h3 className="relative text-on-surface group-hover:text-tertiary ease-in-out duration-500 group-hover:underline">{post.title}</h3>
                     </Link>
 
                     <p className="mt-3 text-sm text-on-surface">
