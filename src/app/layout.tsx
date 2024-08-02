@@ -33,7 +33,7 @@ export default function RootLayout({
     return (
         <html lang="en" className={`${space_grotesk.variable} ${jost.variable}`}  suppressHydrationWarning>
             <body className='bg-background'>
-            <ThemeProvider>
+                <ThemeProvider>
                 <MainNavigation />
                 <ContentWrapper>
                         <div className="flex flex-col h-full w-full">

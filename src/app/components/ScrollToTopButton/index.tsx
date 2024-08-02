@@ -4,7 +4,7 @@ import { motion, Variants, useAnimationControls } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import Icon_ArrowUp from '@/app/components/Icons/Icon_ArrowUp';
 
-const isBrowser = () => typeof window !== 'undefined'; //The approach recommended by Next.js
+const isBrowser = () => typeof window !== 'undefined';
 
 const ScrollToTopContainerVariants: Variants = {
     hide: { opacity: 0, y: 100 },
