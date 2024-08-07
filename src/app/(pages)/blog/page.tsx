@@ -19,7 +19,7 @@ export default function HybridBlogPost({ }) {
     const [posts, setPosts] = useState<Post[]>([]);
     const [page, setPage] = useState(1);
     const [category, setCategory] = useState('');
-    const postsPerPage = 3;
+    const postsPerPage = 5;
 
     useEffect(() => {
         async function fetchData() {
@@ -43,7 +43,7 @@ export default function HybridBlogPost({ }) {
 
     return (
         <div>
-            <Breadcrumb />{postCount > postsPerPage && (
+            <Breadcrumb />{postCount > postsPerPage && currentPage > 1 && (
                 <BlogPagination
                     currentPage={currentPage}
                     currentCategory={category}
@@ -53,7 +53,7 @@ export default function HybridBlogPost({ }) {
                     className="mb-12"
                 />
             )}
-            <Container>
+            <Container className="mt-12">
                 <BrutHeading className="rounded-top" />
                 <SearchParam setPage={setPage} setCategory={setCategory} />
                 <div className="container px-6 py-10 mx-auto">

@@ -25,9 +25,9 @@ interface SocialLinkProps {
 const SocialLink: FC<SocialLinkProps> = ({ className, href, children, icon: Icon }) => {
     return (
         <li className={className + ' flex'}>
-            <Link href={href} className="group flex text-sm font-medium fill-on-surface text-on-surface my-2 group-focus:ring-4 group-focus:ring-primary group-focus:rounded ">
+            <Link href={href} className="group flex text-sm font-medium fill-on-surface text-on-surface my-2">
                 <Icon className="h-6 w-6 flex-none transition group-hover:fill-primary-container" />
-                <span className="ml-4 transition group-hover:underline group-hover:text-primary-container">{children}</span>
+                <span className="max-lg:hidden lg:ml-4 transition group-hover:underline group-hover:text-primary-container">{children}</span>
             </Link>
         </li>
     );
@@ -36,8 +36,8 @@ const SocialLink: FC<SocialLinkProps> = ({ className, href, children, icon: Icon
 const About = () => {
     return(
         <div className="mt-4 mb-8 sm:mb-16 sm:mt-8">
-            <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
-                <div className="lg:pl-20">
+            <div className="grid grid-cols-1 gap-y-12 lg:grid-cols-2 lg:grid-rows-[auto_1fr]">
+                <div className="-order-1 lg:pl-20">
                     <div className="max-w-full mx-auto lg:max-w-xs px-2.5">
                         <Image
                             src="/headshot.png"
@@ -48,7 +48,7 @@ const About = () => {
                         />
                     </div>
                 </div>
-                <div className="lg:order-first lg:row-span-2 space-y-4 lg:space-y-8">
+                <div className="order-3 lg:-order-2 lg:row-span-2 space-y-8">
                     <div className="bg-surface-container border-brutal p-4 lg:p-8">
                         <h4 className="text-on-surface">
                             I&apos;m Jonathan. A data analyst and social scientist with a passion
@@ -65,7 +65,7 @@ const About = () => {
                     <div className="bg-surface-container border-brutal p-4 lg:p-8">                        
                         <div className="space-y-2 lg:space-y-4 text-on-surface">
                             <h5>My Story</h5>
-                            <p>My journey as a storyteller began even before I took my first steps; my family has always cherished the art of storytelling. rom a young age, I found myself drawn to a wide range of interests, from the logical rigor of computer science to the deep exploration of the human experience through social sciences. These seemingly disparate passions created a tension that followed me throughout my education and hobbies.</p>
+                            <p>My journey as a storyteller began even before I took my first steps; my family has always cherished the art of storytelling. FSrom a young age, I found myself drawn to a wide range of interests, from the logical rigor of computer science to the deep exploration of the human experience through social sciences. These seemingly disparate passions created a tension that followed me throughout my education and hobbies.</p>
 
                             <p>When the time came to declare my undergraduate major, I faced a pivotal crossroad. I felt compelled to choose a single path that would shape my career, build the right network, secure relevant internships, and develop specialized skills. Yet, each option seemed to leave behind an integral part of who I was.</p>
 
@@ -78,38 +78,11 @@ const About = () => {
                     </div>
                 </div>
                 <div className="mx-auto px-2.5 lg:pl-20">
-                    <div className="bg-surface-container-high border-brutal h-fit w-fit mx-auto p-4 lg:p-8">
-                        <ul role="list">
+                    <div className="order-2 lg:order-3 bg-surface-container-high border-brutal h-fit w-fit mx-auto p-4 lg:p-8">
+                        <ul role="list" className="flex flex-wrap items-center max-lg:space-x-4 max-lg:mx-4 flex-row lg:flex-col">
                             <SocialLink href="#" icon={LinkedInIcon}>LinkedIn</SocialLink>
                             <SocialLink href="#" icon={GitHubIcon}>GitHub</SocialLink>
                             <SocialLink href="#" icon={TableauIcon}>Tableau</SocialLink>
-                  {/*          */}{/* <SocialLink href="#" icon={TwitterIcon}>*/}{/*
-                  */}{/*  Follow on Twitter*/}{/*
-                  */}{/*</SocialLink>*/}{/*
-                  */}{/*<SocialLink href="#" icon={InstagramIcon} className="mt-4">*/}{/*
-                  */}{/*  Follow on Instagram*/}{/*
-                  */}{/*</SocialLink> */}
-                  {/*          <SocialLink*/}
-                  {/*              href="https://github.com/vjordan-cs"*/}
-                  {/*              icon={GitHubIcon}*/}
-                  {/*              className="mt-4"*/}
-                  {/*          >*/}
-                  {/*              Follow on GitHub*/}
-                  {/*          </SocialLink>*/}
-                  {/*          <SocialLink*/}
-                  {/*              href="https://linkedin.com/in/victoria-jordan01/"*/}
-                  {/*              icon={LinkedInIcon}*/}
-                  {/*              className="mt-4"*/}
-                  {/*          >*/}
-                  {/*              Follow on LinkedIn*/}
-                  {/*          </SocialLink>*/}
-                  {/*          <SocialLink*/}
-                  {/*              href="mailto:vjordan.cs@gmail.com"*/}
-                  {/*              icon={MailIcon}*/}
-                  {/*              className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"*/}
-                  {/*          >*/}
-                  {/*              vjordan.cs@gmail.com*/}
-                  {/*          </SocialLink>*/}
                         </ul>
                     </div>
                 </div>

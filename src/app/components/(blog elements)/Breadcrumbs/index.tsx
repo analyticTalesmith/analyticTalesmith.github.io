@@ -24,7 +24,7 @@ interface CrumbProps {
 
 
 const SVG_SEPARATOR = (
-    <svg className="align-middle inline w-3 h-3 text-outline mx-1 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+    <svg className="align-middle inline w-3 h-3 text-outline mx-1 md:mx-3 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4" />
     </svg>
 );
@@ -91,10 +91,10 @@ const Breadcrumb = ({ activeTitle }: { activeTitle?: string } ) => {
 
 
     return (
-        <InlineRow aria-label="Navigation Breadcrumbs" className="gap-0 ">
-            <ol className="contents inline-flex items-center">
+        <InlineRow aria-label="Navigation Breadcrumbs" className="gap-0 flex px-5 py-3 border border-border rounded-lg bg-card w-fit">
+            <ol className="contents inline-flex items-center px-5">
                 {breadcrumbs.map((crumb, idx) => (
-                    <div key={idx} className="space-x-1 md:space-x-3 min-h-3 mr-1 md:mr-3 my-auto ">
+                    <div key={idx} className="space-x-1 md:space-x-3 min-h-3 my-auto ">
                         <Crumb {...crumb} className="flex-1" last={idx === breadcrumbs.length - 1} root={idx === 0} />
                         {idx < breadcrumbs.length - 1 && SVG_SEPARATOR}
                     </div>

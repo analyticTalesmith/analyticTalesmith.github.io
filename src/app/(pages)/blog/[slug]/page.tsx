@@ -69,11 +69,14 @@ export default async function Page({ params }: BlogPageProps) {
     const res = await getPostBySlug(slug);
     if (res) {
         return (
-            <div>
-                <Breadcrumb activeTitle={res.title}/>
-                <Container className="mb-4 p-4">
-                    < BlogPost htmlContent={res.content} />
-                </Container>
+            <div className="flex-col">
+                <Breadcrumb activeTitle={res.title} />
+                <article className=" flex flex-col grow max-w-7xl pt-20 pb-24 space-y-12 text-on-background">
+                    <h1 className="flex grow font-bold leading-tight text-4xl md:text-5xl">{res.title}</h1>
+                    <Container className="flex-1 mt-12 mb-4 p-4 w-full">
+                        < BlogPost htmlContent={res.content} />
+                        </Container>
+                </article>
             </div>
 
         )
