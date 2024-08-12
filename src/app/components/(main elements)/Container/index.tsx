@@ -9,9 +9,7 @@ const ContentWrapper = (props: ContainerProps) => {
 
     return (
         <div className={`${className} neobrutal bg-surface-container-lowest text-on-surface mb-12`}>
-            <div className="z-0">
-                {children}
-            </div>
+            {children}
         </div>
     )
 }

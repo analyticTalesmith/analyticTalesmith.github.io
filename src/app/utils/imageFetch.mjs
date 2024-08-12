@@ -21,7 +21,7 @@ const downloadImage = async (url, filepath) => {
 };
 
 const fetchImages = async () => {
-    const res = await fetch('http://localhost:10004/wp-json/wp/v2/media');
+    const res = await fetch('http://analytictalesmithheadlesscms.local/wp-json/wp/v2/media');
     if (!res.ok) {
         throw new Error(`Failed to fetch images: ${res.statusText}`);
     }

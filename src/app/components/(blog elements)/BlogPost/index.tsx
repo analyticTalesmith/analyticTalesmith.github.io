@@ -25,7 +25,7 @@ interface WordpressImageNode {
 
 const processImages = (node: any): JSX.Element | null => {
     if (node.src && node.src.startsWith('/')) {
-        return <Image loader={imageLoader} src={node.src} alt={node.alt || ''} width={node.width} height={node.height} />;
+        return <Image className="mx-auto" loader={imageLoader} src={node.src} alt={node.alt || ''} width={node.width} height={node.height} />;
     } else {
         return <div>Failed swap</div>;
     }
@@ -91,10 +91,19 @@ const production: Options = {
         },
 
         figure: ({ children }: React.PropsWithChildren<{}>) => {
-            return <figure className="mb-4">{children}</figure>;
+            return (
+                <figure className="flex flex-col items-center justify-center mb-4">
+                    {children}
+                </figure>
+            );
         },
+
         figcaption: ({ children }: React.PropsWithChildren<{}>) => {
-            return <figcaption>{children}</figcaption>;
+            return (
+                <figcaption className="text-center mt-2">
+                    {children}
+                </figcaption>
+            );
         },
 
         img: (props: any) => { return processImages(props) },
@@ -124,7 +133,7 @@ const BlogPost = ({ htmlContent }: { htmlContent: string }) => {
         }
     }, [htmlContent]);
 
-    return <div>{content}</div>;
+    return <div className="mx-auto prose py-2 md:py-4 md:prose-lg lg:py-8 lg:prose-xl font-jost">{content}</div>;
 };
 
 export default BlogPost;

@@ -91,7 +91,7 @@ const Breadcrumb = ({ activeTitle }: { activeTitle?: string } ) => {
 
 
     return (
-        <InlineRow aria-label="Navigation Breadcrumbs" className="gap-0 flex px-5 py-3 border border-border rounded-lg bg-card w-fit">
+        <InlineRow aria-label="Navigation Breadcrumbs" className="max-sm:hidden gap-0 flex px-5 py-3 border border-border rounded-lg bg-card w-fit">
             <ol className="contents inline-flex items-center px-5">
                 {breadcrumbs.map((crumb, idx) => (
                     <div key={idx} className="space-x-1 md:space-x-3 min-h-3 my-auto ">

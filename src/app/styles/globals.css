@@ -205,6 +205,22 @@
     --chart-3: 197 37% 24%;
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
+    --custom-prose-body: rgb(59 61 50);
+    --custom-prose-headings: rgb(126 49 16);
+    --custom-prose-lead: rgb(198 72 8);
+    --custom-prose-links: rgb(0 91 73);
+    --custom-prose-bold: rgb(52 53 44);
+    --custom-prose-counters: rgb(239 98 7);
+    --custom-prose-bullets: rgb(255 161 68);
+    --custom-prose-hr: rgb(255 193 113);
+    --custom-prose-quotes: rgb(137 140 117);
+    --custom-prose-quote-borders: rgb(255 193 113);
+    --custom-prose-captions: rgb(71 74 59);
+    --custom-prose-code: rgb(52 53 44);
+    --custom-prose-pre-code: rgb(231 231 224);
+    --custom-prose-pre-bg: rgb(52 53 44);
+    --custom-prose-th-borders: rgb(255 193 113);
+    --custom-prose-td-borders: rgb(255 219 168);
 }
 
 [data-theme="dark"] {
@@ -280,4 +296,20 @@
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
+    --custom-prose-body: rgb(205 206 193);
+    --custom-prose-headings: rgb(255 161 68);
+    --custom-prose-lead: rgb(255 193 113);
+    --custom-prose-links: rgb(93 253 203);
+    --custom-prose-bold: rgb(231 231 224);
+    --custom-prose-counters: rgb(255 161 68);
+    --custom-prose-bullets: rgb(239 98 7);
+    --custom-prose-hr: rgb(198 72 8);
+    --custom-prose-quotes: rgb(137 140 117);
+    --custom-prose-quote-borders: rgb(198 72 8);
+    --custom-prose-captions: rgb(137 140 117);
+    --custom-prose-code: rgb(247 247 246);
+    --custom-prose-pre-code: rgb(172 174 154);
+    --custom-prose-pre-bg: rgb(87 90 71);
+    --custom-prose-th-borders: rgb(239 98 7);
+    --custom-prose-td-borders: rgb(198 72 8);
 }

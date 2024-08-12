@@ -71,11 +71,11 @@ export default async function Page({ params }: BlogPageProps) {
         return (
             <div className="flex-col">
                 <Breadcrumb activeTitle={res.title} />
-                <article className=" flex flex-col grow max-w-7xl pt-20 pb-24 space-y-12 text-on-background">
+                <article className="flex flex-col grow max-w-7xl py-10 space-y-12">
                     <h1 className="flex grow font-bold leading-tight text-4xl md:text-5xl">{res.title}</h1>
-                    <Container className="flex-1 mt-12 mb-4 p-4 w-full">
+                    <Container className="mt-12 mb-4 p-4 w-full ">
                         < BlogPost htmlContent={res.content} />
-                        </Container>
+                    </Container>
                 </article>
             </div>
 

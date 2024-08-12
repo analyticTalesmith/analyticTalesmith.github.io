@@ -23,7 +23,7 @@ export function replaceImageUrls(content: string | null | undefined): string {
     if (!content) return '';
     
 
-    const imageUrlRegex = /(?:http:\/\/localhost:10004\/wp-content\/uploads\/\d{4}\/\d{2}\/)([^",]+)/g;
+    const imageUrlRegex = /(?:http:\/\/analytictalesmithheadlesscms.local\/wp-content\/uploads\/\d{4}\/\d{2}\/)([^",]+)/g;
     const imageFilenameRegex = /^(.+?)(?:-\d+x\d+)?(\.\w+)$/;
 
     const replacedContent = content.replace(imageUrlRegex, (match, imagePath) => {
@@ -36,5 +36,5 @@ export function replaceImageUrls(content: string | null | undefined): string {
 
 export function replaceNonimageUrls(content: string | null | undefined): string {
     if (!content) return '';
-    return content.replace(/https?:\/\/localhost:10004(\/.*?)\/?$/gm, `${postDirectory}$1`);
+    return content.replace(/https?:\/\/analytictalesmithheadlesscms.local(\/.*?)\/?$/gm, `${postDirectory}$1`);
 };

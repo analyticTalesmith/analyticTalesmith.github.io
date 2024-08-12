@@ -72,7 +72,7 @@ function replaceImageUrls(content) {
     if (!content) return '';
 
 
-    const imageUrlRegex = /(?:http:\/\/localhost:10004\/wp-content\/uploads\/\d{4}\/\d{2}\/)([^",]+)/g;
+    const imageUrlRegex = /(?:http:\/\/analytictalesmithheadlesscms.local\/wp-content\/uploads\/\d{4}\/\d{2}\/)([^",]+)/g;
     const imageFilenameRegex = /^(.+?)(?:-\d+x\d+)?(\.\w+)$/;
 
     const replacedContent = content.replace(imageUrlRegex, (match, imagePath) => {

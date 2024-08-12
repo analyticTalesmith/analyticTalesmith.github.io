@@ -1,3 +1,5 @@
+// @/app/layout.tsx
+
 import type { Metadata } from "next";
 import "@/app/styles/globals.css";
 import MainNavigation from "@/app/components/(main elements)/MainNavigation";
@@ -36,7 +38,7 @@ export default function RootLayout({
                 <ThemeProvider>
                     <MainNavigation />
                     <ContentWrapper>
-                        <div className="w-max">{children}</div>
+                        {children}
                     </ContentWrapper>
                     <ScrollToTopButton />
                     <MainFooter />

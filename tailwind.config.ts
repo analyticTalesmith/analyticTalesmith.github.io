@@ -1,7 +1,7 @@
 import type { Config } from "tailwindcss";
+import type { PluginUtils } from "tailwindcss/types/config"
 
 const config = {
-    darkMode: ["class"],
     content: [
         "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
         "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -47,6 +47,32 @@ const config = {
                 jost: ['var(--font-jost)'],
                 spaceGrotesk: ['var(--font-space-grotesk)'],
             },
+
+
+            /*########## RETURN TO HERE TO EDIT COLORS*/
+            typography: ({ theme }: PluginUtils) => ({
+                DEFAULT: {
+                    css: {
+                        '--tw-prose-body': 'var(--custom-prose-body)',
+                        '--tw-prose-headings': 'var(--custom-prose-headings)',
+                        '--tw-prose-lead': 'var(--custom-prose-lead)',
+                        '--tw-prose-links': 'var(--custom-prose-links)',
+                        '--tw-prose-bold': 'var(--custom-prose-bold)',
+                        '--tw-prose-counters': 'var(--custom-prose-counters)',
+                        '--tw-prose-bullets': 'var(--custom-prose-bullets)',
+                        '--tw-prose-hr': 'var(--custom-prose-hr)',
+                        '--tw-prose-quotes': 'var(--custom-prose-quotes)',
+                        '--tw-prose-quote-borders': 'var(--custom-prose-quote-borders)',
+                        '--tw-prose-captions': 'var(--custom-prose-captions)',
+                        '--tw-prose-code': 'var(--custom-prose-code)',
+                        '--tw-prose-pre-code': 'var(--custom-prose-pre-code)',
+                        '--tw-prose-pre-bg': 'var(--custom-prose-pre-bg)',
+                        '--tw-prose-th-borders': 'var(--custom-prose-th-borders)',
+                        '--tw-prose-td-borders': 'var(--custom-prose-td-borders)',
+                    },
+                },
+            }),
+
             colors: {
                 transparent: 'transparent',
                 current: 'currentColor',
@@ -104,6 +130,7 @@ const config = {
                 'ring': "hsl(var(--ring))",
                 /*background: "hsl(var(--background))",*/
                 'foreground': "hsl(var(--foreground))",
+
                 //primary: {
                 //    DEFAULT: "hsl(var(--primary))",
                 //    foreground: "hsl(var(--primary-foreground))",
@@ -112,7 +139,7 @@ const config = {
                 //    DEFAULT: "hsl(var(--secondary))",
                 //    foreground: "hsl(var(--secondary-foreground))",
                 //},
-               'destructive': {
+                'destructive': {
                     DEFAULT: "hsl(var(--destructive))",
                     foreground: "hsl(var(--destructive-foreground))",
                 },
@@ -132,7 +159,71 @@ const config = {
                     DEFAULT: "hsl(var(--card))",
                     foreground: "hsl(var(--card-foreground))",
                 },
-
+                'neon-orange': {
+                    '50': '#fff8ed',
+                    '100': '#ffefd4',
+                    '200': '#ffdba8',
+                    '300': '#ffc171',
+                    '400': '#ffa144',
+                    '500': '#fe7d11',
+                    '600': '#ef6207',
+                    '700': '#c64808',
+                    '800': '#9d3a0f',
+                    '900': '#7e3110',
+                    '950': '#441606',
+                },
+                'aquamarine': {
+                    '50': '#e9fff7',
+                    '100': '#caffe9',
+                    '200': '#99ffda',
+                    '300': '#5dfdcb',
+                    '400': '#17f0b3',
+                    '500': '#00d89d',
+                    '600': '#00b082',
+                    '700': '#008d6c',
+                    '800': '#006f56',
+                    '900': '#005b49',
+                    '950': '#00342a',
+                },
+                'mauve': {
+                    '50': '#fbf5ff',
+                    '100': '#f6e8ff',
+                    '200': '#eed4ff',
+                    '300': '#e0b0ff',
+                    '400': '#cf82fe',
+                    '500': '#bc53f9',
+                    '600': '#aa31ec',
+                    '700': '#9320d0',
+                    '800': '#7c1faa',
+                    '900': '#651b88',
+                    '950': '#470665',
+                },
+                'marshland': {
+                    '50': '#f7f7f6',
+                    '100': '#e7e7e0',
+                    '200': '#cdcec1',
+                    '300': '#acae9a',
+                    '400': '#898c75',
+                    '500': '#6d715b',
+                    '600': '#575a47',
+                    '700': '#474a3b',
+                    '800': '#3b3d32',
+                    '900': '#34352c',
+                    '950': '#12130f',
+                },
+                'spicy-pink': {
+                    '50': '#f4f3f2',
+                    '100': '#e4dfdd',
+                    '200': '#cac2be',
+                    '300': '#ac9d98',
+                    '400': '#94807b',
+                    '500': '#85716d',
+                    '600': '#7a6563',
+                    '700': '#5c4d4c',
+                    '800': '#504344',
+                    '900': '#473c3d',
+                    '950': '#272122',
+                },
             },
 
             container: {
@@ -163,7 +254,9 @@ const config = {
             },
         }
     },
-    plugins: [require("tailwindcss-animate")],
+    plugins:
+        [require("tailwindcss-animate"),
+        require('@tailwindcss/typography')],
 } satisfies Config
 
 export default config;
