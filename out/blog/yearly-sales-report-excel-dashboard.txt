@@ -1,0 +1,99 @@
+3:I[9275,[],""]
+5:I[1343,[],""]
+6:I[7698,["231","static/chunks/231-51948d2fc13689f8.js","691","static/chunks/691-d4a7045616adc7a5.js","185","static/chunks/app/layout-69f21a6500d53c3d.js"],"ThemeProvider"]
+7:I[2883,["231","static/chunks/231-51948d2fc13689f8.js","691","static/chunks/691-d4a7045616adc7a5.js","185","static/chunks/app/layout-69f21a6500d53c3d.js"],"default"]
+c:I[5007,["231","static/chunks/231-51948d2fc13689f8.js","691","static/chunks/691-d4a7045616adc7a5.js","185","static/chunks/app/layout-69f21a6500d53c3d.js"],"default"]
+d:I[231,["231","static/chunks/231-51948d2fc13689f8.js","931","static/chunks/app/page-2aa8f480b7f8ca14.js"],""]
+4:["slug","yearly-sales-report-excel-dashboard","d"]
+8:{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"}
+9:{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"}
+a:{"display":"inline-block"}
+b:{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0}
+0:["5R8VqgjEvTExYVITTU-ti",[[["",{"children":["(pages)",{"children":["blog",{"children":[["slug","yearly-sales-report-excel-dashboard","d"],{"children":["__PAGE__?{\"slug\":\"yearly-sales-report-excel-dashboard\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["(pages)",{"children":["blog",{"children":[["slug","yearly-sales-report-excel-dashboard","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(pages)","children","blog","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(pages)","children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(pages)","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}],null]},[["$","html",null,{"lang":"en","className":"__variable_587f35 __variable_54b096","suppressHydrationWarning":true,"children":["$","body",null,{"className":"bg-background","children":[["$","div",null,{"className":"background-graphic"}],["$","$L6",null,{"children":[["$","$L7",null,{}],["$","div",null,{"className":"container flex-auto w-full max-w-7xl px-2 sm:px-4 py-28 md:pt-20 justify-center","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$8","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$9","children":"404"}],["$","div",null,{"style":"$a","children":["$","h2",null,{"style":"$b","children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}],["$","$Lc",null,{}],["$","footer",null,{"className":"mt-auto bg-surface font-spaceGrotesk","children":["$","div",null,{"className":"max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8","children":[["$","nav",null,{"className":"flex flex-wrap justify-center -mx-5 -my-2","children":[["$","div",null,{"className":"px-5 py-2","children":["$","$Ld",null,{"href":"/about","className":"text-base leading-6 text-on-surface hover:text-primary-container","children":"About"}]}],["$","div",null,{"className":"px-5 py-2","children":["$","$Ld",null,{"href":"/blog","className":"text-base leading-6 text-on-surface hover:text-primary-container","children":"Blog"}]}]]}],["$","div",null,{"className":"flex justify-center mt-8 space-x-6","children":[["$","$Ld",null,{"href":"https://github.com/analyticTalesmith","className":"text-primary-container hover:text-primary","children":[["$","span",null,{"className":"sr-only","children":"GitHub"}],["$","svg",null,{"className":"w-6 h-6","aria-hidden":"true","fill":"currentColor","viewBox":"0 0 24 24","children":["$","path",null,{"fillRule":"evenodd","d":"M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z","clipRule":"evenodd"}]}]]}],["$","$Ld",null,{"href":"https://www.linkedin.com/in/analytictalesmith/","className":"text-primary-container hover:text-primary","children":[["$","span",null,{"className":"sr-only","children":"LinkedIn"}],["$","svg",null,{"className":"w-6 h-6","aria-hidden":"true","xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","children":[["$","path",null,{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}],["$","path",null,{"d":"M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"}],["$","path",null,{"d":"M8 11l0 5"}],["$","path",null,{"d":"M8 8l0 .01"}],["$","path",null,{"d":"M12 16l0 -5"}],["$","path",null,{"d":"M16 16v-3a2 2 0 0 0 -4 0"}]]}]]}]]}],["$","p",null,{"className":"mt-8 text-base leading-6 text-center text-gray-400","children":"© 2024 Jonathan Bailey. All rights reserved."}]]}]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/21aabcac29a6b65e.css","precedence":"next","crossOrigin":"$undefined"}]],"$Le"]]]]
+f:I[2478,["231","static/chunks/231-51948d2fc13689f8.js","173","static/chunks/173-eff3ff7a959cfdff.js","110","static/chunks/110-840ec3b110f34719.js","610","static/chunks/app/(pages)/blog/%5Bslug%5D/page-09a69fa98d8e5d2d.js"],"default"]
+10:I[1117,["231","static/chunks/231-51948d2fc13689f8.js","173","static/chunks/173-eff3ff7a959cfdff.js","110","static/chunks/110-840ec3b110f34719.js","610","static/chunks/app/(pages)/blog/%5Bslug%5D/page-09a69fa98d8e5d2d.js"],"default"]
+11:T1817,
+<div class="wp-block-stackable-subtitle stk-block-subtitle stk-block stk-5745a1e" data-block-id="5745a1e"><p class="stk-block-subtitle__text stk-subtitle"><em>Excel dashboard visualizing yearly sales to inform business and marketing strategy for the year ahead</em></p></div>
+
+
+
+<div class="wp-block-stackable-image stk-block-image stk-block stk-620c7cc" data-block-id="620c7cc"><style>.stk-620c7cc .stk-img-wrapper img{border-radius:8px !important}</style><figure><div class="stk-img-wrapper stk-image--shape-stretch stk--has-lightbox"><img loading="lazy" decoding="async" class="stk-img wp-image-1090" src="http://analytictalesmith.com/wp-content/uploads/2023/11/sales_report.png" width="1735" height="1102" alt="Screenshot of Excel Dashboard visualizing year-to-date sales and customer demographics"/></div></figure></div>
+
+
+
+<h3 class="wp-block-heading">Summary</h3>
+
+
+
+<ul class="wp-block-list">
+<li class=""><strong>Context</strong>&nbsp;— Data set contains a record of each sale during a year, including what was bought, how much was spent, and where the customer lives</li>
+
+
+
+<li class=""><strong>Problem</strong>&nbsp;— To make sure the organization is meeting performance goals and to help inform future strategy, analyze how well the organization is performing (sales and average rating), and what types of customers are buying the most and what products are selling the best</li>
+
+
+
+<li class=""><strong>Importance</strong>&nbsp;— It is crucial to assess potential areas of improvement, including determining what types of customers find the products most appealing to potentially course-correct toward the desired market&nbsp;<em>or</em>&nbsp;further niche down and prioritize targeting the current customers even more</li>
+
+
+
+<li class=""><strong>Insights and Next Steps</strong>&nbsp;—
+<ul class="wp-block-list">
+<li class=""><em>Continue collecting sales data</em>&nbsp;— Tracking future sales would enable the creation of a real-time dashboard that can be referenced to assess performance indicators at regular intervals.</li>
+
+
+
+<li class=""><em>Establish customer ID system</em>&nbsp;— Finding a viable system to associate each customer with a unique, consistent ID would enable higher-resolution insights into customer behavior.</li>
+
+
+
+<li class=""><em>Collect data to qualify ratings</em>&nbsp;— While an average rating of 3.75 out of 5 is not bad, it likely could be improved, and collecting more data—quantitative or qualitative—about why customers are leaving certain ratings would provide information about what customers feel the organization can improve</li>
+
+
+
+<li class=""><em>Consider current vs. desired customers and course correct if needed</em>&nbsp;— The specific strategy would depend on the products and market, but the organization is currently selling the most to men and to people who wear the size medium and large clothing options the organization sells. Given the limited data and information about the business context, this indicates a possible issue with size availabilty (e.g., offering plus sizes could attract more customers) or with marketing (e.g., products appealing more to men than desired for optimal sales).</li>
+
+
+
+<li class=""><em>Evaluate current products</em>&nbsp;— The majority of sales come from clothing and accessories, with footwear and outerwear lagging significantly. Organization should assess if this lag is expected/acceptable and consider viable options.</li>
+</ul>
+</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">LINKS TO PROJECT FILES</h3>
+
+
+
+<ul class="wp-block-list">
+<li class=""><a href="https://github.com/analyticTalesmith/SalesReport/blob/main/salesReport2022.xlsx">Excel Workbook</a></li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">PROJECT OVERVIEW</h2>
+
+
+
+<p class="">This dataset is sourced from&nbsp;<a href="https://www.kaggle.com/datasets/iamsouravbanerjee/customer-shopping-trends-dataset?select=shopping_trends.csv">Sourav Banerjee at kaggle.com</a>, and is simulated data created using ChatGPT. The data is organized within one table containing a record for each sale including the customer&#8217;s demographics, the category of and specific type of product they bought, the review rating they left, and some characteristics of the purchase (e.g., whether a promo code was used). For the sake of this project, I decided to use the data to create a report that visualizes performance-relevant data to help inform future strategy.</p>
+
+
+
+<h2 class="wp-block-heading">ASSUMPTIONS AND LIMITATIONS</h2>
+
+
+
+<p class="">Given that each row has a unique customer ID and includes a &#8220;previous purchases&#8221; column of integers, the assumption was made that each sale represented a unique customer. Additionally, no information was given about the anchors/ranges ChatGPT used to simulate reviews, but given the range of values in the column, the review rating appears to be a 5-point scale (with the assumption being made that higher ratings indicate a more positive evaluation of the customer experience).</p>
+
+
+
+<h2 class="wp-block-heading">GENERAL STRATEGY</h2>
+
+
+
+<p class="">I used PivotTables to summarize customer demographics (sales by customer gender, clothing size, and state of residence) and sales by category and product type. I then used a Slicer with the product type PivotTable to enable stakeholders to quickly change the product sales bar chart on the report to explore how each product sells during specific seasons. Finally, because location density plots often primarily reflect state density at the expense of meaningful visualizations, I established an external data connection to populate a table with the population of each state within the United States, which I then used to normalize the number of individual sales within a state to each state&#8217;s population using a simple XLOOKUP function. Though this visualization provides some insight into &#8220;hot spots&#8221; where residents are <em>especially</em> interested in the organization&#8217;s products, I felt that the volume of sales was low enough that the visualization of the raw data would provide more general value on the report than the normalized visualization.</p>
+2:["$","div",null,{"className":"flex-col","children":[["$","$Lf",null,{"activeTitle":"Yearly Sales Report Excel Dashboard"}],["$","article",null,{"className":"flex flex-col grow max-w-7xl py-10 space-y-12","children":[["$","h1",null,{"className":"flex grow font-bold leading-tight text-4xl md:text-5xl","children":"Yearly Sales Report Excel Dashboard"}],["$","div",null,{"className":"mt-12 mb-4 p-4 w-full  neobrutal bg-surface-container-lowest text-on-surface mb-12","children":["$","$L10",null,{"htmlContent":"$11"}]}]]}]]}]
+e:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Yearly Sales Report Excel Dashboard | Analytic Talesmith"}],["$","meta","3",{"name":"description","content":"Generated by create next app"}],["$","link","4",{"rel":"icon","href":"/icon.ico?e2e917e7b923cda7","type":"image/x-icon","sizes":"16x16"}]]
+1:null

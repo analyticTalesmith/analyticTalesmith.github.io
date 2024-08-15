@@ -57,7 +57,7 @@ export function getCategoryList(post: Post): string[] {
 export interface Post {
     id: string;
     title: string;
-    uri: string;
+    slug: string;
     date: Date;
     featuredImage: FeaturedImage | null;
     excerpt: string;
@@ -94,7 +94,7 @@ function transformPost(rawPost: any): Post {
     return {
         id: rawPost.id,
         title: rawPost.title,
-        uri: rawPost.uri,
+        slug: rawPost.slug,
         date: new Date(rawPost.date),
         featuredImage: rawPost.featuredImage ? {
             node: {

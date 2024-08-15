@@ -1,8 +1,6 @@
-- Think about how to handle links in blog posts
-- Update TestNav to be in NavHamburgerToggle
-
-
-- Get column working properly - implement hero
+- Look into YARPP as the engine for all related posts
+	+ idea is to create "clones" of mdx posts that need components embedded and then ignore the original post EXCEPT for pulling RP data
+- Work on SEO components
 
 Wordpress plugins:
 - Askimet Anti-Spam
@@ -11,3 +9,14 @@ Wordpress plugins:
 - Creative Mail by Newfold Digital
 - Google Analytics for Wordpress by monsterinsights
 - 
+
+
+
+MDX Plans:
+1) Convert MDX to Html
+	a. mdxToHTML through remark
+2) Push posts via axios
+	a. Create env variables for login
+	b. Create auth session and use axios to try to pst/update
+	TEST POINT: See if one hard-coded file can be posted/updated successfully via script
+3) Create script to loop through all mdx files 

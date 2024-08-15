@@ -1,4 +1,6 @@
-import { replaceImageUrls, replaceNonimageUrls } from '@/app/utils/urls';
+import { replaceImageUrls, replaceNonimageUrls } from '@/app/utils/urls'
+import path from 'path'
+import fs from 'fs'
 
 interface GraphQLResponse<T> {
     data: T;
@@ -36,29 +38,6 @@ export async function getPostBySlug(slug: string): Promise<PostTitleContent | nu
     return post || null;
 
 }
-
-
-type PostsSlugData = {
-    slug: string;
-    content: string;
-};
-
-export const fetchAllBlogSlugs = async (): Promise<string[]> => {
-    const query = `{
-        posts {
-            nodes {
-                slug
-            }
-        }
-    }`;
-
-    const response = await fetch(`${process.env.NEXT_PUBLIC_GRAPHQL_ENDPOINT}?query=${encodeURIComponent(query)}`, { next: { revalidate: 60 } });
-    const data = await response.json();
-    const slugs = data.data.posts.nodes.map((post: { slug: string }) => post.slug);
-
-    return slugs;
-};
-
 
 export const fetchBlogPostTitle = async (slug: string): Promise<string> => {
     const query = ` {
@@ -99,21 +78,51 @@ export const fetchBlogPostContent = async (slug: string): Promise<string> => {
 };
 
 export async function getPostSlugsForStaticNav() {
-    const query = `{
-                    posts {
-                        nodes {
-                          slug
-                          }
-                        }
-                    }`;
+    const postDBPath = path.join(process.cwd(), '/public/static/data/blogPosts.json');
 
-    const response = await fetch(`${process.env.NEXT_PUBLIC_GRAPHQL_ENDPOINT}?query=${encodeURIComponent(query)}`, { next: { revalidate: 60 } })
-    const postList = await response.json();
-    const posts = postList.data.posts.nodes;
+    if (!fs.existsSync(postDBPath)) {
+        console.error("Error getching Post DB for creating static nav - Post DB does not exist")
+    }
+    else {
+        const postDBSource = await fs.readFileSync(postDBPath, 'utf8')
+        const postDBJson = await JSON.parse(postDBSource);
 
-    return posts.map((post: any) => ({
-        slug: post.slug
-    }));
+        let slugList = [];
+        for (const post of postDBJson) {
+            slugList.push({ "slug": post.node.slug });
+            /*slugList.push({ "slug": post.node.uri });*/
+        }
+        
+
+        return slugList;
+    }
+
+
+
+
+
+    //const query = `{
+    //                posts {
+    //                    nodes {
+    //                      slug
+    //                      }
+    //                    }
+    //                }`;
+
+    //const response = await fetch(`${process.env.NEXT_PUBLIC_GRAPHQL_ENDPOINT}?query=${encodeURIComponent(query)}`, { next: { revalidate: 60 } })
+    //const postList = await response.json();
+    //const posts = postList.data.posts.nodes;
+
+    //const res = posts.map((post: any) => ({
+    //    slug: post.slug
+    //}));
+    //console.log("###################");
+    //console.log(res);
+    //console.log("###################");
+
+    //return posts.map((post: any) => ({
+    //    slug: post.slug
+    //}));
 }
 
 
@@ -134,47 +143,6 @@ export interface FeaturedImageNode {
     sourceUrl: string;
     altText: string;
 }
-
-
-export async function getSortedPostsData(): Promise<Post[]> {
-    const query = `
-              {
-          posts {
-            edges {
-              node {
-                id
-                title
-                uri
-                date
-                featuredImage {
-                  node {
-                    sourceUrl
-                    altText
-                  }
-                }
-                excerpt
-              }
-            }
-          }
-        }
-      `;
-
-    const postRes = await fetch(`${process.env.NEXT_PUBLIC_GRAPHQL_ENDPOINT}?query=${encodeURIComponent(query)}`, { next: { revalidate: 60 } })
-        .then((res) => res.json())
-    
-    const posts = postRes.data.posts.edges.map((edge: { node: Post; }) => edge.node);
-
-    return posts.sort((a: Post, b: Post) => {
-        if (a.date < b.date) {
-            return 1;
-        } else {
-            return -1;
-        }
-    });
-
-}
-
-
 export async function getPosts() {
     const query = `
       {

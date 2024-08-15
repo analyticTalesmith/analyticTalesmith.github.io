@@ -1,0 +1,557 @@
+3:I[9275,[],""]
+5:I[1343,[],""]
+6:I[7698,["231","static/chunks/231-51948d2fc13689f8.js","691","static/chunks/691-d4a7045616adc7a5.js","185","static/chunks/app/layout-69f21a6500d53c3d.js"],"ThemeProvider"]
+7:I[2883,["231","static/chunks/231-51948d2fc13689f8.js","691","static/chunks/691-d4a7045616adc7a5.js","185","static/chunks/app/layout-69f21a6500d53c3d.js"],"default"]
+c:I[5007,["231","static/chunks/231-51948d2fc13689f8.js","691","static/chunks/691-d4a7045616adc7a5.js","185","static/chunks/app/layout-69f21a6500d53c3d.js"],"default"]
+d:I[231,["231","static/chunks/231-51948d2fc13689f8.js","931","static/chunks/app/page-2aa8f480b7f8ca14.js"],""]
+4:["slug","employee-performance-training-efficacy-exploratory-data-analysis","d"]
+8:{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"}
+9:{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"}
+a:{"display":"inline-block"}
+b:{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0}
+0:["5R8VqgjEvTExYVITTU-ti",[[["",{"children":["(pages)",{"children":["blog",{"children":[["slug","employee-performance-training-efficacy-exploratory-data-analysis","d"],{"children":["__PAGE__?{\"slug\":\"employee-performance-training-efficacy-exploratory-data-analysis\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["(pages)",{"children":["blog",{"children":[["slug","employee-performance-training-efficacy-exploratory-data-analysis","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(pages)","children","blog","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(pages)","children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(pages)","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}],null]},[["$","html",null,{"lang":"en","className":"__variable_587f35 __variable_54b096","suppressHydrationWarning":true,"children":["$","body",null,{"className":"bg-background","children":[["$","div",null,{"className":"background-graphic"}],["$","$L6",null,{"children":[["$","$L7",null,{}],["$","div",null,{"className":"container flex-auto w-full max-w-7xl px-2 sm:px-4 py-28 md:pt-20 justify-center","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$8","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$9","children":"404"}],["$","div",null,{"style":"$a","children":["$","h2",null,{"style":"$b","children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}],["$","$Lc",null,{}],["$","footer",null,{"className":"mt-auto bg-surface font-spaceGrotesk","children":["$","div",null,{"className":"max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8","children":[["$","nav",null,{"className":"flex flex-wrap justify-center -mx-5 -my-2","children":[["$","div",null,{"className":"px-5 py-2","children":["$","$Ld",null,{"href":"/about","className":"text-base leading-6 text-on-surface hover:text-primary-container","children":"About"}]}],["$","div",null,{"className":"px-5 py-2","children":["$","$Ld",null,{"href":"/blog","className":"text-base leading-6 text-on-surface hover:text-primary-container","children":"Blog"}]}]]}],["$","div",null,{"className":"flex justify-center mt-8 space-x-6","children":[["$","$Ld",null,{"href":"https://github.com/analyticTalesmith","className":"text-primary-container hover:text-primary","children":[["$","span",null,{"className":"sr-only","children":"GitHub"}],["$","svg",null,{"className":"w-6 h-6","aria-hidden":"true","fill":"currentColor","viewBox":"0 0 24 24","children":["$","path",null,{"fillRule":"evenodd","d":"M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z","clipRule":"evenodd"}]}]]}],["$","$Ld",null,{"href":"https://www.linkedin.com/in/analytictalesmith/","className":"text-primary-container hover:text-primary","children":[["$","span",null,{"className":"sr-only","children":"LinkedIn"}],["$","svg",null,{"className":"w-6 h-6","aria-hidden":"true","xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","children":[["$","path",null,{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}],["$","path",null,{"d":"M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"}],["$","path",null,{"d":"M8 11l0 5"}],["$","path",null,{"d":"M8 8l0 .01"}],["$","path",null,{"d":"M12 16l0 -5"}],["$","path",null,{"d":"M16 16v-3a2 2 0 0 0 -4 0"}]]}]]}]]}],["$","p",null,{"className":"mt-8 text-base leading-6 text-center text-gray-400","children":"© 2024 Jonathan Bailey. All rights reserved."}]]}]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/21aabcac29a6b65e.css","precedence":"next","crossOrigin":"$undefined"}]],"$Le"]]]]
+f:I[2478,["231","static/chunks/231-51948d2fc13689f8.js","173","static/chunks/173-eff3ff7a959cfdff.js","110","static/chunks/110-840ec3b110f34719.js","610","static/chunks/app/(pages)/blog/%5Bslug%5D/page-09a69fa98d8e5d2d.js"],"default"]
+10:I[1117,["231","static/chunks/231-51948d2fc13689f8.js","173","static/chunks/173-eff3ff7a959cfdff.js","110","static/chunks/110-840ec3b110f34719.js","610","static/chunks/app/(pages)/blog/%5Bslug%5D/page-09a69fa98d8e5d2d.js"],"default"]
+11:T11f47,
+<div class="wp-block-stackable-subtitle stk-block-subtitle stk-block stk-e8b11f4" data-block-id="e8b11f4"><p class="stk-block-subtitle__text stk-subtitle"><em>Exploratory data analysis of sourced employee performance and training data using Python and SQL</em></p></div>
+
+
+
+<h3 class="wp-block-heading">Summary</h3>
+
+
+
+<ul class="wp-block-list">
+<li class=""><strong>Context</strong>&nbsp;— Data set contains employee performance, whether key performance indicator (KPI) goals were met, number of trainings completed, and average training performance</li>
+
+
+
+<li class=""><strong>Problem</strong>&nbsp;— Do trainings appear to improve employee performance?</li>
+
+
+
+<li class=""><strong>Importance</strong>&nbsp;— Training is an expensive, time-consuming process, and trainings vary in the value they contribute</li>
+
+
+
+<li class=""><strong>Insights and Next Steps</strong>&nbsp;—
+<ul class="wp-block-list">
+<li class=""><em><strong>Future Data Recommendations</strong></em><ul><li><em>Increase scope of data collection</em> — Having data on employee performance over the years and data about what trainings were completed by those employees each year could provide better insight into whether the trainings utilized by the organization are valuable and improving employee performance over time.</li></ul>
+<ul class="wp-block-list">
+<li class=""><em>Identify reasons for underperformance </em>— Regions 9 and 24 appear to be underperforming compared to the rest of the organization. The organization could benefit from collecting more data, including talking to employees within those regions, to uncover what pain points could be resolved to help support better performance. Additionally, Sales &amp; Marketing is specifically struggling to meet KPI goals across the organization; it could be beneficial to assess whether this is due to measure accuracy (e.g., being evaluated on metrics that are irrelevant to sales and marketing roles), insufficient training or access to resources, or some other cause.</li>
+</ul>
+</li>
+
+
+
+<li class=""><strong><em>Practical Recommendations</em></strong>
+<ul class="wp-block-list">
+<li class=""><em>Value quality over quantity</em>&nbsp;— Based on these data, employees within this organization who complete more trainings do not necessarily perform better. When providing trainings for the sake of improving performance, focus on providing high-quality training that targets employee weaknesses. Additionally, reward the behavior you want to see more of from your employees; reward high performance in those trainings to encourage learning and skill transfer.</li>
+
+
+
+<li class=""><em>Encourage high-quality referrals</em>&nbsp;— Employees who were recruited through referrals are considerably high performers. It could benefit the organization to encourage referrals long term.</li>
+
+
+
+<li class=""><em>Consider selection system objectivity</em>&nbsp;— Considerably more information would be needed to make any meaningful conclusions or recommendations, but there are more than twice as many men employed within this organization as women, which suggests potential value of evaluating recruiting strategies and selection systems used by the organization for fairness, objective qualification assessment, and potential sources of bias.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">LINKS TO PROJECT FILES</h3>
+
+
+
+<ul class="wp-block-list">
+<li class=""><a href="https://github.com/analyticTalesmith/HREmployeePerformance/blob/main/employeePerformanceAnalysis.py">Python Code</a></li>
+
+
+
+<li class=""><a href="https://github.com/analyticTalesmith/HREmployeePerformance/blob/main/employeePerformanceSQL.sql">SQL Queries</a></li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">INTRODUCTION</h2>
+
+
+
+<p class="">This dataset is sourced from&nbsp;<a href="https://www.kaggle.com/datasets/sanjanchaudhari/employees-performance-for-hr-analytics/data">Sanjana Chaudhari at kaggle.com</a>. The data is organized within one table containing employee ID and demographics and details for each employee. The table contains performance metrics and information about the number of trainings each employee has completed and their average performance across trainings.</p>
+
+
+
+<h2 class="wp-block-heading">ASSUMPTIONS AND LIMITATIONS</h2>
+
+
+
+<p class="">Some details about the data were not provided, and therefore some assumptions have been made.</p>
+
+
+
+<ul class="wp-block-list">
+<li class=""><strong>Performance Scale Anchors</strong>&nbsp;— Scale anchors were not provided, though the coding ranges from 1 to 5. The assumption is that this is an ordinal Likert-type scale, such that employees are evaluated from 1 (<em>Worst performance</em>) to 5 (<em>Best performance</em>) or vice versa. To determine which pole was associated with either extreme of performance, I calculated Pearson correlation coefficients between performance and each of KPI goals met and average training score, both indicating that the scale is likely ordered with 1 being the lowest performance and 5 being the best performance</li>
+
+
+
+<li class=""><strong>Sequencing of Data Collection</strong>&nbsp;— The performance rating is named &#8220;previous_year_rating&#8221;, but the column names for other performance metrics do not make it immediately obvious whether the other data reflect the same year as the performance rating or if they reflect the year following the performance rating. For the sake of this case study, the metrics are all assumed to reflect performance over the same 12-month period.</li>
+
+
+
+<li class=""><strong>Rating Objectivity</strong>&nbsp;— This type of analysis must assume that measured variables are reported using measures that are objective and valid. Should performance metrics reflect subjective ratings, factors regarded as KPIs not actually be relevant to employee and organizational performance, or training performance not reflect learning the material taught within the training, for example, then the insights that could be drawn from the data would be limited.</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">CLEANING</h2>
+
+
+
+<p class="">The dataset is already fairly clean, so the only cleaning needed was some basic casting for the sake of convenience. The region was coded as a &#8220;region_#&#8221; string, so I used the following code to pull only the integer associated with each region.</p>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro cbp-has-line-numbers cbp-highlight-hover" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:.875rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;--cbp-line-number-color:#EEFFFF;--cbp-line-number-width:calc(2 * 0.6 * .875rem);--cbp-line-highlight-color:rgba(238, 255, 255, 0.2);line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><span role="button" tabindex="0" data-code="ALTER TABLE HRPerformance.dbo.EmployeeData
+	ADD
+		region_ID int
+
+UPDATE HRPerformance.dbo.EmployeeData
+	SET region_ID =
+		CAST(
+		  SUBSTRING(region,CHARINDEX('_',region)+1,LEN(region)-CHARINDEX('_',region)+2)
+		  AS int
+		)" style="color:#EEFFFF;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg></span><pre class="shiki material-theme-darker" style="background-color: #212121" tabindex="0"><code><span class="line"><span style="color: #F78C6C">ALTER</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">TABLE</span><span style="color: #EEFFFF"> HRPerformance.dbo.EmployeeData</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">ADD</span></span>
+<span class="line"><span style="color: #EEFFFF">		region_ID </span><span style="color: #C792EA">int</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #F78C6C">UPDATE</span><span style="color: #EEFFFF"> HRPerformance.dbo.EmployeeData</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">SET</span><span style="color: #EEFFFF"> region_ID </span><span style="color: #89DDFF">=</span></span>
+<span class="line"><span style="color: #EEFFFF">		</span><span style="color: #82AAFF">CAST</span><span style="color: #EEFFFF">(</span></span>
+<span class="line"><span style="color: #EEFFFF">		  </span><span style="color: #82AAFF">SUBSTRING</span><span style="color: #EEFFFF">(region,</span><span style="color: #82AAFF">CHARINDEX</span><span style="color: #EEFFFF">(</span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">_</span><span style="color: #89DDFF">&#39;</span><span style="color: #EEFFFF">,region)</span><span style="color: #89DDFF">+</span><span style="color: #F78C6C">1</span><span style="color: #EEFFFF">,</span><span style="color: #82AAFF">LEN</span><span style="color: #EEFFFF">(region)</span><span style="color: #89DDFF">-</span><span style="color: #82AAFF">CHARINDEX</span><span style="color: #EEFFFF">(</span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">_</span><span style="color: #89DDFF">&#39;</span><span style="color: #EEFFFF">,region)</span><span style="color: #89DDFF">+</span><span style="color: #F78C6C">2</span><span style="color: #EEFFFF">)</span></span>
+<span class="line"><span style="color: #EEFFFF">		  </span><span style="color: #F78C6C">AS</span><span style="color: #EEFFFF"> </span><span style="color: #C792EA">int</span></span>
+<span class="line"><span style="color: #EEFFFF">		)</span></span></code></pre></div>
+
+
+
+<p class="">Additionally, due to my own oversight in defining column types, the performance rating was imported as a string, so the following query was used to cast either as int or null for missing values.</p>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro cbp-has-line-numbers cbp-highlight-hover" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:.875rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;--cbp-line-number-color:#EEFFFF;--cbp-line-number-width:calc(2 * 0.6 * .875rem);--cbp-line-highlight-color:rgba(238, 255, 255, 0.2);line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><span role="button" tabindex="0" data-code="ALTER TABLE HRPerformance.dbo.EmployeeData
+	ADD
+		past_performance int
+	
+UPDATE HRPerformance.dbo.EmployeeData
+	SET past_performance =
+		(CASE
+			WHEN previous_year_rating &lt;&gt; '' THEN CAST(previous_year_rating AS int)
+			ELSE NULL
+		END)
+
+ALTER TABLE HRPerformance.dbo.EmployeeData
+	DROP COLUMN previous_year_rating" style="color:#EEFFFF;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg></span><pre class="shiki material-theme-darker" style="background-color: #212121" tabindex="0"><code><span class="line"><span style="color: #F78C6C">ALTER</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">TABLE</span><span style="color: #EEFFFF"> HRPerformance.dbo.EmployeeData</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">ADD</span></span>
+<span class="line"><span style="color: #EEFFFF">		past_performance </span><span style="color: #C792EA">int</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span></span>
+<span class="line"><span style="color: #F78C6C">UPDATE</span><span style="color: #EEFFFF"> HRPerformance.dbo.EmployeeData</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">SET</span><span style="color: #EEFFFF"> past_performance </span><span style="color: #89DDFF">=</span></span>
+<span class="line"><span style="color: #EEFFFF">		(</span><span style="color: #F78C6C">CASE</span></span>
+<span class="line"><span style="color: #EEFFFF">			</span><span style="color: #F78C6C">WHEN</span><span style="color: #EEFFFF"> previous_year_rating </span><span style="color: #89DDFF">&lt;&gt;</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">&#39;&#39;</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">THEN</span><span style="color: #EEFFFF"> </span><span style="color: #82AAFF">CAST</span><span style="color: #EEFFFF">(previous_year_rating </span><span style="color: #F78C6C">AS</span><span style="color: #EEFFFF"> </span><span style="color: #C792EA">int</span><span style="color: #EEFFFF">)</span></span>
+<span class="line"><span style="color: #EEFFFF">			</span><span style="color: #F78C6C">ELSE</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">NULL</span></span>
+<span class="line"><span style="color: #EEFFFF">		</span><span style="color: #F78C6C">END</span><span style="color: #EEFFFF">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #F78C6C">ALTER</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">TABLE</span><span style="color: #EEFFFF"> HRPerformance.dbo.EmployeeData</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">DROP</span><span style="color: #EEFFFF"> COLUMN previous_year_rating</span></span></code></pre></div>
+
+
+
+<p class="">Finally, 1,363 employees do not have performance ratings recorded. Their data were not removed from the dataset, however they were excluded in any analyses that involved the performance as a variable.</p>
+
+
+
+<h2 class="wp-block-heading">EXPLORING DATA</h2>
+
+
+
+<p class="">Though largely irrelevant to the final analyses, I wanted to first familiarize myself with the organizational structure to better understand the business context of the data and used the following queries to do so.</p>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro cbp-has-line-numbers cbp-highlight-hover" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:.875rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;--cbp-line-number-color:#EEFFFF;--cbp-line-number-width:calc(2 * 0.6 * .875rem);--cbp-line-highlight-color:rgba(238, 255, 255, 0.2);line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><span role="button" tabindex="0" data-code="--General insights into organizational composition
+SELECT
+	department,
+	COUNT(department) AS DptCount
+	FROM HRPerformance.dbo.EmployeeData
+	GROUP BY department
+	ORDER BY department
+
+SELECT
+	gender,
+	COUNT(gender) AS GenderCount
+	FROM HRPerformance.dbo.EmployeeData
+	GROUP BY gender
+
+SELECT
+	education,
+	COUNT(education) AS EdCount
+	FROM HRPerformance.dbo.EmployeeData
+	WHERE education &lt;&gt; ''
+	GROUP BY education
+
+SELECT
+	region,
+	COUNT(region) AS RegionCount
+	FROM HRPerformance.dbo.EmployeeData
+	GROUP BY region
+
+--High resolution breakdown of org structure
+SELECT
+	region_id,
+	department,
+	gender,
+	COUNT(gender) AS TotalEmployees
+	FROM HRPerformance.dbo.EmployeeData
+	GROUP BY region_id, department, gender
+	ORDER BY region_id, department, gender" style="color:#EEFFFF;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg></span><pre class="shiki material-theme-darker" style="background-color: #212121" tabindex="0"><code><span class="line"><span style="color: #545454; font-style: italic">--General insights into organizational composition</span></span>
+<span class="line"><span style="color: #F78C6C">SELECT</span></span>
+<span class="line"><span style="color: #EEFFFF">	department,</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #82AAFF">COUNT</span><span style="color: #EEFFFF">(department) </span><span style="color: #F78C6C">AS</span><span style="color: #EEFFFF"> DptCount</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">FROM</span><span style="color: #EEFFFF"> HRPerformance.dbo.EmployeeData</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">GROUP BY</span><span style="color: #EEFFFF"> department</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">ORDER BY</span><span style="color: #EEFFFF"> department</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #F78C6C">SELECT</span></span>
+<span class="line"><span style="color: #EEFFFF">	gender,</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #82AAFF">COUNT</span><span style="color: #EEFFFF">(gender) </span><span style="color: #F78C6C">AS</span><span style="color: #EEFFFF"> GenderCount</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">FROM</span><span style="color: #EEFFFF"> HRPerformance.dbo.EmployeeData</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">GROUP BY</span><span style="color: #EEFFFF"> gender</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #F78C6C">SELECT</span></span>
+<span class="line"><span style="color: #EEFFFF">	education,</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #82AAFF">COUNT</span><span style="color: #EEFFFF">(education) </span><span style="color: #F78C6C">AS</span><span style="color: #EEFFFF"> EdCount</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">FROM</span><span style="color: #EEFFFF"> HRPerformance.dbo.EmployeeData</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">WHERE</span><span style="color: #EEFFFF"> education </span><span style="color: #89DDFF">&lt;&gt;</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">&#39;&#39;</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">GROUP BY</span><span style="color: #EEFFFF"> education</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #F78C6C">SELECT</span></span>
+<span class="line"><span style="color: #EEFFFF">	region,</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #82AAFF">COUNT</span><span style="color: #EEFFFF">(region) </span><span style="color: #F78C6C">AS</span><span style="color: #EEFFFF"> RegionCount</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">FROM</span><span style="color: #EEFFFF"> HRPerformance.dbo.EmployeeData</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">GROUP BY</span><span style="color: #EEFFFF"> region</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #545454; font-style: italic">--High resolution breakdown of org structure</span></span>
+<span class="line"><span style="color: #F78C6C">SELECT</span></span>
+<span class="line"><span style="color: #EEFFFF">	region_id,</span></span>
+<span class="line"><span style="color: #EEFFFF">	department,</span></span>
+<span class="line"><span style="color: #EEFFFF">	gender,</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #82AAFF">COUNT</span><span style="color: #EEFFFF">(gender) </span><span style="color: #F78C6C">AS</span><span style="color: #EEFFFF"> TotalEmployees</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">FROM</span><span style="color: #EEFFFF"> HRPerformance.dbo.EmployeeData</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">GROUP BY</span><span style="color: #EEFFFF"> region_id, department, gender</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">ORDER BY</span><span style="color: #EEFFFF"> region_id, department, gender</span></span></code></pre></div>
+
+
+
+<h3 class="wp-block-heading">PERFORMANCE AND KPI GOALS</h3>
+
+
+
+<p class="">I also wanted to verify that performance was related to whether employees were meeting KPI goals.</p>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro cbp-has-line-numbers cbp-highlight-hover" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:.875rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;--cbp-line-number-color:#EEFFFF;--cbp-line-number-width:calc(1 * 0.6 * .875rem);--cbp-line-highlight-color:rgba(238, 255, 255, 0.2);line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><span role="button" tabindex="0" data-code="SELECT
+	past_performance,
+	COUNT(employee_id) AS  total_employees,
+	ROUND(cast(count(CASE WHEN KPIs_met = 1 THEN 1 END) AS float)/count(employee_ID), 2) AS percent_met_goal
+	FROM HRPerformance.dbo.EmployeeData
+	GROUP BY past_performance
+	ORDER BY past_performance" style="color:#EEFFFF;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg></span><pre class="shiki material-theme-darker" style="background-color: #212121" tabindex="0"><code><span class="line"><span style="color: #F78C6C">SELECT</span></span>
+<span class="line"><span style="color: #EEFFFF">	past_performance,</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #82AAFF">COUNT</span><span style="color: #EEFFFF">(employee_id) </span><span style="color: #F78C6C">AS</span><span style="color: #EEFFFF">  total_employees,</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #82AAFF">ROUND</span><span style="color: #EEFFFF">(</span><span style="color: #82AAFF">cast</span><span style="color: #EEFFFF">(</span><span style="color: #82AAFF">count</span><span style="color: #EEFFFF">(</span><span style="color: #F78C6C">CASE</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">WHEN</span><span style="color: #EEFFFF"> KPIs_met </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">1</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">THEN</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">1</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">END</span><span style="color: #EEFFFF">) </span><span style="color: #F78C6C">AS</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">float</span><span style="color: #EEFFFF">)</span><span style="color: #89DDFF">/</span><span style="color: #82AAFF">count</span><span style="color: #EEFFFF">(employee_ID), </span><span style="color: #F78C6C">2</span><span style="color: #EEFFFF">) </span><span style="color: #F78C6C">AS</span><span style="color: #EEFFFF"> percent_met_goal</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">FROM</span><span style="color: #EEFFFF"> HRPerformance.dbo.EmployeeData</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">GROUP BY</span><span style="color: #EEFFFF"> past_performance</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">ORDER BY</span><span style="color: #EEFFFF"> past_performance</span></span></code></pre></div>
+
+
+
+[table id=1 /]
+
+
+
+<p class="">It appears that performance does correlate strongly with KPI goals, providing support that the performance evaluations are indeed objectively measuring performance. The Pearson correlation coefficient—Python code shown below—indeed confirms that performance and meeting KPI goals are moderately correlated as expected,&nbsp;<em>r</em>(16052) = .34,&nbsp;<em>p</em>&nbsp;&lt; .001.</p>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro cbp-has-line-numbers cbp-highlight-hover" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:.875rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;--cbp-line-number-color:#EEFFFF;--cbp-line-number-width:calc(2 * 0.6 * .875rem);--cbp-line-highlight-color:rgba(238, 255, 255, 0.2);line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><span role="button" tabindex="0" data-code="import pandas
+from scipy.stats import pearsonr
+from prettytable import PrettyTable
+
+
+#Helper function to format Pearson results; round r to 2 decimal places, and report p to 3 places (or &lt;.001)
+def clean_r_for_table(res):
+    output = ['','']
+    output[0] = round(res[0],2)
+    if res[1] &gt;= .001:
+        output[1] = round(res[1],3)
+    elif res[1] &lt; .001:
+        output[1] = &quot;&lt;.001&quot;
+    return output
+
+#Create dataframe with column names and set up PrettyTable for easy printing
+colNames = [&quot;employee_id&quot;, &quot;department&quot;, &quot;region&quot;, &quot;education&quot;, &quot;gender&quot;, &quot;recruitment_channel&quot;, &quot;no_of_trainings&quot;,&quot;age&quot;,&quot;previous_year_rating&quot;,&quot;length_of_service&quot;,&quot;KPIs_met_more_than_80&quot;,&quot;awards_won&quot;,&quot;avg_training_score&quot;]
+df = pandas.read_csv(&quot;employees_final_dataset.csv&quot;, sep=',', header=0, names=colNames)
+out = PrettyTable(['X', 'Y', 'n', 'r', 'df', 'p'])
+
+#Calculate r with pairwise deletion of any rows missing data, and report correlation in table
+
+##Performance and KPI goals
+df_cor = df.dropna(axis=0, subset = [&quot;previous_year_rating&quot;, &quot;KPIs_met_more_than_80&quot;]);
+r = clean_r_for_table(pearsonr(df_cor[&quot;previous_year_rating&quot;], df_cor[&quot;KPIs_met_more_than_80&quot;]))
+out.add_row([&quot;Previous year rating&quot;, &quot;KPI Goals Met&quot;, df_cor.shape[0], r[0], df_cor.shape[0]-2, r[1]])
+
+print(&quot;Correlations&quot;)
+print(out)" style="color:#EEFFFF;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg></span><pre class="shiki material-theme-darker" style="background-color: #212121" tabindex="0"><code><span class="line"><span style="color: #89DDFF; font-style: italic">import</span><span style="color: #EEFFFF"> pandas</span></span>
+<span class="line"><span style="color: #89DDFF; font-style: italic">from</span><span style="color: #EEFFFF"> scipy</span><span style="color: #89DDFF">.</span><span style="color: #EEFFFF">stats </span><span style="color: #89DDFF; font-style: italic">import</span><span style="color: #EEFFFF"> pearsonr</span></span>
+<span class="line"><span style="color: #89DDFF; font-style: italic">from</span><span style="color: #EEFFFF"> prettytable </span><span style="color: #89DDFF; font-style: italic">import</span><span style="color: #EEFFFF"> PrettyTable</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color: #545454; font-style: italic">#Helper function to format Pearson results; round r to 2 decimal places, and report p to 3 places (or &lt;.001)</span></span>
+<span class="line"><span style="color: #C792EA">def</span><span style="color: #EEFFFF"> </span><span style="color: #82AAFF">clean_r_for_table</span><span style="color: #89DDFF">(</span><span style="color: #EEFFFF; font-style: italic">res</span><span style="color: #89DDFF">):</span></span>
+<span class="line"><span style="color: #EEFFFF">    output </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">[</span><span style="color: #89DDFF">&#39;&#39;</span><span style="color: #89DDFF">,</span><span style="color: #89DDFF">&#39;&#39;</span><span style="color: #89DDFF">]</span></span>
+<span class="line"><span style="color: #EEFFFF">    output</span><span style="color: #89DDFF">[</span><span style="color: #F78C6C">0</span><span style="color: #89DDFF">]</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> </span><span style="color: #82AAFF">round</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">res</span><span style="color: #89DDFF">[</span><span style="color: #F78C6C">0</span><span style="color: #89DDFF">],</span><span style="color: #F78C6C">2</span><span style="color: #89DDFF">)</span></span>
+<span class="line"><span style="color: #EEFFFF">    </span><span style="color: #89DDFF; font-style: italic">if</span><span style="color: #EEFFFF"> res</span><span style="color: #89DDFF">[</span><span style="color: #F78C6C">1</span><span style="color: #89DDFF">]</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">&gt;=</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">.001</span><span style="color: #89DDFF">:</span></span>
+<span class="line"><span style="color: #EEFFFF">        output</span><span style="color: #89DDFF">[</span><span style="color: #F78C6C">1</span><span style="color: #89DDFF">]</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> </span><span style="color: #82AAFF">round</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">res</span><span style="color: #89DDFF">[</span><span style="color: #F78C6C">1</span><span style="color: #89DDFF">],</span><span style="color: #F78C6C">3</span><span style="color: #89DDFF">)</span></span>
+<span class="line"><span style="color: #EEFFFF">    </span><span style="color: #89DDFF; font-style: italic">elif</span><span style="color: #EEFFFF"> res</span><span style="color: #89DDFF">[</span><span style="color: #F78C6C">1</span><span style="color: #89DDFF">]</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">&lt;</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">.001</span><span style="color: #89DDFF">:</span></span>
+<span class="line"><span style="color: #EEFFFF">        output</span><span style="color: #89DDFF">[</span><span style="color: #F78C6C">1</span><span style="color: #89DDFF">]</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">&lt;.001</span><span style="color: #89DDFF">&quot;</span></span>
+<span class="line"><span style="color: #EEFFFF">    </span><span style="color: #89DDFF; font-style: italic">return</span><span style="color: #EEFFFF"> output</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #545454; font-style: italic">#Create dataframe with column names and set up PrettyTable for easy printing</span></span>
+<span class="line"><span style="color: #EEFFFF">colNames </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">[</span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">employee_id</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">,</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">department</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">,</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">region</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">,</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">education</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">,</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">gender</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">,</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">recruitment_channel</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">,</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">no_of_trainings</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">,</span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">age</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">,</span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">previous_year_rating</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">,</span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">length_of_service</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">,</span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">KPIs_met_more_than_80</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">,</span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">awards_won</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">,</span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">avg_training_score</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">]</span></span>
+<span class="line"><span style="color: #EEFFFF">df </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> pandas</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">read_csv</span><span style="color: #89DDFF">(</span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">employees_final_dataset.csv</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF"> </span><span style="color: #EEFFFF; font-style: italic">sep</span><span style="color: #89DDFF">=</span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">,</span><span style="color: #89DDFF">&#39;</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF"> </span><span style="color: #EEFFFF; font-style: italic">header</span><span style="color: #89DDFF">=</span><span style="color: #F78C6C">0</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF"> </span><span style="color: #EEFFFF; font-style: italic">names</span><span style="color: #89DDFF">=</span><span style="color: #82AAFF">colNames</span><span style="color: #89DDFF">)</span></span>
+<span class="line"><span style="color: #EEFFFF">out </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> </span><span style="color: #82AAFF">PrettyTable</span><span style="color: #89DDFF">([</span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">X</span><span style="color: #89DDFF">&#39;</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF"> </span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">Y</span><span style="color: #89DDFF">&#39;</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF"> </span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">n</span><span style="color: #89DDFF">&#39;</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF"> </span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">r</span><span style="color: #89DDFF">&#39;</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF"> </span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">df</span><span style="color: #89DDFF">&#39;</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF"> </span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">p</span><span style="color: #89DDFF">&#39;</span><span style="color: #89DDFF">])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #545454; font-style: italic">#Calculate r with pairwise deletion of any rows missing data, and report correlation in table</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #545454; font-style: italic">##Performance and KPI goals</span></span>
+<span class="line"><span style="color: #EEFFFF">df_cor </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> df</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">dropna</span><span style="color: #89DDFF">(</span><span style="color: #EEFFFF; font-style: italic">axis</span><span style="color: #89DDFF">=</span><span style="color: #F78C6C">0</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF"> </span><span style="color: #EEFFFF; font-style: italic">subset</span><span style="color: #82AAFF"> </span><span style="color: #89DDFF">=</span><span style="color: #82AAFF"> </span><span style="color: #89DDFF">[</span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">previous_year_rating</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF"> </span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">KPIs_met_more_than_80</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">])</span><span style="color: #EEFFFF">;</span></span>
+<span class="line"><span style="color: #EEFFFF">r </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> </span><span style="color: #82AAFF">clean_r_for_table</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">pearsonr</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">df_cor</span><span style="color: #89DDFF">[</span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">previous_year_rating</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">],</span><span style="color: #82AAFF"> df_cor</span><span style="color: #89DDFF">[</span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">KPIs_met_more_than_80</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">]))</span></span>
+<span class="line"><span style="color: #EEFFFF">out</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">add_row</span><span style="color: #89DDFF">([</span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">Previous year rating</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF"> </span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">KPI Goals Met</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF"> df_cor</span><span style="color: #89DDFF">.</span><span style="color: #F07178">shape</span><span style="color: #89DDFF">[</span><span style="color: #F78C6C">0</span><span style="color: #89DDFF">],</span><span style="color: #82AAFF"> r</span><span style="color: #89DDFF">[</span><span style="color: #F78C6C">0</span><span style="color: #89DDFF">],</span><span style="color: #82AAFF"> df_cor</span><span style="color: #89DDFF">.</span><span style="color: #F07178">shape</span><span style="color: #89DDFF">[</span><span style="color: #F78C6C">0</span><span style="color: #89DDFF">]-</span><span style="color: #F78C6C">2</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF"> r</span><span style="color: #89DDFF">[</span><span style="color: #F78C6C">1</span><span style="color: #89DDFF">]])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #82AAFF">print</span><span style="color: #89DDFF">(</span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">Correlations</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">)</span></span>
+<span class="line"><span style="color: #82AAFF">print</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">out</span><span style="color: #89DDFF">)</span></span></code></pre></div>
+
+
+
+<h3 class="wp-block-heading">TRAINING EFFICACY</h3>
+
+
+
+<p class="">Using similar queries and functions as above, I also explored the relationship between training metrics (number of trainings and average performance across trainings) with performance evaluations and KPI goals.</p>
+
+
+
+<h4 class="wp-block-heading">NUMBER OF TRAININGS</h4>
+
+
+
+<p class="">I first aggregated average performance ratings and what percentage of employees met KPI goals over the number of trainings they completed. There appears to be a generally negative trend in both performance evaluations and meeting KPI goals up until 8 and 9 trainings. However, the total number of employees completing a certain number of trainings rapidly decreases as the number of trainings increases, so conclusions must be made with this limitation in mind. Indeed, though analyses indicated some statistically significant effects, as discussed below, the number of trainings employees completed is largely&nbsp;<em>practically</em>&nbsp;unrelated to employee performance.</p>
+
+
+
+[table id=2 /]
+
+
+
+<p class="">Table generated using following, with the second query used to verify accuracy of table indicating that no employees who completed 6 trainings met KPI goals:</p>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro cbp-has-line-numbers cbp-highlight-hover" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:.875rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;--cbp-line-number-color:#EEFFFF;--cbp-line-number-width:calc(2 * 0.6 * .875rem);--cbp-line-highlight-color:rgba(238, 255, 255, 0.2);line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><span role="button" tabindex="0" data-code="SELECT
+	no_of_trainings,
+	COUNT(employee_id) AS  total_employees,
+	round(avg(cast(past_performance AS float)), 2) AS avg_performance,
+	ROUND(cast(count(CASE WHEN KPIs_met = 1 THEN 1 END) AS float)/count(employee_ID), 2) AS percent_met_goal
+	FROM HRPerformance.dbo.EmployeeData
+	GROUP BY no_of_trainings
+	ORDER BY no_of_trainings
+
+--Verifying that no 6-training employees met KPIs
+SELECT
+	employee_id,
+	past_performance,
+	no_of_trainings,
+	KPIs_met
+	FROM HRPerformance.dbo.EmployeeData
+	WHERE no_of_trainings = 6" style="color:#EEFFFF;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg></span><pre class="shiki material-theme-darker" style="background-color: #212121" tabindex="0"><code><span class="line"><span style="color: #F78C6C">SELECT</span></span>
+<span class="line"><span style="color: #EEFFFF">	no_of_trainings,</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #82AAFF">COUNT</span><span style="color: #EEFFFF">(employee_id) </span><span style="color: #F78C6C">AS</span><span style="color: #EEFFFF">  total_employees,</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #82AAFF">round</span><span style="color: #EEFFFF">(</span><span style="color: #82AAFF">avg</span><span style="color: #EEFFFF">(</span><span style="color: #82AAFF">cast</span><span style="color: #EEFFFF">(past_performance </span><span style="color: #F78C6C">AS</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">float</span><span style="color: #EEFFFF">)), </span><span style="color: #F78C6C">2</span><span style="color: #EEFFFF">) </span><span style="color: #F78C6C">AS</span><span style="color: #EEFFFF"> avg_performance,</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #82AAFF">ROUND</span><span style="color: #EEFFFF">(</span><span style="color: #82AAFF">cast</span><span style="color: #EEFFFF">(</span><span style="color: #82AAFF">count</span><span style="color: #EEFFFF">(</span><span style="color: #F78C6C">CASE</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">WHEN</span><span style="color: #EEFFFF"> KPIs_met </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">1</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">THEN</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">1</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">END</span><span style="color: #EEFFFF">) </span><span style="color: #F78C6C">AS</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">float</span><span style="color: #EEFFFF">)</span><span style="color: #89DDFF">/</span><span style="color: #82AAFF">count</span><span style="color: #EEFFFF">(employee_ID), </span><span style="color: #F78C6C">2</span><span style="color: #EEFFFF">) </span><span style="color: #F78C6C">AS</span><span style="color: #EEFFFF"> percent_met_goal</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">FROM</span><span style="color: #EEFFFF"> HRPerformance.dbo.EmployeeData</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">GROUP BY</span><span style="color: #EEFFFF"> no_of_trainings</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">ORDER BY</span><span style="color: #EEFFFF"> no_of_trainings</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #545454; font-style: italic">--Verifying that no 6-training employees met KPIs</span></span>
+<span class="line"><span style="color: #F78C6C">SELECT</span></span>
+<span class="line"><span style="color: #EEFFFF">	employee_id,</span></span>
+<span class="line"><span style="color: #EEFFFF">	past_performance,</span></span>
+<span class="line"><span style="color: #EEFFFF">	no_of_trainings,</span></span>
+<span class="line"><span style="color: #EEFFFF">	KPIs_met</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">FROM</span><span style="color: #EEFFFF"> HRPerformance.dbo.EmployeeData</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">WHERE</span><span style="color: #EEFFFF"> no_of_trainings </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">6</span></span></code></pre></div>
+
+
+
+<p class="">Though Pearson correlation coefficient indicated that number of trainings is statistically significantly negatively correlated with performance evaluations (<em>r</em>(16052) = -.05,&nbsp;<em>p</em>&nbsp;&lt; .001) and meeting KPI goals (<em>r</em>(17415) = -.05,&nbsp;<em>p</em>&nbsp;&lt; .001), the practical significance of these correlations is marginal at best. A one-way analysis of variance indicates that there&nbsp;<em>are</em>&nbsp;significant differences in average performance,&nbsp;<em>F</em>(8, 16045) = 7.03,&nbsp;<em>p</em>&nbsp;&lt; .001, and whether KPI goals are met,&nbsp;<em>F</em>(8, 16045) = 5.45,&nbsp;<em>p</em>&nbsp;&lt; .001, based on how many trainings employees complete. However, post hoc Tukey&#8217;s HSD analyses indicate that employees who completed 1 training had significantly better performance evaluations than those who completed 2-4 trainings, and that those who completed 2 trainings had better performance evaluations than those who completed 4 trainings. Otherwise, there are no statistical differences in average performance between groups based on number of trainings completed. Regarding meeting KPI goals, the only differences were that more people who completed only 1 training met KPI goals than those who completed 2 or 4 trainings. Code similar that shown before was used to calculate correlation coefficients, and the following code is an example of the Python code used to perform analyses of variance and post hoc Tukey&#8217;s HSDs:</p>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro cbp-has-line-numbers cbp-highlight-hover" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:.875rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;--cbp-line-number-color:#EEFFFF;--cbp-line-number-width:calc(1 * 0.6 * .875rem);--cbp-line-highlight-color:rgba(238, 255, 255, 0.2);line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><span role="button" tabindex="0" data-code="df_tukey = df.dropna(axis=0, subset= [&quot;previous_year_rating&quot;, &quot;no_of_trainings&quot;])
+model = ols('previous_year_rating ~ C(no_of_trainings)', data=df_tukey).fit()
+print(&quot;\n\n Mean comparison of performance evaluation by no. of trainings&quot;)
+print(sm.stats.anova_lm(model, typ=2))
+
+tukey = pairwise_tukeyhsd(endog = df_tukey['previous_year_rating'],
+                          groups = df_tukey['no_of_trainings'],
+                          alpha = 0.05)
+print(tukey)" style="color:#EEFFFF;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg></span><pre class="shiki material-theme-darker" style="background-color: #212121" tabindex="0"><code><span class="line"><span style="color: #EEFFFF">df_tukey </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> df</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">dropna</span><span style="color: #89DDFF">(</span><span style="color: #EEFFFF; font-style: italic">axis</span><span style="color: #89DDFF">=</span><span style="color: #F78C6C">0</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF"> </span><span style="color: #EEFFFF; font-style: italic">subset</span><span style="color: #89DDFF">=</span><span style="color: #82AAFF"> </span><span style="color: #89DDFF">[</span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">previous_year_rating</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF"> </span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">no_of_trainings</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">])</span></span>
+<span class="line"><span style="color: #EEFFFF">model </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> </span><span style="color: #82AAFF">ols</span><span style="color: #89DDFF">(</span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">previous_year_rating ~ C(no_of_trainings)</span><span style="color: #89DDFF">&#39;</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF"> </span><span style="color: #EEFFFF; font-style: italic">data</span><span style="color: #89DDFF">=</span><span style="color: #82AAFF">df_tukey</span><span style="color: #89DDFF">).</span><span style="color: #82AAFF">fit</span><span style="color: #89DDFF">()</span></span>
+<span class="line"><span style="color: #82AAFF">print</span><span style="color: #89DDFF">(</span><span style="color: #89DDFF">&quot;</span><span style="color: #EEFFFF">\n\n</span><span style="color: #C3E88D"> Mean comparison of performance evaluation by no. of trainings</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">)</span></span>
+<span class="line"><span style="color: #82AAFF">print</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">sm</span><span style="color: #89DDFF">.</span><span style="color: #F07178">stats</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">anova_lm</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">model</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF"> </span><span style="color: #EEFFFF; font-style: italic">typ</span><span style="color: #89DDFF">=</span><span style="color: #F78C6C">2</span><span style="color: #89DDFF">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #EEFFFF">tukey </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> </span><span style="color: #82AAFF">pairwise_tukeyhsd</span><span style="color: #89DDFF">(</span><span style="color: #EEFFFF; font-style: italic">endog</span><span style="color: #82AAFF"> </span><span style="color: #89DDFF">=</span><span style="color: #82AAFF"> df_tukey</span><span style="color: #89DDFF">[</span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">previous_year_rating</span><span style="color: #89DDFF">&#39;</span><span style="color: #89DDFF">],</span></span>
+<span class="line"><span style="color: #82AAFF">                          </span><span style="color: #EEFFFF; font-style: italic">groups</span><span style="color: #82AAFF"> </span><span style="color: #89DDFF">=</span><span style="color: #82AAFF"> df_tukey</span><span style="color: #89DDFF">[</span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">no_of_trainings</span><span style="color: #89DDFF">&#39;</span><span style="color: #89DDFF">],</span></span>
+<span class="line"><span style="color: #82AAFF">                          </span><span style="color: #EEFFFF; font-style: italic">alpha</span><span style="color: #82AAFF"> </span><span style="color: #89DDFF">=</span><span style="color: #82AAFF"> </span><span style="color: #F78C6C">0.05</span><span style="color: #89DDFF">)</span></span>
+<span class="line"><span style="color: #82AAFF">print</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">tukey</span><span style="color: #89DDFF">)</span></span></code></pre></div>
+
+
+
+<h5 class="wp-block-heading">&#8220;SUPER-TRAINEES&#8221;</h5>
+
+
+
+<p class="">An additional query was used to pull information to determine what types of employees are taking these potentially-excessive trainings to help identify possible problems. Based on the results, I would suggest that regions 2, 7, and 22 evaluate if employees might be over-training, especially within the Sales &amp; Marketing and Procurement departments.</p>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro cbp-has-line-numbers cbp-highlight-hover" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:.875rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;--cbp-line-number-color:#EEFFFF;--cbp-line-number-width:calc(2 * 0.6 * .875rem);--cbp-line-highlight-color:rgba(238, 255, 255, 0.2);line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><span role="button" tabindex="0" data-code="--Further exploring these &quot;super-trainees&quot;
+SELECT
+	no_of_trainings,
+	past_performance,
+	KPIs_met,
+	length_of_service,
+	department,
+	region_ID
+	FROM HRPerformance.dbo.EmployeeData
+	WHERE no_of_trainings &gt;= 5
+	ORDER BY no_of_trainings DESC, department, region_ID
+
+--Summarize &quot;super-trainee&quot; query
+SELECT
+	region_ID,
+	department,
+	COUNT(employee_id) AS total_trainees
+	FROM HRPerformance.dbo.EmployeeData
+	WHERE no_of_trainings &gt;= 5
+	GROUP BY department, region_ID
+	ORDER BY region_ID, department, COUNT(employee_id) DESC" style="color:#EEFFFF;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg></span><pre class="shiki material-theme-darker" style="background-color: #212121" tabindex="0"><code><span class="line"><span style="color: #545454; font-style: italic">--Further exploring these &quot;super-trainees&quot;</span></span>
+<span class="line"><span style="color: #F78C6C">SELECT</span></span>
+<span class="line"><span style="color: #EEFFFF">	no_of_trainings,</span></span>
+<span class="line"><span style="color: #EEFFFF">	past_performance,</span></span>
+<span class="line"><span style="color: #EEFFFF">	KPIs_met,</span></span>
+<span class="line"><span style="color: #EEFFFF">	length_of_service,</span></span>
+<span class="line"><span style="color: #EEFFFF">	department,</span></span>
+<span class="line"><span style="color: #EEFFFF">	region_ID</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">FROM</span><span style="color: #EEFFFF"> HRPerformance.dbo.EmployeeData</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">WHERE</span><span style="color: #EEFFFF"> no_of_trainings </span><span style="color: #89DDFF">&gt;=</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">5</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">ORDER BY</span><span style="color: #EEFFFF"> no_of_trainings </span><span style="color: #F78C6C">DESC</span><span style="color: #EEFFFF">, department, region_ID</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #545454; font-style: italic">--Summarize &quot;super-trainee&quot; query</span></span>
+<span class="line"><span style="color: #F78C6C">SELECT</span></span>
+<span class="line"><span style="color: #EEFFFF">	region_ID,</span></span>
+<span class="line"><span style="color: #EEFFFF">	department,</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #82AAFF">COUNT</span><span style="color: #EEFFFF">(employee_id) </span><span style="color: #F78C6C">AS</span><span style="color: #EEFFFF"> total_trainees</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">FROM</span><span style="color: #EEFFFF"> HRPerformance.dbo.EmployeeData</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">WHERE</span><span style="color: #EEFFFF"> no_of_trainings </span><span style="color: #89DDFF">&gt;=</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">5</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">GROUP BY</span><span style="color: #EEFFFF"> department, region_ID</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">ORDER BY</span><span style="color: #EEFFFF"> region_ID, department, </span><span style="color: #82AAFF">COUNT</span><span style="color: #EEFFFF">(employee_id) </span><span style="color: #F78C6C">DESC</span></span></code></pre></div>
+
+
+
+<h4 class="wp-block-heading">PERFORMANCE ACROSS TRAININGS</h4>
+
+
+
+<p class="">Additionally, I wanted to assess whether employees&#8217; average performance across trainings was related to performance outcomes. Because the average training score appears to be rated on a 0-100 scale, I utilized the following query to conveniently bucket employees based on training performance, grouped in 10-point intervals</p>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro cbp-has-line-numbers cbp-highlight-hover" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:.875rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;--cbp-line-number-color:#EEFFFF;--cbp-line-number-width:calc(2 * 0.6 * .875rem);--cbp-line-highlight-color:rgba(238, 255, 255, 0.2);line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><span role="button" tabindex="0" data-code="WITH training_data AS (
+	SELECT
+		employee_id,
+		(CASE	WHEN avg_training_score &lt; 40 THEN '[0,40)'
+			WHEN avg_training_score &lt; 50 THEN '[40,50)'
+			WHEN avg_training_score &lt;60 THEN '[50,60)'
+			WHEN avg_training_score &lt;70 THEN '[60,70)'
+			WHEN avg_training_score &lt;80 THEN '[70,80)'
+			WHEN avg_training_score &lt;90 THEN '[80,90)'
+			WHEN avg_training_score &lt;=100 THEN '[90,100]'
+			ELSE 'EXCEPTION: Invalid score'
+		END) AS training_performance,
+		KPIs_met,
+		past_performance,
+		no_of_trainings
+		FROM HRPerformance.dbo.EmployeeData
+		WHERE past_performance IS NOT NULL
+	)
+SELECT
+	training_performance,
+	COUNT(training_performance) AS n,
+	round(AVG(CAST(no_of_trainings AS float)), 2) AS avg_no_training,
+	round(AVG(CAST(past_performance AS float)), 2) AS avg_performance,
+	round(CAST(SUM(KPIs_met) AS  float)/COUNT(employee_id), 4)*100 AS percent_KPIs_met
+	FROM training_data
+	GROUP BY training_performance
+	ORDER BY training_performance" style="color:#EEFFFF;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg></span><pre class="shiki material-theme-darker" style="background-color: #212121" tabindex="0"><code><span class="line"><span style="color: #F78C6C">WITH</span><span style="color: #EEFFFF"> training_data </span><span style="color: #F78C6C">AS</span><span style="color: #EEFFFF"> (</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">SELECT</span></span>
+<span class="line"><span style="color: #EEFFFF">		employee_id,</span></span>
+<span class="line"><span style="color: #EEFFFF">		(</span><span style="color: #F78C6C">CASE</span><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">WHEN</span><span style="color: #EEFFFF"> avg_training_score </span><span style="color: #89DDFF">&lt;</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">40</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">THEN</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">[0,40)</span><span style="color: #89DDFF">&#39;</span></span>
+<span class="line"><span style="color: #EEFFFF">			</span><span style="color: #F78C6C">WHEN</span><span style="color: #EEFFFF"> avg_training_score </span><span style="color: #89DDFF">&lt;</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">50</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">THEN</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">[40,50)</span><span style="color: #89DDFF">&#39;</span></span>
+<span class="line"><span style="color: #EEFFFF">			</span><span style="color: #F78C6C">WHEN</span><span style="color: #EEFFFF"> avg_training_score </span><span style="color: #89DDFF">&lt;</span><span style="color: #F78C6C">60</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">THEN</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">[50,60)</span><span style="color: #89DDFF">&#39;</span></span>
+<span class="line"><span style="color: #EEFFFF">			</span><span style="color: #F78C6C">WHEN</span><span style="color: #EEFFFF"> avg_training_score </span><span style="color: #89DDFF">&lt;</span><span style="color: #F78C6C">70</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">THEN</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">[60,70)</span><span style="color: #89DDFF">&#39;</span></span>
+<span class="line"><span style="color: #EEFFFF">			</span><span style="color: #F78C6C">WHEN</span><span style="color: #EEFFFF"> avg_training_score </span><span style="color: #89DDFF">&lt;</span><span style="color: #F78C6C">80</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">THEN</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">[70,80)</span><span style="color: #89DDFF">&#39;</span></span>
+<span class="line"><span style="color: #EEFFFF">			</span><span style="color: #F78C6C">WHEN</span><span style="color: #EEFFFF"> avg_training_score </span><span style="color: #89DDFF">&lt;</span><span style="color: #F78C6C">90</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">THEN</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">[80,90)</span><span style="color: #89DDFF">&#39;</span></span>
+<span class="line"><span style="color: #EEFFFF">			</span><span style="color: #F78C6C">WHEN</span><span style="color: #EEFFFF"> avg_training_score </span><span style="color: #89DDFF">&lt;=</span><span style="color: #F78C6C">100</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">THEN</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">[90,100]</span><span style="color: #89DDFF">&#39;</span></span>
+<span class="line"><span style="color: #EEFFFF">			</span><span style="color: #F78C6C">ELSE</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">EXCEPTION: Invalid score</span><span style="color: #89DDFF">&#39;</span></span>
+<span class="line"><span style="color: #EEFFFF">		</span><span style="color: #F78C6C">END</span><span style="color: #EEFFFF">) </span><span style="color: #F78C6C">AS</span><span style="color: #EEFFFF"> training_performance,</span></span>
+<span class="line"><span style="color: #EEFFFF">		KPIs_met,</span></span>
+<span class="line"><span style="color: #EEFFFF">		past_performance,</span></span>
+<span class="line"><span style="color: #EEFFFF">		no_of_trainings</span></span>
+<span class="line"><span style="color: #EEFFFF">		</span><span style="color: #F78C6C">FROM</span><span style="color: #EEFFFF"> HRPerformance.dbo.EmployeeData</span></span>
+<span class="line"><span style="color: #EEFFFF">		</span><span style="color: #F78C6C">WHERE</span><span style="color: #EEFFFF"> past_performance </span><span style="color: #F78C6C">IS NOT NULL</span></span>
+<span class="line"><span style="color: #EEFFFF">	)</span></span>
+<span class="line"><span style="color: #F78C6C">SELECT</span></span>
+<span class="line"><span style="color: #EEFFFF">	training_performance,</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #82AAFF">COUNT</span><span style="color: #EEFFFF">(training_performance) </span><span style="color: #F78C6C">AS</span><span style="color: #EEFFFF"> n,</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #82AAFF">round</span><span style="color: #EEFFFF">(</span><span style="color: #82AAFF">AVG</span><span style="color: #EEFFFF">(</span><span style="color: #82AAFF">CAST</span><span style="color: #EEFFFF">(no_of_trainings </span><span style="color: #F78C6C">AS</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">float</span><span style="color: #EEFFFF">)), </span><span style="color: #F78C6C">2</span><span style="color: #EEFFFF">) </span><span style="color: #F78C6C">AS</span><span style="color: #EEFFFF"> avg_no_training,</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #82AAFF">round</span><span style="color: #EEFFFF">(</span><span style="color: #82AAFF">AVG</span><span style="color: #EEFFFF">(</span><span style="color: #82AAFF">CAST</span><span style="color: #EEFFFF">(past_performance </span><span style="color: #F78C6C">AS</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">float</span><span style="color: #EEFFFF">)), </span><span style="color: #F78C6C">2</span><span style="color: #EEFFFF">) </span><span style="color: #F78C6C">AS</span><span style="color: #EEFFFF"> avg_performance,</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #82AAFF">round</span><span style="color: #EEFFFF">(</span><span style="color: #82AAFF">CAST</span><span style="color: #EEFFFF">(</span><span style="color: #82AAFF">SUM</span><span style="color: #EEFFFF">(KPIs_met) </span><span style="color: #F78C6C">AS</span><span style="color: #EEFFFF">  </span><span style="color: #F78C6C">float</span><span style="color: #EEFFFF">)</span><span style="color: #89DDFF">/</span><span style="color: #82AAFF">COUNT</span><span style="color: #EEFFFF">(employee_id), </span><span style="color: #F78C6C">4</span><span style="color: #EEFFFF">)</span><span style="color: #89DDFF">*</span><span style="color: #F78C6C">100</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">AS</span><span style="color: #EEFFFF"> percent_KPIs_met</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">FROM</span><span style="color: #EEFFFF"> training_data</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">GROUP BY</span><span style="color: #EEFFFF"> training_performance</span></span>
+<span class="line"><span style="color: #EEFFFF">	</span><span style="color: #F78C6C">ORDER BY</span><span style="color: #EEFFFF"> training_performance</span></span></code></pre></div>
+
+
+
+[table id=3 /]
+
+
+
+<p class="">The resulting table indicates that there is minimal relationship between how many trainings employees complete and their average performance across those trainings. However, there seems to be a positive trend between average training performance and average performance evaluations and meeting KPI goals. In other words, not surprisingly, it appears that those who perform better on the tests evaluating how well they learned the content of the training generally tend to go on to perform better in the organization.</p>
+2:["$","div",null,{"className":"flex-col","children":[["$","$Lf",null,{"activeTitle":"Employee Performance & Training Efficacy Exploratory Data Analysis"}],["$","article",null,{"className":"flex flex-col grow max-w-7xl py-10 space-y-12","children":[["$","h1",null,{"className":"flex grow font-bold leading-tight text-4xl md:text-5xl","children":"Employee Performance & Training Efficacy Exploratory Data Analysis"}],["$","div",null,{"className":"mt-12 mb-4 p-4 w-full  neobrutal bg-surface-container-lowest text-on-surface mb-12","children":["$","$L10",null,{"htmlContent":"$11"}]}]]}]]}]
+e:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Employee Performance & Training Efficacy Exploratory Data Analysis | Analytic Talesmith"}],["$","meta","3",{"name":"description","content":"Generated by create next app"}],["$","link","4",{"rel":"icon","href":"/icon.ico?e2e917e7b923cda7","type":"image/x-icon","sizes":"16x16"}]]
+1:null

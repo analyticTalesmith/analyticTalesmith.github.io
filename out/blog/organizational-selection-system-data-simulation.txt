@@ -1,0 +1,287 @@
+3:I[9275,[],""]
+5:I[1343,[],""]
+6:I[7698,["231","static/chunks/231-51948d2fc13689f8.js","691","static/chunks/691-d4a7045616adc7a5.js","185","static/chunks/app/layout-69f21a6500d53c3d.js"],"ThemeProvider"]
+7:I[2883,["231","static/chunks/231-51948d2fc13689f8.js","691","static/chunks/691-d4a7045616adc7a5.js","185","static/chunks/app/layout-69f21a6500d53c3d.js"],"default"]
+c:I[5007,["231","static/chunks/231-51948d2fc13689f8.js","691","static/chunks/691-d4a7045616adc7a5.js","185","static/chunks/app/layout-69f21a6500d53c3d.js"],"default"]
+d:I[231,["231","static/chunks/231-51948d2fc13689f8.js","931","static/chunks/app/page-2aa8f480b7f8ca14.js"],""]
+4:["slug","organizational-selection-system-data-simulation","d"]
+8:{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"}
+9:{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"}
+a:{"display":"inline-block"}
+b:{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0}
+0:["5R8VqgjEvTExYVITTU-ti",[[["",{"children":["(pages)",{"children":["blog",{"children":[["slug","organizational-selection-system-data-simulation","d"],{"children":["__PAGE__?{\"slug\":\"organizational-selection-system-data-simulation\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["(pages)",{"children":["blog",{"children":[["slug","organizational-selection-system-data-simulation","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(pages)","children","blog","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(pages)","children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(pages)","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}],null]},[["$","html",null,{"lang":"en","className":"__variable_587f35 __variable_54b096","suppressHydrationWarning":true,"children":["$","body",null,{"className":"bg-background","children":[["$","div",null,{"className":"background-graphic"}],["$","$L6",null,{"children":[["$","$L7",null,{}],["$","div",null,{"className":"container flex-auto w-full max-w-7xl px-2 sm:px-4 py-28 md:pt-20 justify-center","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$8","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$9","children":"404"}],["$","div",null,{"style":"$a","children":["$","h2",null,{"style":"$b","children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}],["$","$Lc",null,{}],["$","footer",null,{"className":"mt-auto bg-surface font-spaceGrotesk","children":["$","div",null,{"className":"max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8","children":[["$","nav",null,{"className":"flex flex-wrap justify-center -mx-5 -my-2","children":[["$","div",null,{"className":"px-5 py-2","children":["$","$Ld",null,{"href":"/about","className":"text-base leading-6 text-on-surface hover:text-primary-container","children":"About"}]}],["$","div",null,{"className":"px-5 py-2","children":["$","$Ld",null,{"href":"/blog","className":"text-base leading-6 text-on-surface hover:text-primary-container","children":"Blog"}]}]]}],["$","div",null,{"className":"flex justify-center mt-8 space-x-6","children":[["$","$Ld",null,{"href":"https://github.com/analyticTalesmith","className":"text-primary-container hover:text-primary","children":[["$","span",null,{"className":"sr-only","children":"GitHub"}],["$","svg",null,{"className":"w-6 h-6","aria-hidden":"true","fill":"currentColor","viewBox":"0 0 24 24","children":["$","path",null,{"fillRule":"evenodd","d":"M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z","clipRule":"evenodd"}]}]]}],["$","$Ld",null,{"href":"https://www.linkedin.com/in/analytictalesmith/","className":"text-primary-container hover:text-primary","children":[["$","span",null,{"className":"sr-only","children":"LinkedIn"}],["$","svg",null,{"className":"w-6 h-6","aria-hidden":"true","xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","children":[["$","path",null,{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}],["$","path",null,{"d":"M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"}],["$","path",null,{"d":"M8 11l0 5"}],["$","path",null,{"d":"M8 8l0 .01"}],["$","path",null,{"d":"M12 16l0 -5"}],["$","path",null,{"d":"M16 16v-3a2 2 0 0 0 -4 0"}]]}]]}]]}],["$","p",null,{"className":"mt-8 text-base leading-6 text-center text-gray-400","children":"© 2024 Jonathan Bailey. All rights reserved."}]]}]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/21aabcac29a6b65e.css","precedence":"next","crossOrigin":"$undefined"}]],"$Le"]]]]
+f:I[2478,["231","static/chunks/231-51948d2fc13689f8.js","173","static/chunks/173-eff3ff7a959cfdff.js","110","static/chunks/110-840ec3b110f34719.js","610","static/chunks/app/(pages)/blog/%5Bslug%5D/page-09a69fa98d8e5d2d.js"],"default"]
+10:I[1117,["231","static/chunks/231-51948d2fc13689f8.js","173","static/chunks/173-eff3ff7a959cfdff.js","110","static/chunks/110-840ec3b110f34719.js","610","static/chunks/app/(pages)/blog/%5Bslug%5D/page-09a69fa98d8e5d2d.js"],"default"]
+11:Taa3f,
+<div class="wp-block-stackable-subtitle stk-block-subtitle stk-block stk-b70636e" data-block-id="b70636e"><p class="stk-block-subtitle__text stk-subtitle"><em>Simulation of role opening, talent recruiting and selection, and selection-related expenses relational data set using Python</em></p></div>
+
+
+
+<div class="wp-block-stackable-image stk-block-image stk-block stk-b8ff3bc" data-block-id="b8ff3bc"><style>.stk-b8ff3bc .stk-img-wrapper img{object-fit:none !important}@media screen and (max-width:1023px){.stk-b8ff3bc .stk-img-wrapper img{object-fit:contain !important}}</style><figure><div class="stk-img-wrapper stk-image--shape-stretch stk--has-lightbox"><img loading="lazy" decoding="async" class="stk-img wp-image-1198" src="http://analytictalesmith.com/wp-content/uploads/2023/11/selectionDbDiagram.png" width="785" height="363" alt="SQL Database diagram"/></div></figure></div>
+
+
+
+<ul class="wp-block-list">
+<li class=""><strong>Context</strong>&nbsp;— Because I could not find data relevant to the niche, I wanted to simulate data relevant to the information stakeholders might want regarding an organization&#8217;s selection system efficiency</li>
+
+
+
+<li class=""><strong>Problem</strong>&nbsp;— Generally, how to quickly produce data that emulate some factors that would be present in real-world data related to an organization&#8217;s personnel selection processes</li>
+
+
+
+<li class=""><strong>Importance</strong>&nbsp;— Working with larger data sets, especially those that have statistical characteristics you would expect to find in the real world enables better practice and identification of potential skill development opportunities</li>
+
+
+
+<li class=""><strong>Result</strong>&nbsp;— Within 3 seconds, produces a dataset including record of about 2,030 job openings within the organization in the past year, about 17,000 records of expenses associated with filling those openings, and records of about 42,500 individuals who have applied to the roles</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">Links to Project Files</h3>
+
+
+
+<ul class="wp-block-list">
+<li class=""><a href="https://github.com/analyticTalesmith/SelectionDataSimulation/blob/main/SelectionDataSimulation.py">Python Code</a></li>
+
+
+
+<li class=""><a href="https://github.com/analyticTalesmith/SelectionDataSimulation/tree/main/generatedData">Generated CSVs</a></li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">Project Overview</h3>
+
+
+
+<p class="">I wanted to practice working with large data sets that had multiple tables of related data. However, many of the data sets I could find with those characteristics were generally unrelated to my areas of interest. I specifically wanted to practice using large, relational data sets in Tableau, so given that context, I decided to save time by using Python to simulate the data I wanted instead of hunting for the perfect data set that might not exist.</p>
+
+
+
+<h3 class="wp-block-heading">Algorithm Summary</h3>
+
+
+
+<p class="">The logic behind the simulated data is quite simple. First, some constants are defined to specific some characteristics of the data and &#8220;the organization&#8221;. Constants are used to define how many roles there are within each department, how many branches comprise the organization, and the baseline mean and standard deviation of how long it takes to fill roles. Each branch and department also has an &#8220;efficiency&#8221; modifier either hard-coded or randomly chosen.</p>
+
+
+
+<p class="">Given this information, the code randomly determines how many positions are currently open at each branch, if any, and then chooses which department that opening is in. The code generates historical data of roles that have been filled within the specified time range. For each opening, the code picks how long the role is/was unfilled from a normal distribution with a standard deviation of 1 week and a mean 4 weeks scaled by the modifier of both the branch and the department the opening is in.</p>
+
+
+
+<p class="">For each opening, the code generates data for a bounded random number of people who applied to the job, including information about what stage they made it to within the selection system (e.g., fees for assessments or travel assistance for on-site visits/interviews) and what recruitment channel they were sourced from (e.g., job boards or internal referrals). Each opening has expenses associated with posting recruitment material on job boards, and also has expenses related to which stages of the selection system talent made it to and related to employees receiving referral bonuses if a referred candidate was hired.</p>
+
+
+
+<p class="">Once these data are generated, the lists are converted into data frames, sorted and cleaned if needed, and then saved as three distinct CSVs ready to be used in practice projects.</p>
+
+
+
+<h3 class="wp-block-heading">Code Overview</h3>
+
+
+
+<h4 class="wp-block-heading">Constants</h4>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro cbp-has-line-numbers cbp-highlight-hover" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:.875rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;--cbp-line-number-color:#EEFFFF;--cbp-line-number-start:123;--cbp-line-number-width:calc(3 * 0.6 * .875rem);--cbp-line-highlight-color:rgba(238, 255, 255, 0.2);line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><span role="button" tabindex="0" data-code="#Constants
+FILLED_JOBS_PER_DEPARTMENT  = 200
+RANGE_OF_DATA_YRS           = 1
+BRANCH_EFFICIENCY_SD        = .3
+MEAN_ROLL_FILL              = 28
+SD_ROLL_FILL                = 7
+BRANCHES                    = generate_branches(10)
+DEPARTMENTS                 = [['Human Resources', 0.2],
+                               ['Finance and Accounting', 0],
+                               ['Marketing', 0.15],
+                               ['Sales', 0.1],
+                               ['Information Technology', -0.1],
+                               ['Customer Service and Support', -0.3]]" style="color:#EEFFFF;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg></span><pre class="shiki material-theme-darker" style="background-color: #212121" tabindex="0"><code><span class="line"><span style="color: #545454; font-style: italic">#Constants</span></span>
+<span class="line"><span style="color: #EEFFFF">FILLED_JOBS_PER_DEPARTMENT  </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">200</span></span>
+<span class="line"><span style="color: #EEFFFF">RANGE_OF_DATA_YRS           </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">1</span></span>
+<span class="line"><span style="color: #EEFFFF">BRANCH_EFFICIENCY_SD        </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">.3</span></span>
+<span class="line"><span style="color: #EEFFFF">MEAN_ROLL_FILL              </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">28</span></span>
+<span class="line"><span style="color: #EEFFFF">SD_ROLL_FILL                </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">7</span></span>
+<span class="line"><span style="color: #EEFFFF">BRANCHES                    </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> </span><span style="color: #82AAFF">generate_branches</span><span style="color: #89DDFF">(</span><span style="color: #F78C6C">10</span><span style="color: #89DDFF">)</span></span>
+<span class="line"><span style="color: #EEFFFF">DEPARTMENTS                 </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">[[</span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">Human Resources</span><span style="color: #89DDFF">&#39;</span><span style="color: #89DDFF">,</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">0.2</span><span style="color: #89DDFF">],</span></span>
+<span class="line"><span style="color: #EEFFFF">                               </span><span style="color: #89DDFF">[</span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">Finance and Accounting</span><span style="color: #89DDFF">&#39;</span><span style="color: #89DDFF">,</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">0</span><span style="color: #89DDFF">],</span></span>
+<span class="line"><span style="color: #EEFFFF">                               </span><span style="color: #89DDFF">[</span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">Marketing</span><span style="color: #89DDFF">&#39;</span><span style="color: #89DDFF">,</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">0.15</span><span style="color: #89DDFF">],</span></span>
+<span class="line"><span style="color: #EEFFFF">                               </span><span style="color: #89DDFF">[</span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">Sales</span><span style="color: #89DDFF">&#39;</span><span style="color: #89DDFF">,</span><span style="color: #EEFFFF"> </span><span style="color: #F78C6C">0.1</span><span style="color: #89DDFF">],</span></span>
+<span class="line"><span style="color: #EEFFFF">                               </span><span style="color: #89DDFF">[</span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">Information Technology</span><span style="color: #89DDFF">&#39;</span><span style="color: #89DDFF">,</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">-</span><span style="color: #F78C6C">0.1</span><span style="color: #89DDFF">],</span></span>
+<span class="line"><span style="color: #EEFFFF">                               </span><span style="color: #89DDFF">[</span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">Customer Service and Support</span><span style="color: #89DDFF">&#39;</span><span style="color: #89DDFF">,</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">-</span><span style="color: #F78C6C">0.3</span><span style="color: #89DDFF">]]</span></span></code></pre></div>
+
+
+
+<p class="">The program is designed with constants in mind to make manipulating the statistical characteristics of the generated data set more rapid and accessible. The code uses constants to store how many filled jobs should be in the data set and how many years the data should span. It also has constants to define the standard deviation of the &#8220;branch efficiency&#8221; weights, and also has constants to define the mean and standard deviation of the normal distribution of how long it took to fill each role. Finally, the code uses lists of all branches within the organization and all departments within the organization, comprised of the name/identifier of each as well as the efficiency modifier associated with each.</p>
+
+
+
+<h4 class="wp-block-heading">Generating Branches</h4>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro cbp-has-line-numbers cbp-highlight-hover" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:.875rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;--cbp-line-number-color:#EEFFFF;--cbp-line-number-start:39;--cbp-line-number-width:calc(2 * 0.6 * .875rem);--cbp-line-highlight-color:rgba(238, 255, 255, 0.2);line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><span role="button" tabindex="0" data-code="def generate_branches(total: int):
+    &quot;&quot;&quot;Return list of lists, each leaf containing a character ID for the branch and a scaling float for &quot;efficiency&quot;
+    
+    Args:
+        total (int): The number of branches.
+    &quot;&quot;&quot;
+    chars = quick_char_list(total)
+    branchList = []
+    for i in range(len(chars)):
+        branchList.append([chars[i], round(np.random.normal(0, BRANCH_EFFICIENCY_SD), 2)])
+    return(branchList)" style="color:#EEFFFF;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg></span><pre class="shiki material-theme-darker" style="background-color: #212121" tabindex="0"><code><span class="line"><span style="color: #C792EA">def</span><span style="color: #EEFFFF"> </span><span style="color: #82AAFF">generate_branches</span><span style="color: #89DDFF">(</span><span style="color: #EEFFFF; font-style: italic">total</span><span style="color: #89DDFF">:</span><span style="color: #EEFFFF"> </span><span style="color: #FFCB6B">int</span><span style="color: #89DDFF">):</span></span>
+<span class="line"><span style="color: #EEFFFF">    </span><span style="color: #89DDFF; font-style: italic">&quot;&quot;&quot;</span><span style="color: #545454; font-style: italic">Return list of lists, each leaf containing a character ID for the branch and a scaling float for &quot;efficiency&quot;</span></span>
+<span class="line"><span style="color: #545454; font-style: italic">    </span></span>
+<span class="line"><span style="color: #545454; font-style: italic">    Args:</span></span>
+<span class="line"><span style="color: #545454; font-style: italic">        total (int): The number of branches.</span></span>
+<span class="line"><span style="color: #545454; font-style: italic">    </span><span style="color: #89DDFF; font-style: italic">&quot;&quot;&quot;</span></span>
+<span class="line"><span style="color: #EEFFFF">    chars </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> </span><span style="color: #82AAFF">quick_char_list</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">total</span><span style="color: #89DDFF">)</span></span>
+<span class="line"><span style="color: #EEFFFF">    branchList </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">[]</span></span>
+<span class="line"><span style="color: #EEFFFF">    </span><span style="color: #89DDFF; font-style: italic">for</span><span style="color: #EEFFFF"> i </span><span style="color: #89DDFF; font-style: italic">in</span><span style="color: #EEFFFF"> </span><span style="color: #82AAFF">range</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">len</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">chars</span><span style="color: #89DDFF">)):</span></span>
+<span class="line"><span style="color: #EEFFFF">        branchList</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">append</span><span style="color: #89DDFF">([</span><span style="color: #82AAFF">chars</span><span style="color: #89DDFF">[</span><span style="color: #82AAFF">i</span><span style="color: #89DDFF">],</span><span style="color: #82AAFF"> round</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">np</span><span style="color: #89DDFF">.</span><span style="color: #F07178">random</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">normal</span><span style="color: #89DDFF">(</span><span style="color: #F78C6C">0</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF"> BRANCH_EFFICIENCY_SD</span><span style="color: #89DDFF">),</span><span style="color: #82AAFF"> </span><span style="color: #F78C6C">2</span><span style="color: #89DDFF">)])</span></span>
+<span class="line"><span style="color: #EEFFFF">    </span><span style="color: #89DDFF; font-style: italic">return</span><span style="color: #89DDFF">(</span><span style="color: #EEFFFF">branchList</span><span style="color: #89DDFF">)</span></span></code></pre></div>
+
+
+
+<p class="">The Python function for generating the branches uses a helper function to generate a list of de-identified IDs for each branch, and then randomly assigns a branch modifier (<em>M </em>= 0, <em>SD</em> defined by the branch efficiency SD constant) and returns the list.</p>
+
+
+
+<h4 class="wp-block-heading">Unique IDs</h4>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro cbp-has-line-numbers cbp-highlight-hover" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:.875rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;--cbp-line-number-color:#EEFFFF;--cbp-line-number-start:29;--cbp-line-number-width:calc(2 * 0.6 * .875rem);--cbp-line-highlight-color:rgba(238, 255, 255, 0.2);line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><span role="button" tabindex="0" data-code="def new_uuid() -&gt; str:
+    &quot;&quot;&quot;Generate a unique ID and return as string&quot;&quot;&quot;
+    r_uuid = str(base64.urlsafe_b64encode(uuid.uuid4().bytes))[2:-1]
+    return r_uuid.replace('=', '')" style="color:#EEFFFF;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg></span><pre class="shiki material-theme-darker" style="background-color: #212121" tabindex="0"><code><span class="line"><span style="color: #C792EA">def</span><span style="color: #EEFFFF"> </span><span style="color: #82AAFF">new_uuid</span><span style="color: #89DDFF">()</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">-&gt;</span><span style="color: #EEFFFF"> </span><span style="color: #FFCB6B">str</span><span style="color: #89DDFF">:</span></span>
+<span class="line"><span style="color: #EEFFFF">    </span><span style="color: #89DDFF; font-style: italic">&quot;&quot;&quot;</span><span style="color: #545454; font-style: italic">Generate a unique ID and return as string</span><span style="color: #89DDFF; font-style: italic">&quot;&quot;&quot;</span></span>
+<span class="line"><span style="color: #EEFFFF">    r_uuid </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> </span><span style="color: #FFCB6B">str</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">base64</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">urlsafe_b64encode</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">uuid</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">uuid4</span><span style="color: #89DDFF">().</span><span style="color: #F07178">bytes</span><span style="color: #89DDFF">))[</span><span style="color: #F78C6C">2</span><span style="color: #89DDFF">:-</span><span style="color: #F78C6C">1</span><span style="color: #89DDFF">]</span></span>
+<span class="line"><span style="color: #EEFFFF">    </span><span style="color: #89DDFF; font-style: italic">return</span><span style="color: #EEFFFF"> r_uuid</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">replace</span><span style="color: #89DDFF">(</span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">=</span><span style="color: #89DDFF">&#39;</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF"> </span><span style="color: #89DDFF">&#39;&#39;</span><span style="color: #89DDFF">)</span></span></code></pre></div>
+
+
+
+<p class="">This new_uuid function is the core of primary key generation for the relational data. Using the UUID library, the function generates a universally unique identifier, converts it to a string, and then cleans the string for convenient use.</p>
+
+
+
+<h3 class="wp-block-heading">Simulating Data</h3>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro cbp-has-line-numbers cbp-highlight-hover" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:.875rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;--cbp-line-number-color:#EEFFFF;--cbp-line-number-start:143;--cbp-line-number-width:calc(3 * 0.6 * .875rem);--cbp-line-highlight-color:rgba(238, 255, 255, 0.2);line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><span role="button" tabindex="0" data-code="#Simulation
+#Loop through each branch and randomly determine how many open positions there are.
+#Then randomly choose a department within the branch and generate data, including random number of applicants.
+for brn in BRANCHES:
+
+    #Determine number of currently open positions in the branch
+    ctCurOpen = max(0, random.randint(1,10) - 3)
+    for i in range(0,ctCurOpen):
+        dpt = DEPARTMENTS[random.randint(0,len(DEPARTMENTS) - 1)]
+        tempOpening = generate_unfilled_opening(brn, dpt)
+        expenses.append(generate_expense_jobBoard(tempOpening))
+        openings.append(tempOpening)
+
+        #generate active employees currently in the selection pipeline for the role and related expenses
+        for i in range(0, random.randint(0,50)):
+            tempTalent = generate_active_talent(tempOpening)
+            if tempTalent[3] == 'KSAO Assessment':
+                expenses.append(generate_expense_assessment(tempOpening))
+            elif tempTalent[3] == 'Onsite':
+                expenses.append(generate_expense_assessment(tempOpening))
+                expenses.append(generate_expense_onsite_travel(tempOpening))
+            talent.append(tempTalent)
+
+    #Generate historical data for roles that have been filled, based on defined constant
+    for i in range(0, FILLED_JOBS_PER_BRANCH):
+        dpt = DEPARTMENTS[random.randint(0,len(DEPARTMENTS) - 1)]
+        filledJob = generate_filled_opening(brn,dpt)
+        openings.append(filledJob)
+        expenses.append(generate_expense_jobBoard(filledJob))
+        expenses.append(generate_expense_assessment(filledJob))
+        tempEmployee = generate_current_employee(filledJob)
+        talent.append(tempEmployee)
+        if tempEmployee[0] == &quot;Referral&quot;:
+            expenses.append(generate_expense_referral(filledJob))
+
+        #generate employees who didn't get selected
+        for i in range(0, random.randint(10,30)):
+            tempTalent = generate_rejected_talent(filledJob)
+            if tempTalent[3] == 'KSAO Assessment':
+                expenses.append(generate_expense_assessment(filledJob))
+            elif tempTalent[3] == 'Onsite' or tempTalent[3] == 'Offer and Negotiation':
+                expenses.append(generate_expense_assessment(filledJob))
+                expenses.append(generate_expense_onsite_travel(filledJob))
+                
+            talent.append(tempTalent)
+" style="color:#EEFFFF;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg></span><pre class="shiki material-theme-darker" style="background-color: #212121" tabindex="0"><code><span class="line"><span style="color: #545454; font-style: italic">#Simulation</span></span>
+<span class="line"><span style="color: #545454; font-style: italic">#Loop through each branch and randomly determine how many open positions there are.</span></span>
+<span class="line"><span style="color: #545454; font-style: italic">#Then randomly choose a department within the branch and generate data, including random number of applicants.</span></span>
+<span class="line"><span style="color: #89DDFF; font-style: italic">for</span><span style="color: #EEFFFF"> brn </span><span style="color: #89DDFF; font-style: italic">in</span><span style="color: #EEFFFF"> BRANCHES</span><span style="color: #89DDFF">:</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #EEFFFF">    </span><span style="color: #545454; font-style: italic">#Determine number of currently open positions in the branch</span></span>
+<span class="line"><span style="color: #EEFFFF">    ctCurOpen </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> </span><span style="color: #82AAFF">max</span><span style="color: #89DDFF">(</span><span style="color: #F78C6C">0</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF"> random</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">randint</span><span style="color: #89DDFF">(</span><span style="color: #F78C6C">1</span><span style="color: #89DDFF">,</span><span style="color: #F78C6C">10</span><span style="color: #89DDFF">)</span><span style="color: #82AAFF"> </span><span style="color: #89DDFF">-</span><span style="color: #82AAFF"> </span><span style="color: #F78C6C">3</span><span style="color: #89DDFF">)</span></span>
+<span class="line"><span style="color: #EEFFFF">    </span><span style="color: #89DDFF; font-style: italic">for</span><span style="color: #EEFFFF"> i </span><span style="color: #89DDFF; font-style: italic">in</span><span style="color: #EEFFFF"> </span><span style="color: #82AAFF">range</span><span style="color: #89DDFF">(</span><span style="color: #F78C6C">0</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF">ctCurOpen</span><span style="color: #89DDFF">):</span></span>
+<span class="line"><span style="color: #EEFFFF">        dpt </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> DEPARTMENTS</span><span style="color: #89DDFF">[</span><span style="color: #EEFFFF">random</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">randint</span><span style="color: #89DDFF">(</span><span style="color: #F78C6C">0</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF">len</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">DEPARTMENTS</span><span style="color: #89DDFF">)</span><span style="color: #82AAFF"> </span><span style="color: #89DDFF">-</span><span style="color: #82AAFF"> </span><span style="color: #F78C6C">1</span><span style="color: #89DDFF">)]</span></span>
+<span class="line"><span style="color: #EEFFFF">        tempOpening </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> </span><span style="color: #82AAFF">generate_unfilled_opening</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">brn</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF"> dpt</span><span style="color: #89DDFF">)</span></span>
+<span class="line"><span style="color: #EEFFFF">        expenses</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">append</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">generate_expense_jobBoard</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">tempOpening</span><span style="color: #89DDFF">))</span></span>
+<span class="line"><span style="color: #EEFFFF">        openings</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">append</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">tempOpening</span><span style="color: #89DDFF">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #EEFFFF">        </span><span style="color: #545454; font-style: italic">#generate active employees currently in the selection pipeline for the role and related expenses</span></span>
+<span class="line"><span style="color: #EEFFFF">        </span><span style="color: #89DDFF; font-style: italic">for</span><span style="color: #EEFFFF"> i </span><span style="color: #89DDFF; font-style: italic">in</span><span style="color: #EEFFFF"> </span><span style="color: #82AAFF">range</span><span style="color: #89DDFF">(</span><span style="color: #F78C6C">0</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF"> random</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">randint</span><span style="color: #89DDFF">(</span><span style="color: #F78C6C">0</span><span style="color: #89DDFF">,</span><span style="color: #F78C6C">50</span><span style="color: #89DDFF">)):</span></span>
+<span class="line"><span style="color: #EEFFFF">            tempTalent </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> </span><span style="color: #82AAFF">generate_active_talent</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">tempOpening</span><span style="color: #89DDFF">)</span></span>
+<span class="line"><span style="color: #EEFFFF">            </span><span style="color: #89DDFF; font-style: italic">if</span><span style="color: #EEFFFF"> tempTalent</span><span style="color: #89DDFF">[</span><span style="color: #F78C6C">3</span><span style="color: #89DDFF">]</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">==</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">KSAO Assessment</span><span style="color: #89DDFF">&#39;</span><span style="color: #89DDFF">:</span></span>
+<span class="line"><span style="color: #EEFFFF">                expenses</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">append</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">generate_expense_assessment</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">tempOpening</span><span style="color: #89DDFF">))</span></span>
+<span class="line"><span style="color: #EEFFFF">            </span><span style="color: #89DDFF; font-style: italic">elif</span><span style="color: #EEFFFF"> tempTalent</span><span style="color: #89DDFF">[</span><span style="color: #F78C6C">3</span><span style="color: #89DDFF">]</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">==</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">Onsite</span><span style="color: #89DDFF">&#39;</span><span style="color: #89DDFF">:</span></span>
+<span class="line"><span style="color: #EEFFFF">                expenses</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">append</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">generate_expense_assessment</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">tempOpening</span><span style="color: #89DDFF">))</span></span>
+<span class="line"><span style="color: #EEFFFF">                expenses</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">append</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">generate_expense_onsite_travel</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">tempOpening</span><span style="color: #89DDFF">))</span></span>
+<span class="line"><span style="color: #EEFFFF">            talent</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">append</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">tempTalent</span><span style="color: #89DDFF">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #EEFFFF">    </span><span style="color: #545454; font-style: italic">#Generate historical data for roles that have been filled, based on defined constant</span></span>
+<span class="line"><span style="color: #EEFFFF">    </span><span style="color: #89DDFF; font-style: italic">for</span><span style="color: #EEFFFF"> i </span><span style="color: #89DDFF; font-style: italic">in</span><span style="color: #EEFFFF"> </span><span style="color: #82AAFF">range</span><span style="color: #89DDFF">(</span><span style="color: #F78C6C">0</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF"> FILLED_JOBS_PER_BRANCH</span><span style="color: #89DDFF">):</span></span>
+<span class="line"><span style="color: #EEFFFF">        dpt </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> DEPARTMENTS</span><span style="color: #89DDFF">[</span><span style="color: #EEFFFF">random</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">randint</span><span style="color: #89DDFF">(</span><span style="color: #F78C6C">0</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF">len</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">DEPARTMENTS</span><span style="color: #89DDFF">)</span><span style="color: #82AAFF"> </span><span style="color: #89DDFF">-</span><span style="color: #82AAFF"> </span><span style="color: #F78C6C">1</span><span style="color: #89DDFF">)]</span></span>
+<span class="line"><span style="color: #EEFFFF">        filledJob </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> </span><span style="color: #82AAFF">generate_filled_opening</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">brn</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF">dpt</span><span style="color: #89DDFF">)</span></span>
+<span class="line"><span style="color: #EEFFFF">        openings</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">append</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">filledJob</span><span style="color: #89DDFF">)</span></span>
+<span class="line"><span style="color: #EEFFFF">        expenses</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">append</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">generate_expense_jobBoard</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">filledJob</span><span style="color: #89DDFF">))</span></span>
+<span class="line"><span style="color: #EEFFFF">        expenses</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">append</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">generate_expense_assessment</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">filledJob</span><span style="color: #89DDFF">))</span></span>
+<span class="line"><span style="color: #EEFFFF">        tempEmployee </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> </span><span style="color: #82AAFF">generate_current_employee</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">filledJob</span><span style="color: #89DDFF">)</span></span>
+<span class="line"><span style="color: #EEFFFF">        talent</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">append</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">tempEmployee</span><span style="color: #89DDFF">)</span></span>
+<span class="line"><span style="color: #EEFFFF">        </span><span style="color: #89DDFF; font-style: italic">if</span><span style="color: #EEFFFF"> tempEmployee</span><span style="color: #89DDFF">[</span><span style="color: #F78C6C">0</span><span style="color: #89DDFF">]</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">==</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">Referral</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">:</span></span>
+<span class="line"><span style="color: #EEFFFF">            expenses</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">append</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">generate_expense_referral</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">filledJob</span><span style="color: #89DDFF">))</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #EEFFFF">        </span><span style="color: #545454; font-style: italic">#generate employees who didn&#39;t get selected</span></span>
+<span class="line"><span style="color: #EEFFFF">        </span><span style="color: #89DDFF; font-style: italic">for</span><span style="color: #EEFFFF"> i </span><span style="color: #89DDFF; font-style: italic">in</span><span style="color: #EEFFFF"> </span><span style="color: #82AAFF">range</span><span style="color: #89DDFF">(</span><span style="color: #F78C6C">0</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF"> random</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">randint</span><span style="color: #89DDFF">(</span><span style="color: #F78C6C">10</span><span style="color: #89DDFF">,</span><span style="color: #F78C6C">30</span><span style="color: #89DDFF">)):</span></span>
+<span class="line"><span style="color: #EEFFFF">            tempTalent </span><span style="color: #89DDFF">=</span><span style="color: #EEFFFF"> </span><span style="color: #82AAFF">generate_rejected_talent</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">filledJob</span><span style="color: #89DDFF">)</span></span>
+<span class="line"><span style="color: #EEFFFF">            </span><span style="color: #89DDFF; font-style: italic">if</span><span style="color: #EEFFFF"> tempTalent</span><span style="color: #89DDFF">[</span><span style="color: #F78C6C">3</span><span style="color: #89DDFF">]</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">==</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">KSAO Assessment</span><span style="color: #89DDFF">&#39;</span><span style="color: #89DDFF">:</span></span>
+<span class="line"><span style="color: #EEFFFF">                expenses</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">append</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">generate_expense_assessment</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">filledJob</span><span style="color: #89DDFF">))</span></span>
+<span class="line"><span style="color: #EEFFFF">            </span><span style="color: #89DDFF; font-style: italic">elif</span><span style="color: #EEFFFF"> tempTalent</span><span style="color: #89DDFF">[</span><span style="color: #F78C6C">3</span><span style="color: #89DDFF">]</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">==</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">Onsite</span><span style="color: #89DDFF">&#39;</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">or</span><span style="color: #EEFFFF"> tempTalent</span><span style="color: #89DDFF">[</span><span style="color: #F78C6C">3</span><span style="color: #89DDFF">]</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">==</span><span style="color: #EEFFFF"> </span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">Offer and Negotiation</span><span style="color: #89DDFF">&#39;</span><span style="color: #89DDFF">:</span></span>
+<span class="line"><span style="color: #EEFFFF">                expenses</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">append</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">generate_expense_assessment</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">filledJob</span><span style="color: #89DDFF">))</span></span>
+<span class="line"><span style="color: #EEFFFF">                expenses</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">append</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">generate_expense_onsite_travel</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">filledJob</span><span style="color: #89DDFF">))</span></span>
+<span class="line"><span style="color: #EEFFFF">                </span></span>
+<span class="line"><span style="color: #EEFFFF">            talent</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">append</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">tempTalent</span><span style="color: #89DDFF">)</span></span>
+<span class="line"></span></code></pre></div>
+
+
+
+<p class="">The Python code above is the main loop of the data simulation. It loops through the branches that were generated, picking a random number of open positions for each branch to currently have (scaled to pick one from [0, 0, 0, 1, 2, 3, 4, 5, 6, 7] in line 149).   It then picks a random department for each open roll to be in, and then calls functions (lines 152 &#8211; 154) to generate the simulated opening and recruitment/selection expenses data. Then, in line 157, the code similarly picks a random number of people who have applied to the position in a linear distribution from [0, 50]. It generates data on the applicant, including what stage they are currently at in the selection system pipeline. Using that stage data, it then generates additional expense data related to knowledge, skill, ability, and other characteristic (KSAO) assessment and onsite interview travel expense assistance.</p>
+
+
+
+<p class="">Starting at line 167, the code similarly generates data for roles that have been filled (defined by the filled jobs constant). It picks a random department within the branch, then generates the data regarding the opening, the expenses (including expenses related to talent moving through various stages of the selection system), the talent who was hired, and the talent who applied but were not hired.</p>
+
+
+
+<h4 class="wp-block-heading">Cleaning and Storing the Data</h4>
+
+
+
+<p class="">The program ultimately converts the propagated lists into pandas data frames with named columns, sorts the data chronologically, cleans helper columns (e.g., the date the data point was generated) from the data frame, and then saves the data frames into three separate CSVs to be imported into business intelligence tools like Tableau or Excel for exploratory data analysis and data visualization.</p>
+2:["$","div",null,{"className":"flex-col","children":[["$","$Lf",null,{"activeTitle":"Organizational Selection System Data Simulation"}],["$","article",null,{"className":"flex flex-col grow max-w-7xl py-10 space-y-12","children":[["$","h1",null,{"className":"flex grow font-bold leading-tight text-4xl md:text-5xl","children":"Organizational Selection System Data Simulation"}],["$","div",null,{"className":"mt-12 mb-4 p-4 w-full  neobrutal bg-surface-container-lowest text-on-surface mb-12","children":["$","$L10",null,{"htmlContent":"$11"}]}]]}]]}]
+e:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Organizational Selection System Data Simulation | Analytic Talesmith"}],["$","meta","3",{"name":"description","content":"Generated by create next app"}],["$","link","4",{"rel":"icon","href":"/icon.ico?e2e917e7b923cda7","type":"image/x-icon","sizes":"16x16"}]]
+1:null

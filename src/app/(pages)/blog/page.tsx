@@ -19,7 +19,7 @@ export default function HybridBlogPost({ }) {
     const [posts, setPosts] = useState<Post[]>([]);
     const [page, setPage] = useState(1);
     const [category, setCategory] = useState('');
-    const postsPerPage = 5;
+    const postsPerPage = 10;
 
     useEffect(() => {
         async function fetchData() {
@@ -83,7 +83,7 @@ export default function HybridBlogPost({ }) {
 export interface Post {
     id: string;
     title: string;
-    uri: string;
+    slug: string;
     date: Date;
     featuredImage: FeaturedImage | null;
     excerpt: string;

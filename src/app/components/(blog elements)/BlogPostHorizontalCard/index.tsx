@@ -11,7 +11,7 @@ import * as staticPost from '@/app/utils/staticPosts';
 export interface Post {
     id: string;
     title: string;
-    uri: string;
+    slug: string;
     date: Date;
     featuredImage: FeaturedImage | null;
     excerpt: string;
@@ -45,7 +45,7 @@ interface TagElement {
 }
 
 const BlogPostHorizontalCard: React.FC<Post> = (post) => {
-    const { id, title, uri, date, featuredImage, excerpt, categories, tags } = post;
+    const { id, title, slug, date, featuredImage, excerpt, categories, tags } = post;
 
     return (
         <div className=" p-4 mt-8 lg:flex lg:items-center bg-surface-container border border-black  border-r-4 border-b-4 rounded-b-lg rounded-r-lg">
@@ -61,7 +61,7 @@ const BlogPostHorizontalCard: React.FC<Post> = (post) => {
                     </InlineRow>
                 )}
 
-                <Link href={`/blog${uri}`} className="group py-1 px-2 my-2 block text-4xl font-semibold text-on-surface md:text-3xl font-spaceGrotesk
+                <Link href={`/blog/${slug}`} className="group py-1 px-2 my-2 block text-4xl font-semibold text-on-surface md:text-3xl font-spaceGrotesk
                         cursor-pointer relative before:absolute before:bg-surface-container-low before:bottom-0 before:left-0
                         before:h-full before:w-full before:origin-bottom before:scale-y-[0.3] hover:before:scale-y-100
                         before:transition-transform before:ease-out before:duration-500

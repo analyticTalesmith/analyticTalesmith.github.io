@@ -1,10 +1,97 @@
 [
     {
         "node": {
+            "id": "cG9zdDoxNDcy",
+            "title": "First MDX Test",
+            "slug": "testMDX",
+            "date": "2024-08-15T20:25:05",
+            "modified": "2024-08-15T20:26:27",
+            "featuredImage": {
+                "node": {
+                    "sourceUrl": null,
+                    "altText": null
+                }
+            },
+            "excerpt": "This is a test MDX meta excerpt.",
+            "categories": {
+                "nodes": [
+                    {
+                        "name": "test"
+                    }
+                ]
+            },
+            "tags": {
+                "nodes": [
+                    {
+                        "name": "test"
+                    },
+                    {
+                        "name": "temporary"
+                    }
+                ]
+            },
+            "relatedPosts": {
+                "nodes": [
+                    {
+                        "slug": "useful-excel-functions-for-data-analysis"
+                    },
+                    {
+                        "slug": "11-sources-to-find-free-public-datasets-for-your-next-data-projects"
+                    },
+                    {
+                        "slug": "airline-loyalty-program-promotion-dashboard"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "node": {
+            "id": "cG9zdDoxNDcx",
+            "title": "Second MDX Test",
+            "slug": "secondTest",
+            "date": "2024-08-15T20:25:04",
+            "modified": "2024-08-15T20:26:26",
+            "featuredImage": {
+                "node": {
+                    "sourceUrl": null,
+                    "altText": null
+                }
+            },
+            "excerpt": "This is a test MDX meta excerpt.",
+            "categories": {
+                "nodes": [
+                    {
+                        "name": "test"
+                    }
+                ]
+            },
+            "tags": {
+                "nodes": [
+                    {
+                        "name": "test"
+                    },
+                    {
+                        "name": "temporary"
+                    }
+                ]
+            },
+            "relatedPosts": {
+                "nodes": [
+                    {
+                        "slug": "testmdx"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "node": {
             "id": "cG9zdDoxNDE0",
             "title": "URL and Image Post",
-            "uri": "/test-image-post/",
+            "slug": "test-image-post",
             "date": "2024-07-16T14:19:11",
+            "modified": "2024-07-17T21:13:49",
             "featuredImage": {
                 "node": {
                     "sourceUrl": "scaledBattleMap-scaled.jpg",
@@ -21,6 +108,19 @@
             },
             "tags": {
                 "nodes": []
+            },
+            "relatedPosts": {
+                "nodes": [
+                    {
+                        "slug": "useful-excel-functions-for-data-analysis"
+                    },
+                    {
+                        "slug": "sql-joins-what-they-are-and-how-to-use-them"
+                    },
+                    {
+                        "slug": "driving-success-with-data-analytics-an-overview"
+                    }
+                ]
             }
         }
     },
@@ -28,8 +128,9 @@
         "node": {
             "id": "cG9zdDoxMQ==",
             "title": "Gutenberg Test",
-            "uri": "/gutenberg-test/",
+            "slug": "gutenberg-test",
             "date": "2024-07-08T15:35:55",
+            "modified": "2024-07-10T18:27:17",
             "featuredImage": null,
             "excerpt": "<p>Heading 2 &#8211; Wow what a heading This is paragraph content. Another paragraph. This is a quote Me (2024) Look at all this new stuff.</p>\n",
             "categories": {
@@ -41,6 +142,19 @@
             },
             "tags": {
                 "nodes": []
+            },
+            "relatedPosts": {
+                "nodes": [
+                    {
+                        "slug": "useful-excel-functions-for-data-analysis"
+                    },
+                    {
+                        "slug": "airline-loyalty-program-promotion-dashboard"
+                    },
+                    {
+                        "slug": "employee-performance-training-efficacy-exploratory-data-analysis"
+                    }
+                ]
             }
         }
     },
@@ -48,8 +162,9 @@
         "node": {
             "id": "cG9zdDo5",
             "title": "Second post",
-            "uri": "/second-post/",
+            "slug": "second-post",
             "date": "2024-07-04T12:48:00",
+            "modified": "2024-07-10T18:29:39",
             "featuredImage": null,
             "excerpt": "<p>Oh my goodness, and this is a second post. How exciting.</p>\n",
             "categories": {
@@ -68,6 +183,19 @@
                         "name": "test"
                     }
                 ]
+            },
+            "relatedPosts": {
+                "nodes": [
+                    {
+                        "slug": "post-one"
+                    },
+                    {
+                        "slug": "useful-excel-functions-for-data-analysis"
+                    },
+                    {
+                        "slug": "test-image-post"
+                    }
+                ]
             }
         }
     },
@@ -75,8 +203,9 @@
         "node": {
             "id": "cG9zdDo2",
             "title": "Post One",
-            "uri": "/post-one/",
+            "slug": "post-one",
             "date": "2024-07-04T12:47:36",
+            "modified": "2024-07-04T16:01:53",
             "featuredImage": null,
             "excerpt": "<p>Wow first post</p>\n",
             "categories": {
@@ -92,6 +221,19 @@
                         "name": "test"
                     }
                 ]
+            },
+            "relatedPosts": {
+                "nodes": [
+                    {
+                        "slug": "second-post"
+                    },
+                    {
+                        "slug": "gutenberg-test"
+                    },
+                    {
+                        "slug": "useful-excel-functions-for-data-analysis"
+                    }
+                ]
             }
         }
     },
@@ -99,8 +241,9 @@
         "node": {
             "id": "cG9zdDox",
             "title": "Hello world!",
-            "uri": "/hello-world/",
+            "slug": "hello-world",
             "date": "2024-07-04T11:50:22",
+            "modified": "2024-07-04T11:50:22",
             "featuredImage": null,
             "excerpt": "<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>\n",
             "categories": {
@@ -112,6 +255,19 @@
             },
             "tags": {
                 "nodes": []
+            },
+            "relatedPosts": {
+                "nodes": [
+                    {
+                        "slug": "useful-excel-functions-for-data-analysis"
+                    },
+                    {
+                        "slug": "organizational-selection-system-data-simulation"
+                    },
+                    {
+                        "slug": "driving-success-with-data-analytics-an-overview"
+                    }
+                ]
             }
         }
     },
@@ -119,8 +275,9 @@
         "node": {
             "id": "cG9zdDoxMzk4",
             "title": "Driving Success with Data Analytics: An Overview",
-            "uri": "/driving-success-with-data-analytics-an-overview/",
+            "slug": "driving-success-with-data-analytics-an-overview",
             "date": "2024-03-11T11:49:16",
+            "modified": "2024-07-10T20:11:36",
             "featuredImage": null,
             "excerpt": "<p>Discover how data analytics revolutionizes organizational operations, enabling evidence-based decision-making. From uncovering hidden opportunities to optimizing performance, analytics drive innovation across various areas like website optimization, personalized marketing, and talent management. This overview explores the value of analytics and data-driven decision making. </p>\n",
             "categories": {
@@ -157,6 +314,19 @@
                         "name": "statistical analyses"
                     }
                 ]
+            },
+            "relatedPosts": {
+                "nodes": [
+                    {
+                        "slug": "employee-performance-training-efficacy-exploratory-data-analysis"
+                    },
+                    {
+                        "slug": "airline-loyalty-program-promotion-dashboard"
+                    },
+                    {
+                        "slug": "11-sources-to-find-free-public-datasets-for-your-next-data-projects"
+                    }
+                ]
             }
         }
     },
@@ -164,8 +334,9 @@
         "node": {
             "id": "cG9zdDoxMzY4",
             "title": "11 Sources to Find Free Public Datasets for Your Next Data Projects",
-            "uri": "/11-sources-to-find-free-public-datasets-for-your-next-data-projects/",
+            "slug": "11-sources-to-find-free-public-datasets-for-your-next-data-projects",
             "date": "2023-12-20T11:47:56",
+            "modified": "2024-07-10T20:11:36",
             "featuredImage": null,
             "excerpt": "<p>Discover a comprehensive list of the top 10 online sources for free public data sets that can be used in data analytics portfolio projects. Empower your data analysis skills and enhance your portfolio with valuable data sets.</p>\n",
             "categories": {
@@ -190,6 +361,19 @@
                         "name": "open data"
                     }
                 ]
+            },
+            "relatedPosts": {
+                "nodes": [
+                    {
+                        "slug": "driving-success-with-data-analytics-an-overview"
+                    },
+                    {
+                        "slug": "useful-excel-functions-for-data-analysis"
+                    },
+                    {
+                        "slug": "organizational-selection-system-data-simulation"
+                    }
+                ]
             }
         }
     },
@@ -197,8 +381,9 @@
         "node": {
             "id": "cG9zdDoxMzQ1",
             "title": "Useful Excel Functions for Data Analysis",
-            "uri": "/useful-excel-functions-for-data-analysis/",
+            "slug": "useful-excel-functions-for-data-analysis",
             "date": "2023-11-27T21:21:11",
+            "modified": "2024-07-10T20:11:36",
             "featuredImage": null,
             "excerpt": "<p>Microsoft Excel has hundreds of functions, but in this post, I explore about 20 functions that I use the most when I&#8217;m working with data in Excel.</p>\n",
             "categories": {
@@ -220,6 +405,19 @@
                         "name": "microsoft excel"
                     }
                 ]
+            },
+            "relatedPosts": {
+                "nodes": [
+                    {
+                        "slug": "sql-joins-what-they-are-and-how-to-use-them"
+                    },
+                    {
+                        "slug": "airline-loyalty-program-promotion-dashboard"
+                    },
+                    {
+                        "slug": "organizational-selection-system-data-simulation"
+                    }
+                ]
             }
         }
     },
@@ -227,8 +425,9 @@
         "node": {
             "id": "cG9zdDoxMjk0",
             "title": "SQL Joins: What They Are and How To Use Them",
-            "uri": "/sql-joins-what-they-are-and-how-to-use-them/",
+            "slug": "sql-joins-what-they-are-and-how-to-use-them",
             "date": "2023-11-27T17:33:50",
+            "modified": "2024-07-10T20:11:37",
             "featuredImage": null,
             "excerpt": "<p>SQL joins are functions that consolidate data from multiple tables based on a specified condition, typically involving a primary key in one table and a foreign key in another. Joins return subsets of the original tables that meet the provided conditions, creating new combinations of rows. Types of joins include inner joins, left and right outer joins, full outer joins, and cross joins, each offering different results based on their unique logic and join conditions.</p>\n",
             "categories": {
@@ -250,6 +449,19 @@
                         "name": "sql"
                     }
                 ]
+            },
+            "relatedPosts": {
+                "nodes": [
+                    {
+                        "slug": "useful-excel-functions-for-data-analysis"
+                    },
+                    {
+                        "slug": "employee-performance-training-efficacy-exploratory-data-analysis"
+                    },
+                    {
+                        "slug": "airline-loyalty-program-promotion-dashboard"
+                    }
+                ]
             }
         }
     },
@@ -257,8 +469,9 @@
         "node": {
             "id": "cG9zdDoxMjc5",
             "title": "Digital Goods Online Store Dashboard",
-            "uri": "/digital-goods-online-store-dashboard/",
+            "slug": "digital-goods-online-store-dashboard",
             "date": "2023-11-12T20:36:30",
+            "modified": "2024-07-10T20:11:37",
             "featuredImage": null,
             "excerpt": "<p>Tableau dashboard visualizing key performance indicators related to an online store&#8217;s sales and visualizing market basket analysis</p>\n",
             "categories": {
@@ -281,6 +494,388 @@
                     },
                     {
                         "name": "report"
+                    }
+                ]
+            },
+            "relatedPosts": {
+                "nodes": [
+                    {
+                        "slug": "useful-excel-functions-for-data-analysis"
+                    },
+                    {
+                        "slug": "airline-loyalty-program-promotion-dashboard"
+                    },
+                    {
+                        "slug": "sql-joins-what-they-are-and-how-to-use-them"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "node": {
+            "id": "cG9zdDoxMjc2",
+            "title": "Digital Goods Data Simulation",
+            "slug": "digital-goods-data-simulation",
+            "date": "2023-11-12T20:02:31",
+            "modified": "2024-07-10T20:11:37",
+            "featuredImage": null,
+            "excerpt": "<p>Simulation of digital goods online merchant customers and sales using Python</p>\n",
+            "categories": {
+                "nodes": [
+                    {
+                        "name": "Old"
+                    },
+                    {
+                        "name": "Portfolio"
+                    }
+                ]
+            },
+            "tags": {
+                "nodes": [
+                    {
+                        "name": "data simulation"
+                    },
+                    {
+                        "name": "database diagram"
+                    },
+                    {
+                        "name": "Faker"
+                    },
+                    {
+                        "name": "Hugging Face"
+                    },
+                    {
+                        "name": "numpy"
+                    },
+                    {
+                        "name": "pandas"
+                    },
+                    {
+                        "name": "python"
+                    },
+                    {
+                        "name": "sentence tranformers"
+                    }
+                ]
+            },
+            "relatedPosts": {
+                "nodes": [
+                    {
+                        "slug": "useful-excel-functions-for-data-analysis"
+                    },
+                    {
+                        "slug": "sql-joins-what-they-are-and-how-to-use-them"
+                    },
+                    {
+                        "slug": "airline-loyalty-program-promotion-dashboard"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "node": {
+            "id": "cG9zdDoxMjUw",
+            "title": "Airline Loyalty Program Promotion Dashboard",
+            "slug": "airline-loyalty-program-promotion-dashboard",
+            "date": "2023-11-10T22:57:40",
+            "modified": "2024-07-10T20:11:37",
+            "featuredImage": null,
+            "excerpt": "<p>Tableau dashboard visualizing key performance indicators related to an airline&#8217;s loyalty membership program promotion</p>\n",
+            "categories": {
+                "nodes": [
+                    {
+                        "name": "Old"
+                    },
+                    {
+                        "name": "Portfolio"
+                    }
+                ]
+            },
+            "tags": {
+                "nodes": [
+                    {
+                        "name": "calculated field"
+                    },
+                    {
+                        "name": "dashboard"
+                    },
+                    {
+                        "name": "dashboard actions"
+                    },
+                    {
+                        "name": "data visualization"
+                    },
+                    {
+                        "name": "DAX"
+                    },
+                    {
+                        "name": "EDA"
+                    },
+                    {
+                        "name": "excel"
+                    },
+                    {
+                        "name": "exploratory data analysis"
+                    },
+                    {
+                        "name": "LOD"
+                    },
+                    {
+                        "name": "pivottable"
+                    }
+                ]
+            },
+            "relatedPosts": {
+                "nodes": [
+                    {
+                        "slug": "employee-performance-training-efficacy-exploratory-data-analysis"
+                    },
+                    {
+                        "slug": "useful-excel-functions-for-data-analysis"
+                    },
+                    {
+                        "slug": "driving-success-with-data-analytics-an-overview"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "node": {
+            "id": "cG9zdDoxMDky",
+            "title": "Selection System Performance Tableau Dashboard",
+            "slug": "selection-system-performance-tableau-dashboard",
+            "date": "2023-11-07T15:12:49",
+            "modified": "2024-07-10T20:11:37",
+            "featuredImage": null,
+            "excerpt": "<p>Tableau dashboard visualizing selection system stats within a large organization from a simulated data set</p>\n",
+            "categories": {
+                "nodes": [
+                    {
+                        "name": "Old"
+                    },
+                    {
+                        "name": "Portfolio"
+                    }
+                ]
+            },
+            "tags": {
+                "nodes": [
+                    {
+                        "name": "dashboard"
+                    },
+                    {
+                        "name": "data visualization"
+                    },
+                    {
+                        "name": "EDA"
+                    },
+                    {
+                        "name": "exploratory data analysis"
+                    },
+                    {
+                        "name": "pivottable"
+                    },
+                    {
+                        "name": "python"
+                    },
+                    {
+                        "name": "report"
+                    },
+                    {
+                        "name": "tableau"
+                    }
+                ]
+            },
+            "relatedPosts": {
+                "nodes": [
+                    {
+                        "slug": "employee-performance-training-efficacy-exploratory-data-analysis"
+                    },
+                    {
+                        "slug": "organizational-selection-system-data-simulation"
+                    },
+                    {
+                        "slug": "airline-loyalty-program-promotion-dashboard"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "node": {
+            "id": "cG9zdDoxMDg5",
+            "title": "Yearly Sales Report Excel Dashboard",
+            "slug": "yearly-sales-report-excel-dashboard",
+            "date": "2023-11-07T15:04:55",
+            "modified": "2024-07-10T20:11:37",
+            "featuredImage": null,
+            "excerpt": "<p>Excel dashboard visualizing yearly sales to inform business and marketing strategy for the year ahead</p>\n",
+            "categories": {
+                "nodes": [
+                    {
+                        "name": "Old"
+                    },
+                    {
+                        "name": "Portfolio"
+                    }
+                ]
+            },
+            "tags": {
+                "nodes": [
+                    {
+                        "name": "dashboard"
+                    },
+                    {
+                        "name": "data visualization"
+                    },
+                    {
+                        "name": "EDA"
+                    },
+                    {
+                        "name": "excel"
+                    },
+                    {
+                        "name": "exploratory data analysis"
+                    },
+                    {
+                        "name": "report"
+                    },
+                    {
+                        "name": "sales"
+                    }
+                ]
+            },
+            "relatedPosts": {
+                "nodes": [
+                    {
+                        "slug": "employee-performance-training-efficacy-exploratory-data-analysis"
+                    },
+                    {
+                        "slug": "airline-loyalty-program-promotion-dashboard"
+                    },
+                    {
+                        "slug": "driving-success-with-data-analytics-an-overview"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "node": {
+            "id": "cG9zdDoxMDY5",
+            "title": "Employee Performance & Training Efficacy Exploratory Data Analysis",
+            "slug": "employee-performance-training-efficacy-exploratory-data-analysis",
+            "date": "2023-11-07T14:58:19",
+            "modified": "2024-07-10T20:11:37",
+            "featuredImage": null,
+            "excerpt": "<p>Exploratory data analysis of sourced employee performance and training data using Python and SQL</p>\n",
+            "categories": {
+                "nodes": [
+                    {
+                        "name": "Old"
+                    },
+                    {
+                        "name": "Portfolio"
+                    }
+                ]
+            },
+            "tags": {
+                "nodes": [
+                    {
+                        "name": "common table expression"
+                    },
+                    {
+                        "name": "data analysis"
+                    },
+                    {
+                        "name": "descriptive analysis"
+                    },
+                    {
+                        "name": "exploratory data analysis"
+                    },
+                    {
+                        "name": "pandas"
+                    },
+                    {
+                        "name": "prettytable"
+                    },
+                    {
+                        "name": "python"
+                    },
+                    {
+                        "name": "scipy"
+                    },
+                    {
+                        "name": "sql"
+                    }
+                ]
+            },
+            "relatedPosts": {
+                "nodes": [
+                    {
+                        "slug": "organizational-selection-system-data-simulation"
+                    },
+                    {
+                        "slug": "sql-joins-what-they-are-and-how-to-use-them"
+                    },
+                    {
+                        "slug": "useful-excel-functions-for-data-analysis"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "node": {
+            "id": "cG9zdDoxMDU2",
+            "title": "Organizational Selection System Data Simulation",
+            "slug": "organizational-selection-system-data-simulation",
+            "date": "2023-11-07T13:45:19",
+            "modified": "2024-07-10T20:11:38",
+            "featuredImage": null,
+            "excerpt": "<p>Simulation of role opening, talent recruiting and selection, and selection-related expenses relational data set using Python</p>\n",
+            "categories": {
+                "nodes": [
+                    {
+                        "name": "Old"
+                    },
+                    {
+                        "name": "Portfolio"
+                    }
+                ]
+            },
+            "tags": {
+                "nodes": [
+                    {
+                        "name": "data simulation"
+                    },
+                    {
+                        "name": "database diagram"
+                    },
+                    {
+                        "name": "pandas"
+                    },
+                    {
+                        "name": "python"
+                    },
+                    {
+                        "name": "schema"
+                    }
+                ]
+            },
+            "relatedPosts": {
+                "nodes": [
+                    {
+                        "slug": "useful-excel-functions-for-data-analysis"
+                    },
+                    {
+                        "slug": "employee-performance-training-efficacy-exploratory-data-analysis"
+                    },
+                    {
+                        "slug": "airline-loyalty-program-promotion-dashboard"
                     }
                 ]
             }

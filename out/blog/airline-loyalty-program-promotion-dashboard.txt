@@ -1,0 +1,267 @@
+3:I[9275,[],""]
+5:I[1343,[],""]
+6:I[7698,["231","static/chunks/231-51948d2fc13689f8.js","691","static/chunks/691-d4a7045616adc7a5.js","185","static/chunks/app/layout-69f21a6500d53c3d.js"],"ThemeProvider"]
+7:I[2883,["231","static/chunks/231-51948d2fc13689f8.js","691","static/chunks/691-d4a7045616adc7a5.js","185","static/chunks/app/layout-69f21a6500d53c3d.js"],"default"]
+c:I[5007,["231","static/chunks/231-51948d2fc13689f8.js","691","static/chunks/691-d4a7045616adc7a5.js","185","static/chunks/app/layout-69f21a6500d53c3d.js"],"default"]
+d:I[231,["231","static/chunks/231-51948d2fc13689f8.js","931","static/chunks/app/page-2aa8f480b7f8ca14.js"],""]
+4:["slug","airline-loyalty-program-promotion-dashboard","d"]
+8:{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"}
+9:{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"}
+a:{"display":"inline-block"}
+b:{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0}
+0:["5R8VqgjEvTExYVITTU-ti",[[["",{"children":["(pages)",{"children":["blog",{"children":[["slug","airline-loyalty-program-promotion-dashboard","d"],{"children":["__PAGE__?{\"slug\":\"airline-loyalty-program-promotion-dashboard\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["(pages)",{"children":["blog",{"children":[["slug","airline-loyalty-program-promotion-dashboard","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(pages)","children","blog","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(pages)","children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(pages)","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}],null]},[["$","html",null,{"lang":"en","className":"__variable_587f35 __variable_54b096","suppressHydrationWarning":true,"children":["$","body",null,{"className":"bg-background","children":[["$","div",null,{"className":"background-graphic"}],["$","$L6",null,{"children":[["$","$L7",null,{}],["$","div",null,{"className":"container flex-auto w-full max-w-7xl px-2 sm:px-4 py-28 md:pt-20 justify-center","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$8","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$9","children":"404"}],["$","div",null,{"style":"$a","children":["$","h2",null,{"style":"$b","children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}],["$","$Lc",null,{}],["$","footer",null,{"className":"mt-auto bg-surface font-spaceGrotesk","children":["$","div",null,{"className":"max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8","children":[["$","nav",null,{"className":"flex flex-wrap justify-center -mx-5 -my-2","children":[["$","div",null,{"className":"px-5 py-2","children":["$","$Ld",null,{"href":"/about","className":"text-base leading-6 text-on-surface hover:text-primary-container","children":"About"}]}],["$","div",null,{"className":"px-5 py-2","children":["$","$Ld",null,{"href":"/blog","className":"text-base leading-6 text-on-surface hover:text-primary-container","children":"Blog"}]}]]}],["$","div",null,{"className":"flex justify-center mt-8 space-x-6","children":[["$","$Ld",null,{"href":"https://github.com/analyticTalesmith","className":"text-primary-container hover:text-primary","children":[["$","span",null,{"className":"sr-only","children":"GitHub"}],["$","svg",null,{"className":"w-6 h-6","aria-hidden":"true","fill":"currentColor","viewBox":"0 0 24 24","children":["$","path",null,{"fillRule":"evenodd","d":"M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z","clipRule":"evenodd"}]}]]}],["$","$Ld",null,{"href":"https://www.linkedin.com/in/analytictalesmith/","className":"text-primary-container hover:text-primary","children":[["$","span",null,{"className":"sr-only","children":"LinkedIn"}],["$","svg",null,{"className":"w-6 h-6","aria-hidden":"true","xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","children":[["$","path",null,{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}],["$","path",null,{"d":"M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"}],["$","path",null,{"d":"M8 11l0 5"}],["$","path",null,{"d":"M8 8l0 .01"}],["$","path",null,{"d":"M12 16l0 -5"}],["$","path",null,{"d":"M16 16v-3a2 2 0 0 0 -4 0"}]]}]]}]]}],["$","p",null,{"className":"mt-8 text-base leading-6 text-center text-gray-400","children":"© 2024 Jonathan Bailey. All rights reserved."}]]}]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/21aabcac29a6b65e.css","precedence":"next","crossOrigin":"$undefined"}]],"$Le"]]]]
+f:I[2478,["231","static/chunks/231-51948d2fc13689f8.js","173","static/chunks/173-eff3ff7a959cfdff.js","110","static/chunks/110-840ec3b110f34719.js","610","static/chunks/app/(pages)/blog/%5Bslug%5D/page-09a69fa98d8e5d2d.js"],"default"]
+10:I[1117,["231","static/chunks/231-51948d2fc13689f8.js","173","static/chunks/173-eff3ff7a959cfdff.js","110","static/chunks/110-840ec3b110f34719.js","610","static/chunks/app/(pages)/blog/%5Bslug%5D/page-09a69fa98d8e5d2d.js"],"default"]
+11:T88f8,
+<div class="wp-block-stackable-subtitle stk-block-subtitle stk-block stk-7ad80a7" data-block-id="7ad80a7"><p class="stk-block-subtitle__text stk-subtitle">Tableau dashboard visualizing key performance indicators related to an airline&#8217;s loyalty membership program promotion</p></div>
+
+
+
+<div class="wp-block-stackable-image stk-block-image stk-block stk-c3b71c8" data-block-id="c3b71c8"><style>.stk-c3b71c8 .stk-img-wrapper img{border-radius:8px !important}</style><figure><div class="stk-img-wrapper stk-image--shape-stretch"><img loading="lazy" decoding="async" class="stk-img wp-image-1251" src="https://analytictalesmith.com/wp-content/uploads/2023/11/airlineDash.png" width="1920" height="1080" alt="Dashboard visualizing KPIs of an airline loyalty membership program"/></div></figure></div>
+
+
+
+<div class="wp-block-stackable-button-group stk-block-button-group stk-block stk-14000c5" data-block-id="14000c5"><div class="stk-row stk-inner-blocks stk-block-content stk-button-group">
+<div class="wp-block-stackable-button stk-block-button stk-block stk-7b9505a" data-block-id="7b9505a"><style>.stk-7b9505a,.stk-7b9505a .stk-button{width:100% !important}.stk-7b9505a{flex:1 1 0 !important}</style><a class="stk-link stk-button stk--hover-effect-darken" href="https://public.tableau.com/app/profile/jonathan.bailey/viz/AirlineLoyaltyProgramPerformance/LoyaltyProgramPerformanceDashboard" title="Airline Loyalty Tableau Dashboard" target="_blank" rel="noreferrer noopener"><span class="stk--svg-wrapper"><div class="stk--inner-svg"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chart-line" class="svg-inline--fa fa-chart-line fa-w-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="32" height="32"><path fill="currentColor" d="M496 384H64V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67 14.33 32 32 32h464c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zM464 96H345.94c-21.38 0-32.09 25.85-16.97 40.97l32.4 32.4L288 242.75l-73.37-73.37c-12.5-12.5-32.76-12.5-45.25 0l-68.69 68.69c-6.25 6.25-6.25 16.38 0 22.63l22.62 22.62c6.25 6.25 16.38 6.25 22.63 0L192 237.25l73.37 73.37c12.5 12.5 32.76 12.5 45.25 0l96-96 32.4 32.4c15.12 15.12 40.97 4.41 40.97-16.97V112c.01-8.84-7.15-16-15.99-16z"></path></svg></div></span><span class="stk-button__inner-text">Open Dashboard on Tableau Public</span></a></div>
+</div></div>
+
+
+
+<h2 class="wp-block-heading" id="summary">Summary</h2>
+
+
+
+<ul class="wp-block-list">
+<li class=""><strong>Source Data </strong>— A two-table data set provided by <a href="https://mavenanalytics.io/data-playground" title="Maven Analytics">Maven Analytics</a> with over 422,000 records of a fictitious Canadian airline&#8217;s loyalty program members and the flights they took from April 2012 to December 2018.</li>
+
+
+
+<li class=""><strong>Business Context </strong>— The airline ran a promotion from Feb. &#8211; Apr. 2018.</li>
+
+
+
+<li class=""><strong>Problem </strong>— Did the promotion impact key performance and who did the promotion appeal to?</li>
+
+
+
+<li class=""><strong>Importance </strong>— Anyone can run a promotion; not everyone can design a successful promotion that drives key performance. It is crucial to assess the effectiveness of marketing strategies and critically determine what did and didn&#8217;t work.</li>
+
+
+
+<li class=""><strong>Insights </strong>—
+<ul class="wp-block-list">
+<li class=""><em><strong>Promotion Attracted New Customers</strong> </em>— Both gross and net enrollment during Feb. &#8211; Apr. 2018 were significantly greater than would be expected without the promotion based on the growth trend prior to the promotion. Despite a peak in loyalty program membership cancellations in Aug. 2018, net enrollment has persisted at previous rates after the promotion end and active membership continues to steadily climb.</li>
+
+
+
+<li class=""><em><strong>Promotion Drove Summer 2018 Sales</strong> </em>— 2018 Quarters 2 &#8211; 4 had increased flights compared to the same period in 2017.</li>
+
+
+
+<li class=""><em><strong>Promotional Enrollment Customers Differed from Standard Enrollment</strong> </em>— The promotion was <em>especially </em>successful in Quebec and British Columbia. It was also popular among consumers who were divorced, women, and/or had attained at most a Bachelor&#8217;s degree, with each of these groups comprising more of the overall enrollment during the promotion than they did during standard enrollment.</li>
+
+
+
+<li class=""><strong><em>Threat of Churn is Increasing </em></strong>— Gross enrollment trends upwards primarily because of the spike in enrollment during the promotion. Without the spike, gross enrollment is persisting at about 200 new members each month. However, the amount of cancellations each month is out-pacing new enrollments, and net enrollment is overall trending negatively.</li>
+</ul>
+</li>
+
+
+
+<li class=""><strong>Recommendations </strong>—
+<ul class="wp-block-list">
+<li class=""><strong><em>Data</em></strong> —
+<ul class="wp-block-list">
+<li class=""><em>Add table tracking additional promotions and their key characteristics </em>— While these data can demonstrate overall success of promotional enrollment and subsequent ticket sales, they are ultimately limited. If additional data was tracked regarding characteristics of each promotion, more robust analyses could be performed to more reliably indicate how success was driven by the promotions versus other contextual factors (e.g., standard business growth) or even noise (e.g., random coincidences falling on the tail ends of normal distributions). More data regarding the characteristics of the promotions could also enable optimization analyses to help design more effective promotions.</li>
+
+
+
+<li class=""><em>Collect cancellation data </em>— More and more members are deciding to cancel or not renew their membership. Understanding what is driving this growing churn is crucial to managing enrollment and creating programs to maintain active members.</li>
+</ul>
+</li>
+
+
+
+<li class=""><strong><em>Business </em></strong>—
+<ul class="wp-block-list">
+<li class=""><em>Monitor churn </em>— Higher counts of cancellation are expected as an organization has more active members. The problem arises when cancellation starts to outpace new enrollment. As it currently stands, cancellations are picking up in pace faster than enrollments. As long as net enrollment stays positive, the business will continue to see growth, but it is crucial to monitor these metrics to proactively implement strategies to avoid a decrease in active members.</li>
+
+
+
+<li class=""><em>Explore Promotional Opportunities </em>— Something about the Q1 2018 promotion appealed to a subset of consumers, and it would be beneficial to assess whether that demographic&#8217;s persona is successfully represented in business decisions moving forward. Additionally, promotional enrollment members have similar (though marginally greater) customer lifetime values as standard enrollment members, but they tend to fly less and therefore cost the airline less in reward points. Additional promotions could boost enrollment and drive relationships with valuable customers.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading" id="project-overview">Project Overview</h2>
+
+
+
+<h3 class="wp-block-heading" id="preparing-data">Preparing Data</h3>
+
+
+
+<p class="">The data comprised two tables: one tracking customer loyalty program membership (including demographics and enrollment details) and the other tracking loyalty program members&#8217; activity (including how many flights they took, points they earned, and points they redeemed each month). Unfortunately, the data on customer salary had unexpected negative values and the provided data dictionary/codebook simply documented the &#8220;Salary&#8221; column as &#8220;Annual Income&#8221; without additional information on this particular characteristic of the data. Because of this, I chose to disregard salary from the analyses. Otherwise, the data were cleaned well and appeared as expected.</p>
+
+
+
+<h3 class="wp-block-heading" id="exploratory-data-analysis">Exploratory Data Analysis</h3>
+
+
+
+<p class="">Given the business context and the available data, I knew my primary focus was going to be on how the membership program promotion impacted key performance indicators and the specific characteristics of promotional enrollment members compared to standard enrollment members. </p>
+
+
+
+<h4 class="wp-block-heading" id="data-reshaping">Data Reshaping</h4>
+
+
+
+<p class="">The loyalty program membership table is wide, but the flight information is long. <em>Very </em>long, even. I could quickly throw the membership data into simple PivotTables and get the information I wanted from them without any additional steps. But the flight info needed to be aggregated across each unique loyalty program membership ID number to explore the data I wanted. So that meant enabling the DAX add-on in Excel so I could use the Data Analysis Expressions to aggregate. I specifically used DAX to calculate the lifetime total flights, total miles flown, average flight distance, points earned, and cost of redeemed points for each program member. These aggregations were then inserted into the loyalty membership table for convenient access as a PivotTable field.</p>
+
+
+
+<h4 class="wp-block-heading" id="visualization-verification-source">Visualization Verification Source</h4>
+
+
+
+<p class="">With the data reshaped, I created PivotTables to explore descriptive characteristics of the data. The first goal was to simply figure out what story was embedded within the data. The second was to create a source to verify the accuracy of aggregations and visualizations I would later create in Tableau. </p>
+
+
+
+<h3 class="wp-block-heading" id="tableau-data-visualization">Tableau Data Visualization</h3>
+
+
+
+<h4 class="wp-block-heading" id="importing-the-data-and-building-relationships">Importing the Data and Building Relationships</h4>
+
+
+
+<p class="">I have already discussed the first two CSVs I imported into Tableau: the wide program membership information and the long monthly customer reports. These were simply related by the shared customer ID. But I quickly realized that if I wanted to use the date and month columns effectively for loyalty program enrollment and cancellation metrics/visualizations, I needed to create a helper CSV. So I went into Excel and wrote the function to generate the first day of each month present in the data set to generate a data scaffolding framework. I related this CSV of dates to the membership info using two calculated fields, shown below, to track whether a member was actively enrolled during each month or not (EnrollStart &lt;= Date &lt;= EnrollEnd)</p>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:.875rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><span style="display:flex;align-items:center;padding:16px 0 0 16px;width:100%;text-align:left;background-color:#2e3440"><span style="background:#c8d0e0;padding:0.3rem 0.5rem 0.2rem;border-radius:1rem;font-size:0.8em;line-height:1;height:1.25rem;text-align:center;display:inline-flex;align-items:center;justify-content:center;color:#2e3440">EnrollStart</span></span><span role="button" tabindex="0" data-code="DATE(STR([Enrollment Month]) + &quot; 1 &quot; + STR([Enrollment Year]))" style="color:#d8dee9ff;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg></span><pre class="shiki nord" style="background-color: #2e3440ff" tabindex="0"><code><span class="line"><span style="color: #81A1C1">DATE</span><span style="color: #D8DEE9FF">(</span><span style="color: #88C0D0">STR</span><span style="color: #D8DEE9FF">([Enrollment Month]) </span><span style="color: #81A1C1">+</span><span style="color: #D8DEE9FF"> </span><span style="color: #ECEFF4">&quot;</span><span style="color: #A3BE8C"> 1 </span><span style="color: #ECEFF4">&quot;</span><span style="color: #D8DEE9FF"> </span><span style="color: #81A1C1">+</span><span style="color: #D8DEE9FF"> </span><span style="color: #88C0D0">STR</span><span style="color: #D8DEE9FF">([Enrollment Year]))</span></span></code></pre></div>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:.875rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><span style="display:flex;align-items:center;padding:16px 0 0 16px;width:100%;text-align:left;background-color:#2e3440"><span style="background:#c8d0e0;padding:0.3rem 0.5rem 0.2rem;border-radius:1rem;font-size:0.8em;line-height:1;height:1.25rem;text-align:center;display:inline-flex;align-items:center;justify-content:center;color:#2e3440">EnrollEnd</span></span><span role="button" tabindex="0" data-code="IF ISNULL([Cancellation Year])
+    THEN DATE(&quot;12 31 3000&quot;)
+ELSE
+    DATE(STR([Cancellation Month]) + &quot; 1 &quot; + STR([Cancellation Year]))
+END" style="color:#d8dee9ff;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg></span><pre class="shiki nord" style="background-color: #2e3440ff" tabindex="0"><code><span class="line"><span style="color: #81A1C1">IF</span><span style="color: #D8DEE9FF"> </span><span style="color: #88C0D0">ISNULL</span><span style="color: #D8DEE9FF">([Cancellation Year])</span></span>
+<span class="line"><span style="color: #D8DEE9FF">    </span><span style="color: #81A1C1">THEN</span><span style="color: #D8DEE9FF"> </span><span style="color: #81A1C1">DATE</span><span style="color: #D8DEE9FF">(</span><span style="color: #ECEFF4">&quot;</span><span style="color: #A3BE8C">12 31 3000</span><span style="color: #ECEFF4">&quot;</span><span style="color: #D8DEE9FF">)</span></span>
+<span class="line"><span style="color: #81A1C1">ELSE</span></span>
+<span class="line"><span style="color: #D8DEE9FF">    </span><span style="color: #81A1C1">DATE</span><span style="color: #D8DEE9FF">(</span><span style="color: #88C0D0">STR</span><span style="color: #D8DEE9FF">([Cancellation Month]) </span><span style="color: #81A1C1">+</span><span style="color: #D8DEE9FF"> </span><span style="color: #ECEFF4">&quot;</span><span style="color: #A3BE8C"> 1 </span><span style="color: #ECEFF4">&quot;</span><span style="color: #D8DEE9FF"> </span><span style="color: #81A1C1">+</span><span style="color: #D8DEE9FF"> </span><span style="color: #88C0D0">STR</span><span style="color: #D8DEE9FF">([Cancellation Year]))</span></span>
+<span class="line"><span style="color: #81A1C1">END</span></span></code></pre></div>
+
+
+
+<h4 class="wp-block-heading" id="visualizations">Visualizations</h4>
+
+
+
+<p class="">I ultimately decided on a layout that focused first on the increased ticket sales following the promotion, then the report of gross and net enrollment rates, followed by the demographic differences in standard versus promotional enrollment members, concluding with the table of consumer characteristics based on enrollment type. The strategy was to order the metrics based by relevance to the business context and by the significance of the insights they visualized.</p>
+
+
+
+<h5 class="wp-block-heading" id="flights-bar-in-bar">Flights Bar-in-Bar</h5>
+
+
+
+<p class="">This visualization was straight forward, with the intention of showing how sales had improved after the promotion. The synchronized dual axis did the heavy lifting for this visualization.  Outside of that, the other major component was creating 4 calculated fields to drive a color-coded tooltip reporting the difference in flights and the change in percentage. The two pills shown below demonstrate the calculated fields used for the case flight increases, and the same logic was used in the second.</p>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:.875rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><span style="display:flex;align-items:center;padding:16px 0 0 16px;width:100%;text-align:left;background-color:#2e3440"><span style="background:#c8d0e0;padding:0.3rem 0.5rem 0.2rem;border-radius:1rem;font-size:0.8em;line-height:1;height:1.25rem;text-align:center;display:inline-flex;align-items:center;justify-content:center;color:#2e3440">FlightImprove</span></span><span role="button" tabindex="0" data-code="IF SUM([2018 Flights])-SUM([2017 Flights]) &gt; 0
+  THEN &quot;+&quot; + STR(SUM([2018 Flights])- SUM([2017 Flights])) + &quot; flights&quot;
+END" style="color:#d8dee9ff;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg></span><pre class="shiki nord" style="background-color: #2e3440ff" tabindex="0"><code><span class="line"><span style="color: #81A1C1">IF</span><span style="color: #D8DEE9FF"> </span><span style="color: #88C0D0">SUM</span><span style="color: #D8DEE9FF">([2018 Flights])</span><span style="color: #81A1C1">-</span><span style="color: #88C0D0">SUM</span><span style="color: #D8DEE9FF">([2017 Flights]) </span><span style="color: #81A1C1">&gt;</span><span style="color: #D8DEE9FF"> </span><span style="color: #B48EAD">0</span></span>
+<span class="line"><span style="color: #D8DEE9FF">  </span><span style="color: #81A1C1">THEN</span><span style="color: #D8DEE9FF"> </span><span style="color: #ECEFF4">&quot;</span><span style="color: #A3BE8C">+</span><span style="color: #ECEFF4">&quot;</span><span style="color: #D8DEE9FF"> </span><span style="color: #81A1C1">+</span><span style="color: #D8DEE9FF"> </span><span style="color: #88C0D0">STR</span><span style="color: #D8DEE9FF">(</span><span style="color: #88C0D0">SUM</span><span style="color: #D8DEE9FF">([2018 Flights])</span><span style="color: #81A1C1">-</span><span style="color: #D8DEE9FF"> </span><span style="color: #88C0D0">SUM</span><span style="color: #D8DEE9FF">([2017 Flights])) </span><span style="color: #81A1C1">+</span><span style="color: #D8DEE9FF"> </span><span style="color: #ECEFF4">&quot;</span><span style="color: #A3BE8C"> flights</span><span style="color: #ECEFF4">&quot;</span></span>
+<span class="line"><span style="color: #81A1C1">END</span></span></code></pre></div>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:.875rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><span style="display:flex;align-items:center;padding:16px 0 0 16px;width:100%;text-align:left;background-color:#2e3440"><span style="background:#c8d0e0;padding:0.3rem 0.5rem 0.2rem;border-radius:1rem;font-size:0.8em;line-height:1;height:1.25rem;text-align:center;display:inline-flex;align-items:center;justify-content:center;color:#2e3440">FlightImprove%</span></span><span role="button" tabindex="0" data-code="IF SUM([2018 Flights])-SUM([2017 Flights]) &gt; 0
+  THEN &quot; (+&quot; + STR(ROUND((SUM([2018 Flights])- SUM([2017 Flights]))/SUM([2017 Flights])*100,1)) + &quot;%)&quot;
+END" style="color:#d8dee9ff;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg></span><pre class="shiki nord" style="background-color: #2e3440ff" tabindex="0"><code><span class="line"><span style="color: #81A1C1">IF</span><span style="color: #D8DEE9FF"> </span><span style="color: #88C0D0">SUM</span><span style="color: #D8DEE9FF">([2018 Flights])</span><span style="color: #81A1C1">-</span><span style="color: #88C0D0">SUM</span><span style="color: #D8DEE9FF">([2017 Flights]) </span><span style="color: #81A1C1">&gt;</span><span style="color: #D8DEE9FF"> </span><span style="color: #B48EAD">0</span></span>
+<span class="line"><span style="color: #D8DEE9FF">  </span><span style="color: #81A1C1">THEN</span><span style="color: #D8DEE9FF"> </span><span style="color: #ECEFF4">&quot;</span><span style="color: #A3BE8C"> (+</span><span style="color: #ECEFF4">&quot;</span><span style="color: #D8DEE9FF"> </span><span style="color: #81A1C1">+</span><span style="color: #D8DEE9FF"> </span><span style="color: #88C0D0">STR</span><span style="color: #D8DEE9FF">(</span><span style="color: #88C0D0">ROUND</span><span style="color: #D8DEE9FF">((</span><span style="color: #88C0D0">SUM</span><span style="color: #D8DEE9FF">([2018 Flights])</span><span style="color: #81A1C1">-</span><span style="color: #D8DEE9FF"> </span><span style="color: #88C0D0">SUM</span><span style="color: #D8DEE9FF">([2017 Flights]))</span><span style="color: #81A1C1">/</span><span style="color: #88C0D0">SUM</span><span style="color: #D8DEE9FF">([2017 Flights])</span><span style="color: #81A1C1">*</span><span style="color: #B48EAD">100</span><span style="color: #D8DEE9FF">,</span><span style="color: #B48EAD">1</span><span style="color: #D8DEE9FF">)) </span><span style="color: #81A1C1">+</span><span style="color: #D8DEE9FF"> </span><span style="color: #ECEFF4">&quot;</span><span style="color: #A3BE8C">%)</span><span style="color: #ECEFF4">&quot;</span></span>
+<span class="line"><span style="color: #81A1C1">END</span></span></code></pre></div>
+
+
+
+<p class="">Of note here is why I chose to make these pills return strings rather than serve as measures that were formatted: I wanted all the output to be color coded, so all the relevant information is provided to the tooltip by the pills as shown below, with each pair color coded. Two of the pills will provide strings while the other two will be null (with the edge case that all four will be null in a month with exactly the same number of flights in 2017 and 2018, in which case, no info on change would show up).</p>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:.875rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><span role="button" tabindex="0" data-code="&lt;AGG(Flight Improve)&gt;&lt;AGG(Flight Improve %)&gt;&lt;AGG(Flight Worse)&gt;&lt;AGG(Flight Worse %)&gt;" style="color:#d8dee9ff;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg></span><pre class="shiki nord" style="background-color: #2e3440ff" tabindex="0"><code><span class="line"><span style="color: #81A1C1">&lt;</span><span style="color: #D8DEE9FF">AGG(Flight Improve)</span><span style="color: #81A1C1">&gt;&lt;</span><span style="color: #D8DEE9FF">AGG(Flight Improve %)</span><span style="color: #81A1C1">&gt;&lt;</span><span style="color: #D8DEE9FF">AGG(Flight Worse)</span><span style="color: #81A1C1">&gt;&lt;</span><span style="color: #D8DEE9FF">AGG(Flight Worse %)</span><span style="color: #81A1C1">&gt;</span></span></code></pre></div>
+
+
+
+<h5 class="wp-block-heading" id="enrollment-line-chart">Enrollment Line Chart</h5>
+
+
+
+<p class="">This visualization is where my data scaffolding had a chance to shine. I used the continuous date to drive the three calculated fields: did each user enroll or cancel that month, and then the third to calculate the difference in monthly enrollments versus cancellations. I then added two vertical reference lines to mark the beginning and end of the loyalty program promotional period.</p>
+
+
+
+<h5 class="wp-block-heading" id="demographic-percentage-point-pp-difference">Demographic Percentage Point (PP) Difference</h5>
+
+
+
+<h6 class="wp-block-heading" id="pp-bar-chart">PP Bar Chart</h6>
+
+
+
+<p class="">This series of five visualizations is driven by two general calculated fields used across all visualizations and three calculated fields for each demographic dimension.</p>
+
+
+
+<p class="">The first two fields, NonpromoID and PromoID, simply checked for each user&#8217;s enrollment type and only returned their loyalty ID number if their enrollment type matched. This was used to get distinct counts of members based on their enrollment type for the demographic-specific calculated fields.</p>
+
+
+
+<p class="">For this visualization, I wanted to determine what percent of the overall demographic factor each level of the demographic made up. I wanted this info for standard enrollment and promotional enrollment so I could then visualize the percentage point difference and which groups responded especially well to the promotion.</p>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:.875rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><span style="display:flex;align-items:center;padding:16px 0 0 16px;width:100%;text-align:left;background-color:#2e3440"><span style="background:#c8d0e0;padding:0.3rem 0.5rem 0.2rem;border-radius:1rem;font-size:0.8em;line-height:1;height:1.25rem;text-align:center;display:inline-flex;align-items:center;justify-content:center;color:#2e3440">NonpromoID%</span></span><span role="button" tabindex="0" data-code="{ INCLUDE [DEMOGRAPHIC]:COUNTD([NonpromoID])}
+/{ EXCLUDE [DEMOGRAPHIC]:COUNTD([NonpromoID])}" style="color:#d8dee9ff;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg></span><pre class="shiki nord" style="background-color: #2e3440ff" tabindex="0"><code><span class="line"><span style="color: #D8DEE9FF">{ </span><span style="color: #81A1C1">INCLUDE</span><span style="color: #D8DEE9FF"> [DEMOGRAPHIC]:COUNTD([NonpromoID])}</span></span>
+<span class="line"><span style="color: #81A1C1">/</span><span style="color: #D8DEE9FF">{ EXCLUDE [DEMOGRAPHIC]:COUNTD([NonpromoID])}</span></span></code></pre></div>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:.875rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><span style="display:flex;align-items:center;padding:16px 0 0 16px;width:100%;text-align:left;background-color:#2e3440"><span style="background:#c8d0e0;padding:0.3rem 0.5rem 0.2rem;border-radius:1rem;font-size:0.8em;line-height:1;height:1.25rem;text-align:center;display:inline-flex;align-items:center;justify-content:center;color:#2e3440">PromoID%</span></span><span role="button" tabindex="0" data-code="{ INCLUDE [DEMOGRAPHIC]:COUNTD([NonpromoID])}
+/{ EXCLUDE [DEMOGRAPHIC]:COUNTD([NonpromoID])}" style="color:#d8dee9ff;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg></span><pre class="shiki nord" style="background-color: #2e3440ff" tabindex="0"><code><span class="line"><span style="color: #D8DEE9FF">{ </span><span style="color: #81A1C1">INCLUDE</span><span style="color: #D8DEE9FF"> [DEMOGRAPHIC]:COUNTD([NonpromoID])}</span></span>
+<span class="line"><span style="color: #81A1C1">/</span><span style="color: #D8DEE9FF">{ EXCLUDE [DEMOGRAPHIC]:COUNTD([NonpromoID])}</span></span></code></pre></div>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:.875rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"><span style="display:flex;align-items:center;padding:16px 0 0 16px;width:100%;text-align:left;background-color:#2e3440"><span style="background:#c8d0e0;padding:0.3rem 0.5rem 0.2rem;border-radius:1rem;font-size:0.8em;line-height:1;height:1.25rem;text-align:center;display:inline-flex;align-items:center;justify-content:center;color:#2e3440">PPDifference</span></span><span role="button" tabindex="0" data-code="(SUM([PromoID%])-SUM([NonpromoID%]))*100" style="color:#d8dee9ff;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg></span><pre class="shiki nord" style="background-color: #2e3440ff" tabindex="0"><code><span class="line"><span style="color: #D8DEE9FF">(</span><span style="color: #88C0D0">SUM</span><span style="color: #D8DEE9FF">([PromoID%])</span><span style="color: #81A1C1">-</span><span style="color: #88C0D0">SUM</span><span style="color: #D8DEE9FF">([NonpromoID%]))</span><span style="color: #81A1C1">*</span><span style="color: #B48EAD">100</span></span></code></pre></div>
+
+
+
+<p class="">I used level of details in the calculated field to generate the appropriate values. The final step in creating the bar visualizations was to simply manually set their axes to include the overall minimum and maximum percentage point difference across demographic factors so that they stacked nicely.</p>
+
+
+
+<h6 class="wp-block-heading" id="pp-map">PP Map</h6>
+
+
+
+<p class="">For the map visualization, I simply created a map of Canada with each province filled to provide the shape of the country, and then layered a map on top that utilized the latitude and longitude to then pull the appropriate stats using the pills I mentioned above and fill each province with the appropriate color on a divergent scale. I also created two dashboard actions for this visualization. First, a select action so that if someone clicked on the background shape of Canada, Tableau would deselect it for them so that the highlight function wouldn&#8217;t hide the visualization behind a single-colored block of Canada. Second, a highlight action so that as a stakeholder highlights the province on the map, the associated bar in the PP bar charts is highlighted as well.</p>
+
+
+
+<h5 class="wp-block-heading" id="consumer-characteristic-table">Consumer Characteristic Table</h5>
+
+
+
+<p class="">I already had a lot going on visually on the dashboard, and I had 6 more variables I wanted to aggregate across 2 enrollment types. The dashboard didn&#8217;t need the clutter from enough visualizations to report these data, so I decided to report them in a table formatted following the same style I had used up to this point. They are valuable info, but cost of additional nuance from more intricate visualizations would outweigh the benefits, considering their relevance/significance to the business context.</p>
+2:["$","div",null,{"className":"flex-col","children":[["$","$Lf",null,{"activeTitle":"Airline Loyalty Program Promotion Dashboard"}],["$","article",null,{"className":"flex flex-col grow max-w-7xl py-10 space-y-12","children":[["$","h1",null,{"className":"flex grow font-bold leading-tight text-4xl md:text-5xl","children":"Airline Loyalty Program Promotion Dashboard"}],["$","div",null,{"className":"mt-12 mb-4 p-4 w-full  neobrutal bg-surface-container-lowest text-on-surface mb-12","children":["$","$L10",null,{"htmlContent":"$11"}]}]]}]]}]
+e:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Airline Loyalty Program Promotion Dashboard | Analytic Talesmith"}],["$","meta","3",{"name":"description","content":"Generated by create next app"}],["$","link","4",{"rel":"icon","href":"/icon.ico?e2e917e7b923cda7","type":"image/x-icon","sizes":"16x16"}]]
+1:null
