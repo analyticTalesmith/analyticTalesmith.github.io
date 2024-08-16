@@ -54,7 +54,7 @@ const About = () => {
                             I&apos;m Jonathan. A data analyst and social scientist with a passion
                             for storytelling.
                         </h4>
-                        <div className="mt-6 space-y-2 lg:space-y-4 text-on-surface">
+                        <div className="mt-6 space-y-2 lg:space-y-4 text-on-surface font-jost prose">
                             <p>Data and storytelling have always been at the core of the work I do and of many of the hobbies I enjoy. &quot;Analytic Talesmith&quot; began as a handle I used to sign up for Tableau, then it became a handle on more sites, until it eventually became the URL for my original online portfolio.</p>
 
                             <p>But with my passion for all things data came the realization that I could use the site to share blog posts, tutorials, and other resources to demystify data analytics and make the complex world of analytics more accessible.</p>
@@ -63,9 +63,9 @@ const About = () => {
                         </div>
                     </div>
                     <div className="bg-surface-container border-brutal p-4 lg:p-8">                        
-                        <div className="space-y-2 lg:space-y-4 text-on-surface">
+                        <div className="space-y-2 lg:space-y-4 text-on-surface font-jost prose">
                             <h5>My Story</h5>
-                            <p>My journey as a storyteller began even before I took my first steps; my family has always cherished the art of storytelling. FSrom a young age, I found myself drawn to a wide range of interests, from the logical rigor of computer science to the deep exploration of the human experience through social sciences. These seemingly disparate passions created a tension that followed me throughout my education and hobbies.</p>
+                            <p>My journey as a storyteller began even before I took my first steps; my family has always cherished the art of storytelling. From a young age, I found myself drawn to a wide range of interests, from the logical rigor of computer science to the deep exploration of the human experience through social sciences. These seemingly disparate passions created a tension that followed me throughout my education and hobbies.</p>
 
                             <p>When the time came to declare my undergraduate major, I faced a pivotal crossroad. I felt compelled to choose a single path that would shape my career, build the right network, secure relevant internships, and develop specialized skills. Yet, each option seemed to leave behind an integral part of who I was.</p>
 
