@@ -34,7 +34,7 @@ export const metadata: Metadata = {
             "Science with a Soul; Data with a Story",
         images: [
             {
-                url: "/ogImage.jpg",
+                url: "/opengraph-image.jpg",
                 width: 1200,
                 height: 630,
                 alt: "analyticTalesmith"
